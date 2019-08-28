@@ -1,0 +1,2 @@
+# FoodHub-App
+Similarly, this app will provide the user a list of the restaurants (nearby, favorite,...) to browse and order food. Eat what you like, order what you like, where you like, when you like, just with one tap. The app also provides the delivery address between the restaurants and user's location on the real map for tracking. All the prices, including tax, food, booking fee will all display when you already place your order.
