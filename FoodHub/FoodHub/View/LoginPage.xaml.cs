@@ -20,8 +20,15 @@ namespace FoodHub.View
 
         public void SignInProcedure(object sender, EventArgs e)
         {
+            // Get the Username and Password from the LoginPage form
             User user = new User(Entry_Username.Text, Entry_Password.Text);
-            if (user.CheckValidation())
+
+            // Validate input 
+            if (Entry_Username.Equals(null) || Entry_Password.Equals(null))
+            {
+                DisplayAlert("Login", "Login Failed!!! No Entry", "Try Again");
+            }
+            else if (user.CheckValidation())
             {
                 DisplayAlert("Login", "Login Successfully!!!", "Ok");
             }

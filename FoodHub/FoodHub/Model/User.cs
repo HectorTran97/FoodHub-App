@@ -25,15 +25,12 @@ namespace FoodHub.Model
 
         public bool CheckValidation()
         {
-            if (this._Username.Equals(null) || this._Username.Equals(""))
+            if (!this._Username.Equals("") && !this._Password.Equals(""))
             {
-                return false;
+                return true;
             }
-            else if (this._Password.Equals(null) || this._Password.Equals(""))
-            {
-                return false;
-            }
-            return true;
+           
+            return false;
         }
     }
 }

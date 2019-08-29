@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="FoodHub.View.LoginPage"
-             xmlns:local ="clr-namespace:FoodHub.ViewModel" Title="LoginPage" Padding="20">
+             xmlns:local ="clr-namespace:FoodHub.ViewModel" Title="LoginPage" Padding="20" BackgroundImageSource="https://www.bestfunforall.com/wallpaperbetter/imgs/Food%20wallpaper%20%2017.jpg">
     <!--<ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
             <BoxView HeightRequest="10"/>
@@ -29,16 +29,13 @@
     </ContentPage.Content>-->
 
     <ContentPage.Content>
-        <Grid>
-            <StackLayout>
-                <Image Source="C:\Users\Hector\Desktop\4.jpg" Aspect="AspectFill"/>
-                <Label x:Name="Label_Username" Text="Username"/>
-                <Entry x:Name="Entry_Username" Placeholder="Username"/>
-                <Label x:Name="Label_Password" Text="Password"/>
-                <Entry x:Name="Entry_Password" Placeholder="Password"/>
-            </StackLayout>
-            <Button x:Name="Btn_SignIn" Clicked="SignInProcedure" Text="Sign In"/>
-        </Grid>        
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="20">
+            <Label x:Name="Label_Username" Text="Username"/>
+            <Entry x:Name="Entry_Username"/>
+            <Label x:Name="Label_Password" Text="Password"/>
+            <Entry x:Name="Entry_Password" IsPassword="True"/>
+            <Button x:Name="Btn_SignIn" Clicked="SignInProcedure" Text="Sign In" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>       
     </ContentPage.Content>
     
 </ContentPage>
