@@ -1,5 +1,4 @@
-﻿using FoodHub.Model;
-using FoodHub.ViewModel;
+﻿using FoodHub.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +11,14 @@ using Xamarin.Forms.Xaml;
 namespace FoodHub.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : ContentPage
+    public partial class WelcomePage : ContentPage
     {
-        LoginViewModel loginViewModel;
-        public LoginPage()
+        WelcomeViewModel welcomeViewModel;
+        public WelcomePage(string username)
         {
-            loginViewModel = new LoginViewModel(); 
             InitializeComponent();
-            BindingContext = loginViewModel;
+            welcomeViewModel = new WelcomeViewModel(username);
+            BindingContext = welcomeViewModel;
         }
     }
 }
