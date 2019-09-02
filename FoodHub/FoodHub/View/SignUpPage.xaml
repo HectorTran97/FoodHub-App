@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FoodHub.View.SignUpPage" BackgroundColor="#E6F1F5" Title="Create Account" BackgroundImageSource="CreateACCOUNTsmall.png">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Create Account"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>      
+        <StackLayout Orientation="Vertical" Padding="10,280,0,0">
+            <!--Enter Username-->
+            <Entry x:Name="UsernameEntry" Placeholder="Username" Text="{Binding Username}" HorizontalOptions="Start" WidthRequest="180"/>
+
+            <!--Enter Password-->
+            <Entry x:Name="PasswordEntry" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
+
+            <!--Re-Enter Password-->
+            <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm Password" Text="{Binding ConfirmPassword}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
+
+            <Button x:Name="SignUp" Text="Sign Up" Command="{Binding SignUpCommand}" Font="Bold,25" HorizontalOptions="Start" BackgroundColor="Transparent" BorderWidth="0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

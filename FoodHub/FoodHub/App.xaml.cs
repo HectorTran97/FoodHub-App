@@ -11,8 +11,8 @@ namespace FoodHub
         public App()
         {
             InitializeComponent();
-
-            MainPage = new LoginPage();
+            // Set the login page as main page
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
