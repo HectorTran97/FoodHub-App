@@ -27,14 +27,14 @@ namespace FoodHub.ViewModel
             }
 
         }
-        public async Task FetchDataAsync()
+        /*public async Task FetchDataAsync()
         {
-            var list = await myRestaurantManager.FetchRestaurantAsync();
+            var list = await myRestaurantManager.GetAsync();
             MyRestaurantList = new ObservableCollection<Restaurant>(list);
-        }
+        }*/
         public RestaurantViewModel()
         {
-            FetchDataAsync();
+            //FetchDataAsync();
         }
 
 

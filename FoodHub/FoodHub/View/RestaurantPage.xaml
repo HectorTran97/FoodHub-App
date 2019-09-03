@@ -7,13 +7,21 @@
              x:Class="FoodHub.View.RestaurantPage"
              xmlns:local ="clr-namespace:FoodHub.ViewModel" Title="Home">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout Orientation="Vertical">
-                <Frame Margin="5, 3, 5, 2" Padding="0" OutlineColor="DarkGray" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
-                    <SearchBar x:Name="SearchBar" Placeholder="Search Restaurant" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
-                </Frame>
-                <ListView x:Name="HomePageListView"/>
-            </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout.BindingContext>
+                <local:RestaurantViewModel/>
+            </StackLayout.BindingContext>
+            <Frame Margin="0, 0, 0, 2" Padding="0" OutlineColor="DarkGray" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
+                <SearchBar x:Name="SearchBar" Placeholder="Search Restaurant" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            </Frame>
+            <ListView x:Name="RestaurantListView" BackgroundColor="WhiteSmoke" ItemsSource="{Binding MyRestaurantList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" TextColor="Yellow" Detail="{Binding ID}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

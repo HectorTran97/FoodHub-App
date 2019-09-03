@@ -25,7 +25,10 @@ namespace FoodHub.Model
         [JsonProperty("cusines")]
         public string Type { get; set; }*/
 
+        public Restaurant()
+        {
 
+        }
 
     }
 }
