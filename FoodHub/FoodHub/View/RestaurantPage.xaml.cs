@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace FoodHub.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : ContentPage
+    public partial class RestaurantPage : ContentPage
     {
-        public HomePage()
+        public RestaurantPage()
         {
             InitializeComponent();
         }

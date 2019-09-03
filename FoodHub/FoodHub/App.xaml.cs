@@ -18,7 +18,7 @@ namespace FoodHub
             //MainPage = new NavigationPage(new LoginPage());
 
             var tabbedPage = new TabbedPage();
-            tabbedPage.Children.Add(new HomePage());
+            tabbedPage.Children.Add(new RestaurantPage());
             tabbedPage.Children.Add(new FavouritePage());
             tabbedPage.Children.Add(new UserMapPage());
             tabbedPage.Children.Add(new AccountPage());
