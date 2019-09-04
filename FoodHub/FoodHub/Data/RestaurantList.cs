@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace FoodHub.Data
@@ -9,6 +10,6 @@ namespace FoodHub.Data
     class RestaurantList
     {
         [JsonProperty("nearby_restaurants")]
-        public Restaurant[] Restaurants { get; set; }
+        public ObservableCollection<Restaurant> Restaurants { get; set; }
     }
 }
