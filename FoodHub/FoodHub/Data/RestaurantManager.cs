@@ -8,36 +8,47 @@ using System.Text;
 using System.Threading.Tasks;
 using FoodHub.Model;
 using Newtonsoft.Json;
+using Xamarin.Essentials;
 
 namespace FoodHub.Data
 {
     class RestaurantManager
     {
         HttpClient client = new HttpClient();
-        RestaurantList restaurantList = null;
+        public List<Restaurant> restaurantList = null;
 
         private double latitude;
         private double longitude;
         /*const string url = "https://developers.zomato.com/api/v2.1/";
-        const string apiKey = "749b7981ff9e98b3b0ed487c17028e6e";*/
+        const string apiKey = "749b7981ff9e98b3b0ed487c17028e6e";*/ // this one is from online (better not to use it)
+
+        // this link and api key is for us
         const string url = "https://developers.zomato.com/api/v2.1/";
         const string apiKey = "6e085047a299af09192196321ca6b2ce";
 
 
-        public async Task<RestaurantList> FetchRestaurantAsync()
+        public async Task<List<Restaurant>> FetchRestaurantAsync()
         {
             try
             {
                 using (var httpClient = GetHttpClient(url))
                 {
-                    //string urlParameters = GetUrlParameter(-37.847961, 145.114879);
-                    string urlParameters = $"search?entity_id=59&entity_type=city&apikey={apiKey}";
+                    string urlParameters = GetUrlParameter(await GetLocationAsync(1), await GetLocationAsync(2));
+                    //string urlParameters = GetUrlParameter(-37.847814, 145.114982);
+                    //string urlParameters = $"search?entity_id=59&entity_type=city&apikey={apiKey}";
                     HttpResponseMessage response = await httpClient.GetAsync(urlParameters);
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
                         var content = await response.Content.ReadAsStringAsync();
                         var result = JsonConvert.DeserializeObject<RestaurantList>(content);
-                        restaurantList = result;
+                        var resList = ConvertToRes(result);
+                        restaurantList = resList;
+                        int count = result.Restaurants.Count;
+                        /*for (int i = 0; i <= result.Restaurants.Count; i++)
+                        {
+                            restaurantList.Add(result.Restaurants[i].Restaurant);
+                            
+                        }*/
                     }
                 }
             }
@@ -47,10 +58,10 @@ namespace FoodHub.Data
             }
             return restaurantList;
         }
-        public string GetUrlParameter(double lat, double longtitude)
+        public string GetUrlParameter(double latitude, double longitude)
         {
             string url;
-            url = $"geocode?lat={lat}&lon={longitude}&apikey={apiKey}";
+            url = $"geocode?lat={latitude}&lon={longitude}&apikey={apiKey}";
             return url;
         }
         private static HttpClient GetHttpClient(string url)
@@ -61,60 +72,62 @@ namespace FoodHub.Data
             return httpClient;
         }
 
-        /* --------------------------------------------------------
-    
-    
-
-    public RestaurantList GetRestaurantList()
-    {
-        string urlParameter = GetUrlParameter(-37.847961, 145.114879);
-        var response = RunAsync<RestaurantList>(url, urlParameter).GetAwaiter().GetResult();
-        restaurantList = response;
-        return restaurantList;
-    }
-
-    private static async Task<T> GetAsync<T>(string url, string urlParameters)
-    {
-        try
+        public async Task<double> GetLocationAsync(int coordinate)
         {
-            using(var httpClient = GetHttpClient(url))
+            var request = new GeolocationRequest(GeolocationAccuracy.Medium);
+            var location = await Geolocation.GetLocationAsync(request);
+            try
             {
-                HttpResponseMessage response = await httpClient.GetAsync(urlParameters);
-                if(response.StatusCode == HttpStatusCode.OK)
+                if (location != null)
                 {
-                    var content = await response.Content.ReadAsStringAsync();
-                    var result = JsonConvert.DeserializeObject<T>(content);
-                    return result;
+                    if (coordinate == 1)
+                    {
+                        return location.Latitude;
+                    }
+                    else
+                    {
+                        return location.Longitude;
+                    }
                 }
-
-                return default(T);
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+            }
+            if (coordinate == 1)
+            {
+                return location.Latitude;
+            }
+            else
+            {
+                return location.Longitude;
             }
         }
-        catch (Exception ex)
+
+        private List<Restaurant> ConvertToRes(RestaurantList data)
         {
-            Debug.WriteLine(ex.Message);
-            return default(T);
+            List<Restaurant> result = null;
+            for(int i = 0; i <= data.Restaurants.Count; i++)
+            {
+                result.Add(data.Restaurants[i].Restaurant);
+            }
+            return result;
         }
 
-    }
-
-    public static async Task<T> RunAsync<T>(string url, string urlParameters)
-    {
-        return await GetAsync<T>(url, urlParameters);
-    }
-
-    ----------------------------------------------------------------*/
 
 
 
-        // unused methods
-        /*public string GetUrlParameter(double lat, double longtitude)
-        {
-            string url;
-            url = $"geocode?lat={lat}&lon={longitude}&apikey={apiKey}";
-            url = "https://developers.zomato.com/api/v2.1/geocode?lat=" + lat.ToString() + "&lon=" + longitude.ToString() + "&apikey=" + apiKey;
-            Debug.WriteLine(url);
-            return url;
-        }*/
     }
 }

@@ -19,8 +19,8 @@ namespace FoodHub.ViewModel
 
         RestaurantManager myRestaurantManager = new RestaurantManager();
         public event PropertyChangedEventHandler PropertyChanged;
-        private RestaurantList myRestaurantList;
-        public RestaurantList MyRestaurantList
+        private ObservableCollection<Restaurant> myRestaurantList;
+        public ObservableCollection<Restaurant> MyRestaurantList
         {
             get { return myRestaurantList; }
             set
@@ -36,7 +36,7 @@ namespace FoodHub.ViewModel
         public async Task FetchDataAsync()
         {
             var list = await myRestaurantManager.FetchRestaurantAsync();
-            MyRestaurantList = list;
+            MyRestaurantList = new ObservableCollection<Restaurant>(list);
         }
         public RestaurantViewModel()
         {

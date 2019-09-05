@@ -10,6 +10,6 @@ namespace FoodHub.Data
     class RestaurantList
     {
         [JsonProperty("nearby_restaurants")]
-        public ObservableCollection<Restaurant> Restaurants { get; set; }
+        public List<RestaurantRecord> Restaurants { get; set; }
     }
 }
