@@ -16,14 +16,6 @@ namespace FoodHub
             // we will put them in if statement later to decide which (login page or tabbed page) page to start with
             // feel free to comment tabbedpage section and run this login page first
             MainPage = new NavigationPage(new LoginPage());
-
-            var tabbedPage = new TabbedPage();
-            tabbedPage.Children.Add(new RestaurantPage());
-            tabbedPage.Children.Add(new FavouritePage());
-            tabbedPage.Children.Add(new UserMapPage());
-            tabbedPage.Children.Add(new AccountPage());
-            MainPage = tabbedPage;
-
         }
 
         protected override void OnStart()

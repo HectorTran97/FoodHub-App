@@ -72,7 +72,13 @@ namespace FoodHub.ViewModel
                         await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
                         //Navigate to Wellcom page after successfuly login
                         //pass username to welcom page
-                        await App.Current.MainPage.Navigation.PushAsync(new WelcomePage(Username));
+                        var tabbedPage = new TabbedPage();
+                        tabbedPage.Children.Add(new RestaurantPage());
+                        tabbedPage.Children.Add(new FavouritePage());
+                        tabbedPage.Children.Add(new UserMapPage());
+                        tabbedPage.Children.Add(new AccountPage());
+
+                        await App.Current.MainPage.Navigation.PushAsync(tabbedPage);
                     }
                     else
                     {
