@@ -65,9 +65,9 @@ namespace FoodHub.ViewModel
             else
             {
                 var userLogin = await FireBaseHelper.GetUser(Username);
-                if (userLogin == null)
+                if (userLogin != null)
                 {
-                    if (Username.Equals(userLogin._Username) && Password.Equals(userLogin._Password))
+                    if (Username == userLogin._Username && Password == userLogin._Password)
                     {
                         await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
                         //Navigate to Wellcom page after successfuly login
@@ -75,8 +75,9 @@ namespace FoodHub.ViewModel
                         await App.Current.MainPage.Navigation.PushAsync(new WelcomePage(Username));
                     }
                     else
+                    {
                         await App.Current.MainPage.DisplayAlert("Login Fail", "Please enter correct Email and Password", "OK");
-                   
+                    }                       
                 }
                 else
                 {

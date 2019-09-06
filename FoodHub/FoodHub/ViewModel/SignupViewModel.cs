@@ -50,7 +50,7 @@ namespace FoodHub.ViewModel
             {
                 return new Command(() =>
                 {
-                    if (Password.Equals(ConfirmPassword))
+                    if (Password == ConfirmPassword)
                     {
                         SignUp();
                     }
