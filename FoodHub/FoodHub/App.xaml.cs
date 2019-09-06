@@ -17,12 +17,14 @@ namespace FoodHub
             // feel free to comment tabbedpage section and run this login page first
             //MainPage = new NavigationPage(new LoginPage());
 
-            var tabbedPage = new TabbedPage();
-            tabbedPage.Children.Add(new RestaurantPage());
-            tabbedPage.Children.Add(new FavouritePage());
-            tabbedPage.Children.Add(new UserMapPage());
-            tabbedPage.Children.Add(new AccountPage());
-            MainPage = tabbedPage;
+            //var tabbedPage = new TabbedPage();
+            //tabbedPage.Children.Add(new RestaurantPage());
+            //tabbedPage.Children.Add(new FavouritePage());
+            //tabbedPage.Children.Add(new UserMapPage());
+            //tabbedPage.Children.Add(new AccountPage());
+            //MainPage = tabbedPage;
+
+            MainPage = new NavigationPage(new LoginPage());
 
         }
 
