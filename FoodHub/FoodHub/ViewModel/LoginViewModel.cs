@@ -65,7 +65,7 @@ namespace FoodHub.ViewModel
             else
             {
                 var userLogin = await FireBaseHelper.GetUser(Username);
-                if (!userLogin.Equals(null))
+                if (userLogin == null)
                 {
                     if (Username.Equals(userLogin._Username) && Password.Equals(userLogin._Password))
                     {
@@ -76,6 +76,7 @@ namespace FoodHub.ViewModel
                     }
                     else
                         await App.Current.MainPage.DisplayAlert("Login Fail", "Please enter correct Email and Password", "OK");
+                   
                 }
                 else
                 {

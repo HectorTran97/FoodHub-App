@@ -44,6 +44,7 @@ namespace FoodHub.ViewModel
                 await firebaseClient
                 .Child("User")
                 .OnceAsync<User>();
+                var result = allUser.Where(a => a._Username == username).FirstOrDefault();
                 return allUser.Where(a => a._Username == username).FirstOrDefault();
             }
             catch (Exception e)

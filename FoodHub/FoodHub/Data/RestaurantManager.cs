@@ -41,8 +41,8 @@ namespace FoodHub.Data
                     {
                         var content = await response.Content.ReadAsStringAsync();
                         var result = JsonConvert.DeserializeObject<RestaurantList>(content);
-                        var resList = ConvertToRes(result);
-                        restaurantList = resList;
+
+                        restaurantList = ConvertToRes(result); 
                         int count = result.Restaurants.Count;
                         /*for (int i = 0; i <= result.Restaurants.Count; i++)
                         {
@@ -118,8 +118,8 @@ namespace FoodHub.Data
 
         private List<Restaurant> ConvertToRes(RestaurantList data)
         {
-            List<Restaurant> result = null;
-            for(int i = 0; i <= data.Restaurants.Count; i++)
+            List<Restaurant> result = new List<Restaurant>();
+            for(int i = 0; i < data.Restaurants.Count; i++)
             {
                 result.Add(data.Restaurants[i].Restaurant);
             }
