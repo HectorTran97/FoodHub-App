@@ -13,17 +13,17 @@ namespace FoodHub.Model
         [JsonProperty("name")]
         public string Name { get; set; }
 
-        /*[JsonProperty("location")]
-        public string Location { get; set; }
-
         [JsonProperty("featured_image")]
         public string ImageURL { get; set; }
 
-        [JsonProperty("user_rating")]
-        public int Rating { get; set; }
-
         [JsonProperty("cusines")]
-        public string Type { get; set; }*/
+        public string Cusines { get; set; }
+
+        [JsonProperty("location")]
+        public Location RestaurantLocation { get; set; }
+
+        [JsonProperty("user_rating")]
+        public UserRating Rating { get; set; }
 
         public Restaurant()
         {
