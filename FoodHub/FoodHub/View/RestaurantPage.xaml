@@ -14,10 +14,10 @@
             <Frame Margin="0, 0, 0, 2" Padding="0" OutlineColor="DarkGray" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
                 <SearchBar x:Name="SearchBar" Placeholder="Search Restaurant" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
             </Frame>
-            <ListView x:Name="RestaurantListView" BackgroundColor="WhiteSmoke" ItemsSource="{Binding MyRestaurantList}">
+            <ListView x:Name="RestaurantListView" BackgroundColor="WhiteSmoke" ItemsSource="{Binding MyRestaurantList}" ItemTapped="OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Name}" TextColor="Yellow" Detail="{Binding ID}"/>
+                        <TextCell Text="{Binding Name}" TextColor="Red" Detail="{Binding ID}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
