@@ -42,7 +42,7 @@
             <StackLayout VerticalOptions="End" Orientation="Vertical" Margin="20,10,20,0">
                 <Button x:Name="deletebtn" Text="Delete" FontSize="18" FontAttributes="Bold" TextColor="#FFFFFF" 
                         Command="{Binding DeleteCommand}" HorizontalOptions="Fill" WidthRequest="200"
-                        BackgroundColor="#FF0030" BorderWidth="2" CornerRadius="20"/>
+                        BackgroundColor="#FF523D" BorderWidth="2" CornerRadius="20"/>
                 <Button x:Name="logoutbtn" Text="Logout" FontSize="18" FontAttributes="Bold" TextColor="#C5BB64" 
                         Command="{Binding LogoutCommand}" HorizontalOptions="Fill" WidthRequest="200" 
                         BackgroundColor="Transparent" BorderWidth="2" BorderColor="#C5BB64" CornerRadius="20"/>

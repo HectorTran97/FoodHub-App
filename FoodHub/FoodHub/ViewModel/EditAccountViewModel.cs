@@ -11,6 +11,8 @@ namespace FoodHub.ViewModel
 {
     class EditAccountViewModel : INotifyPropertyChanged
     {
+        private const string nullPhoneNumber = "(None)";
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         public string Username { get; set; }
@@ -63,13 +65,21 @@ namespace FoodHub.ViewModel
         {
             try
             {
-                if (!string.IsNullOrEmpty(Password))
+                if (!string.IsNullOrEmpty(Password) && !string.IsNullOrEmpty(Address))
                 {
                     var isupdate = await FireBaseHelper.UpdateUser(this.Username, this.Password, this.Address, this.PhoneNumber);
                     if (isupdate)
                     {
                         await App.Current.MainPage.DisplayAlert("Update Success", "", "Ok");
-                        await App.Current.MainPage.Navigation.PushAsync(new AccountPage(this.Username, this.Address, this.PhoneNumber));
+                        var userInfo = await FireBaseHelper.GetUser(this.Username);
+                        if (string.IsNullOrEmpty(userInfo.PhoneNumber))
+                        {
+                            await App.Current.MainPage.Navigation.PushAsync(new AccountPage(this.Username, this.Address, nullPhoneNumber));
+                        }
+                        else
+                        {
+                            await App.Current.MainPage.Navigation.PushAsync(new AccountPage(this.Username, this.Address, this.PhoneNumber));
+                        }                        
                     }
                     else
                     {
@@ -78,7 +88,7 @@ namespace FoodHub.ViewModel
                 }
                 else
                 {
-                    await App.Current.MainPage.DisplayAlert("Password Require", "Please Enter your password", "Ok");
+                    await App.Current.MainPage.DisplayAlert("Password and Address Require", "Please Enter your password or address", "Ok");
                 }
             }
             catch (Exception e)
