@@ -15,7 +15,8 @@ namespace FoodHub
             // (Ceu) I'll now comment this as I need to work on the other pages
             // we will put them in if statement later to decide which (login page or tabbed page) page to start with
             // feel free to comment tabbedpage section and run this login page first
-            MainPage = new LoginPage();
+            //MainPage = new LoginPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

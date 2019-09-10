@@ -69,7 +69,7 @@ namespace FoodHub.ViewModel
                 {
                     if (Username == userLogin._Username && Password == userLogin._Password)
                     {
-                        await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
+                        //await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
                         //Navigate to Wellcom page after successfuly login
                         //pass username to welcom page
 

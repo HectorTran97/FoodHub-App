@@ -7,13 +7,20 @@
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             xmlns:local="clr-namespace:FoodHub.View"
             mc:Ignorable="d"
-            x:Name="BottomTabPage"
             x:Class="FoodHub.MainPage">
 
-    <local:RestaurantPage Title="Home" Icon ="home.png"/>
-    <local:FavouritePage Title="Favourite" IconImageSource="favourite.png"/>
-    <local:UserMapPage Title="Map" IconImageSource="map.png"/>
-    <local:AccountPage Title="Account" IconImageSource="account.png"/>
+    <local:RestaurantPage Title="Home" 
+                          Icon ="home.png"
+                          xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
+    <local:FavouritePage Title="Favourite" 
+                         IconImageSource="favourite.png"
+                         xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
+    <local:UserMapPage Title="Map" 
+                       IconImageSource="map.png"
+                       xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
+    <local:AccountPage Title="Account" 
+                       IconImageSource="account.png"
+                       xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
 
 
 </xamarinforms:BottomBarPage>

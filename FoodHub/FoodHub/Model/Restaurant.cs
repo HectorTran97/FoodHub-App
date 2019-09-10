@@ -14,7 +14,10 @@ namespace FoodHub.Model
         public string Name { get; set; }
 
         [JsonProperty("featured_image")]
-        public string ImageURL { get; set; }
+        public Uri ImageURL { get; set; }
+
+        [JsonProperty("average_cost_for_two")]
+        public string AverageCost { get; set; }
 
         [JsonProperty("cusines")]
         public string Cusines { get; set; }

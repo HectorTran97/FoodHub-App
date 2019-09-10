@@ -33,8 +33,9 @@ namespace FoodHub.Data
             {
                 using (var httpClient = GetHttpClient(url))
                 {
-                    string urlParameters = GetUrlParameter(await GetLocationAsync(1), await GetLocationAsync(2));
-                    //string urlParameters = GetUrlParameter(-37.847814, 145.114982);
+                    //string urlParameters = GetUrlParameter(await GetLocationAsync(1), await GetLocationAsync(2));
+                    // Below use Deakin Burwood address
+                    string urlParameters = GetUrlParameter(-37.847580, 145.114192);
                     //string urlParameters = $"search?entity_id=59&entity_type=city&apikey={apiKey}";
                     HttpResponseMessage response = await httpClient.GetAsync(urlParameters);
                     if (response.StatusCode == HttpStatusCode.OK)
