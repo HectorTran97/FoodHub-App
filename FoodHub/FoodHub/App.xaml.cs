@@ -12,11 +12,7 @@ namespace FoodHub
         {
             InitializeComponent();
             // Set the login page as main page
-            // (Ceu) I'll now comment this as I need to work on the other pages
-            // we will put them in if statement later to decide which (login page or tabbed page) page to start with
-            // feel free to comment tabbedpage section and run this login page first
-            //MainPage = new LoginPage();
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

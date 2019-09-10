@@ -5,25 +5,32 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="FoodHub.View.LoginPage"
-             xmlns:local ="clr-namespace:FoodHub.ViewModel" BackgroundColor="#BCA70C" Title="Login" BackgroundImageSource="FoodHUBsmall.png">
+             xmlns:local ="clr-namespace:FoodHub.ViewModel" BackgroundColor="#BCA70C" Title="Login" BackgroundImageSource="FoodHUBsmall.png"
+             NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="False">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Welcome to FoodHUB"></ToolbarItem>
     </ContentPage.ToolbarItems>
- 
+
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="10,280,0,0">
             <!--Enter Username-->
-            <Entry x:Name="Entry_Username" Placeholder="Username" Text="{Binding Username}" HorizontalOptions="Start" WidthRequest="180"/>
-            
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="UsernameImage" Source="users.png" WidthRequest="24" HeightRequest="24"/>
+                <Entry x:Name="Entry_Username" Placeholder="Username" Text="{Binding Username}" HorizontalOptions="Start" WidthRequest="150"/>
+            </StackLayout>
+
             <!--Enter Password-->
-            <Entry x:Name="Entry_Password" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
-            
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="PasswordImage" Source="padlock.png" WidthRequest="24" HeightRequest="24"/>
+                <Entry x:Name="Entry_Password" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Start" WidthRequest="150" IsPassword="True"/>
+            </StackLayout>
+
             <Button x:Name="Btn_SignInNew" Text="Sign In" Command="{Binding LoginCommand}" 
                     Font="Bold,14" ImageSource="SignIn.png" HorizontalOptions="Start" 
                     BackgroundColor="Orange" BorderWidth="0" HeightRequest="38" Margin="0,40,0,60"/>
-           
+
             <Button x:Name="Btn_SignUp" Text="Sign Up" Command="{Binding SignUp}" HorizontalOptions="Start" BackgroundColor="Transparent" BorderWidth="0"/>
-        </StackLayout>       
+        </StackLayout>
     </ContentPage.Content>
-    
+
 </ContentPage>

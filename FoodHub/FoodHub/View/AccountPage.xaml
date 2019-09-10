@@ -3,14 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              mc:Ignorable="d"
              x:Class="FoodHub.View.AccountPage"
-             xmlns:local ="clr-namespace:FoodHub.ViewModel" Title="Account">
+             xmlns:local ="clr-namespace:FoodHub.ViewModel" IconImageSource="user.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Account Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <RelativeLayout HorizontalOptions="Center" VerticalOptions="Start" Margin="0,10,0,10">
+                <controls:CircleImage x:Name="imageChoosed" Source="profile.png" HeightRequest="100" WidthRequest="100"/>
+                <ImageButton x:Name="BtnPick" Source="photoCamera.png" HeightRequest="20" WidthRequest="20" Clicked="BtnPick_Clicked"/>
+            </RelativeLayout>
+
+            <StackLayout HorizontalOptions="Center" Spacing="10" Margin="0,0,0,30">
+                <Label x:Name="userNameLabel" Text="{Binding Username, StringFormat='Hi {0}'}" 
+                        TextColor="Black" FontSize="18" HorizontalOptions="Center"/>
+                <Button x:Name="BtnEdit" Text="Edit Account" TextColor="#C5BB64" BorderWidth="1" BorderColor="#C5BB64" 
+                        BackgroundColor="Transparent" Command="{Binding EditAccount}"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10,20,0,20">
+                <StackLayout HorizontalOptions="Start" Spacing="20">
+                    <Label x:Name="InfoLabel" Text="User Detail" TextColor="#C5BB64" FontAttributes="Bold" FontSize="22"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10" Margin="20,20,0,0" >
+                    <Image x:Name="AddressImage" Source="address.png" WidthRequest="32" HeightRequest="32"/>
+                    <Label x:Name="AddressLabel" Text="{Binding Address, StringFormat='{0}'}" TextColor="Black" 
+                       FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="20,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10" Margin="20,20,0,0">
+                    <Image x:Name="PhoneNumberImage" Source="phone.png" WidthRequest="32" HeightRequest="32"/>
+                    <Label x:Name="PhoneNumberLabel" Text="{Binding PhoneNumber, StringFormat='{0}'}" TextColor="Black" 
+                       FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="20,0,0,0"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="End" Orientation="Vertical" Margin="20,10,20,0">
+                <Button x:Name="deletebtn" Text="Delete" FontSize="18" FontAttributes="Bold" TextColor="#FFFFFF" 
+                        Command="{Binding DeleteCommand}" HorizontalOptions="Fill" WidthRequest="200"
+                        BackgroundColor="#FF0030" BorderWidth="2" CornerRadius="20"/>
+                <Button x:Name="logoutbtn" Text="Logout" FontSize="18" FontAttributes="Bold" TextColor="#C5BB64" 
+                        Command="{Binding LogoutCommand}" HorizontalOptions="Fill" WidthRequest="200" 
+                        BackgroundColor="Transparent" BorderWidth="2" BorderColor="#C5BB64" CornerRadius="20"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

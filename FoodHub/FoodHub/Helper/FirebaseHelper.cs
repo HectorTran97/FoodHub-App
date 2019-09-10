@@ -1,18 +1,20 @@
 ﻿using Firebase.Database;
+using Firebase.Storage;
 using Firebase.Database.Query;
 using FoodHub.Model;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodHub.ViewModel
+namespace FoodHub.Helper
 {
     class FireBaseHelper
     {
-        // Connect app to Firebases by using the API Url 
+        // Connect app to Firebase by using the API Url 
         public static FirebaseClient firebaseClient = new FirebaseClient("https://foodhub-39462.firebaseio.com/");
 
         public static async Task<List<User>> GetAllUser()
@@ -24,8 +26,10 @@ namespace FoodHub.ViewModel
                 .OnceAsync<User>()).Select(item =>
                 new User
                 {
-                    _Username = item.Object._Username,
-                    _Password = item.Object._Password
+                    Username = item.Object.Username,
+                    Password = item.Object.Password,
+                    Address = item.Object.Address,
+                    PhoneNumber = item.Object.PhoneNumber,
                 }).ToList();
                 return userlist;
             }
@@ -44,8 +48,8 @@ namespace FoodHub.ViewModel
                 await firebaseClient
                 .Child("User")
                 .OnceAsync<User>();
-                var result = allUser.Where(a => a._Username == username).FirstOrDefault();
-                return allUser.Where(a => a._Username == username).FirstOrDefault();
+                var result = allUser.Where(a => a.Username == username).FirstOrDefault();
+                return allUser.Where(a => a.Username == username).FirstOrDefault();
             }
             catch (Exception e)
             {
@@ -54,13 +58,13 @@ namespace FoodHub.ViewModel
             }
         }
 
-        public static async Task<bool> AddUser(string username, string password)
+        public static async Task<bool> AddUser(string username, string password, string address, string phoneNumber)
         {
             try
             {
                 await firebaseClient
                 .Child("User")
-                .PostAsync(new User() { _Username = username, _Password = password });
+                .PostAsync(new User() { Username = username, Password = password, Address = address, PhoneNumber = phoneNumber });
                 return true;
             }
             catch (Exception e)
@@ -70,20 +74,20 @@ namespace FoodHub.ViewModel
             }
         }
 
-        public static async Task<bool> UpdateUser(string username, string password)
+        public static async Task<bool> UpdateUser(string username, string password, string address, string phoneNumber)
         {
             try
             {
                 var updateUser = (await firebaseClient
                 .Child("User")
-                .OnceAsync<User>()).Where(a => a.Object._Username == username).FirstOrDefault();
+                .OnceAsync<User>()).Where(a => a.Object.Username == username).FirstOrDefault();
                 await firebaseClient
                 .Child("User")
                 .Child(updateUser.Key)
-                .PutAsync(new User() { _Username = username, _Password = password });
+                .PutAsync(new User() { Username = username, Password = password, Address = address, PhoneNumber = phoneNumber });
                 return true;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Debug.WriteLine($"Error:{e}");
                 return false;
@@ -96,7 +100,7 @@ namespace FoodHub.ViewModel
             {
                 var deletePerson = (await firebaseClient
                 .Child("User")
-                .OnceAsync<User>()).Where(a => a.Object._Username == username).FirstOrDefault();
+                .OnceAsync<User>()).Where(a => a.Object.Username == username).FirstOrDefault();
                 await firebaseClient.Child("User").Child(deletePerson.Key).DeleteAsync();
                 return true;
             }

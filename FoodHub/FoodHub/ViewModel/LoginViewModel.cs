@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using FoodHub.Helper;
 using FoodHub.Model;
 using FoodHub.View;
 using Xamarin.Forms;
@@ -10,14 +11,16 @@ namespace FoodHub.ViewModel
 {
     class LoginViewModel : INotifyPropertyChanged
     {
+        private const string emptyPhoneNo = "(None)";
         public event PropertyChangedEventHandler PropertyChanged;
+        SignupViewModel signupVM = new SignupViewModel();
 
         public LoginViewModel()
         {
 
         }
 
-        private string username;      
+        private string username;
         public string Username
         {
             get { return this.username; }
@@ -38,7 +41,7 @@ namespace FoodHub.ViewModel
                 PropertyChanged(this, new PropertyChangedEventArgs("Password"));
             }
         }
-         
+
         public Command LoginCommand
         {
             get
@@ -67,14 +70,29 @@ namespace FoodHub.ViewModel
                 var userLogin = await FireBaseHelper.GetUser(Username);
                 if (userLogin != null)
                 {
-                    if (Username == userLogin._Username && Password == userLogin._Password)
+                    if (Username == userLogin.Username && Password == userLogin.Password)
                     {
                         //await App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
                         //Navigate to Wellcom page after successfuly login
                         //pass username to welcom page
+                        var tabbedPage = new TabbedPage();
+                        tabbedPage.Children.Add(new RestaurantPage());
+                        tabbedPage.Children.Add(new FavouritePage());
+                        tabbedPage.Children.Add(new UserMapPage());
+                        if (string.IsNullOrEmpty(userLogin.PhoneNumber))
+                        {
+                            tabbedPage.Children.Add(new AccountPage(Username, userLogin.Address, emptyPhoneNo));
+                        }
+                        else
+                        {
+                            tabbedPage.Children.Add(new AccountPage(Username, userLogin.Address, userLogin.PhoneNumber));
+                        }
 
-                        // navigate to main page
-                        App.Current.MainPage = new NavigationPage(new MainPage());
+                        tabbedPage.UnselectedTabColor = Color.FromHex("D18402");
+                        tabbedPage.SelectedTabColor = Color.FromHex("#C03251");
+                        tabbedPage.BarBackgroundColor = Color.FromHex("#FFFFFF");
+
+                        await App.Current.MainPage.Navigation.PushAsync(tabbedPage);
                     }
                     else
                     {
@@ -84,7 +102,7 @@ namespace FoodHub.ViewModel
                 else
                 {
                     await App.Current.MainPage.DisplayAlert("Login Fail", "User not found", "OK");
-                }                    
+                }
             }
         }
     }

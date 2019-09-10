@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using FoodHub.Helper;
 using FoodHub.View;
 using Xamarin.Forms;
 
 namespace FoodHub.ViewModel
 {
-    public class SignupViewModel: INotifyPropertyChanged
+    public class SignupViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -44,6 +45,27 @@ namespace FoodHub.ViewModel
             }
         }
 
+        private string address;
+        public string Address
+        {
+            get { return this.address; }
+            set
+            {
+                this.address = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("Address"));
+            }
+        }
+
+        private string phoneNumber;
+        public string PhoneNumber
+        {
+            get { return this.phoneNumber; }
+            set
+            {
+                this.phoneNumber = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("PhoneNumber"));
+            }
+        }
         public Command SignUpCommand
         {
             get
@@ -62,6 +84,14 @@ namespace FoodHub.ViewModel
             }
         }
 
+        public Command BackCommand
+        {
+            get
+            {
+                return new Command(() => { App.Current.MainPage.Navigation.PushAsync(new LoginPage()); });
+            }
+        }
+
         private async void SignUp()
         {
             //null or empty validation, check if Email and Password is null or empty
@@ -71,11 +101,11 @@ namespace FoodHub.ViewModel
             }
             else
             {
-                var userSignup = await FireBaseHelper.AddUser(Username, Password);
+                var userSignup = await FireBaseHelper.AddUser(Username, Password, Address, PhoneNumber);
                 if (userSignup)
                 {
                     await App.Current.MainPage.DisplayAlert("SignUp Successed", "", "OK");
-                    await App.Current.MainPage.Navigation.PushAsync(new WelcomePage(Username));                                       
+                    await App.Current.MainPage.Navigation.PushAsync(new LoginPage());
                 }
                 else
                 {

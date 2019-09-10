@@ -13,12 +13,11 @@ namespace FoodHub.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SignUpPage : ContentPage
     {
-        SignupViewModel signupVM;
+        readonly SignupViewModel signupVM;
         public SignUpPage()
         {
             InitializeComponent();
             signupVM = new SignupViewModel();
-            // Set binding
             BindingContext = signupVM;
         }
     }

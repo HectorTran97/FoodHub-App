@@ -5,22 +5,17 @@ using System.Text;
 namespace FoodHub.Model
 {
     public class User
-    {        
-        // Properties to get ID, Username and Password
-        public int ID { get; set; }
-        public string _Username { get; set; }
-        public string _Password { get; set; }
+    {
+        // Properties to get Username, Password, Address and Phone Number
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Address { get; set; }
+        public string PhoneNumber { get; set; }
 
         // Constructor
         public User()
         {
 
-        }
-
-        public User(string Username, string Password)
-        {
-            this._Username = Username;
-            this._Password = Password;
         }
     }
 }

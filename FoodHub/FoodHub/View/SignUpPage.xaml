@@ -3,24 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="FoodHub.View.SignUpPage" BackgroundColor="#E6F1F5" Title="Create Account" BackgroundImageSource="CreateACCOUNTsmall.png">
+             mc:Ignorable="d"             
+             x:Class="FoodHub.View.SignUpPage" BackgroundColor="#E6F1F5" Title="Create Account" BackgroundImageSource="CreateACCOUNTsmall.png"
+             NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="False">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Create Account"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <ContentPage.Content>      
+    <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="10,280,0,0">
             <!--Enter Username-->
-            <Entry x:Name="UsernameEntry" Placeholder="Username" Text="{Binding Username}" HorizontalOptions="Start" WidthRequest="180"/>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="UsernameImage" Source="users.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="UsernameEntry" Placeholder="Username" Text="{Binding Username}" HorizontalOptions="Start" WidthRequest="180"/>
+            </StackLayout>
 
             <!--Enter Password-->
-            <Entry x:Name="PasswordEntry" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="PasswordImage" Source="padlock.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="PasswordEntry" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
+            </StackLayout>
 
             <!--Re-Enter Password-->
-            <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm Password" Text="{Binding ConfirmPassword}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="ConfirmPasswordImage" Source="padlock.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm Password" Text="{Binding ConfirmPassword}" HorizontalOptions="Start" WidthRequest="180" IsPassword="True"/>
+            </StackLayout>
 
-            <Button x:Name="SignUp" Text="Sign Up" Command="{Binding SignUpCommand}" Font="Bold,25" HorizontalOptions="Start" BackgroundColor="Transparent" BorderWidth="0"/>
+            <!--Enter Address-->
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="AddressImage" Source="address.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="AddressEntry" Placeholder="Address" Text="{Binding Address}" HorizontalOptions="Start" WidthRequest="180"/>
+            </StackLayout>
+
+            <!--Enter Phone Number-->
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="PhoneNumberImage" Source="phone.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="PhoneNumberEntry" Placeholder="Phone (Optional)" Text="{Binding PhoneNumber}" HorizontalOptions="Start" WidthRequest="180"/>
+            </StackLayout>
+
+            <Button x:Name="SignUp" Text="Sign Up" Command="{Binding SignUpCommand}" Font="Bold,25" HorizontalOptions="Start" 
+                    BackgroundColor="Transparent" BorderWidth="0"/>
+            <Button x:Name="Back" Text="Go Back" Command="{Binding BackCommand}" Font="Bold,14" HorizontalOptions="Start" 
+                    BackgroundColor="Transparent" BorderWidth="0"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

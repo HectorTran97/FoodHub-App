@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FoodHub.View.EditAccountPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+            <StackLayout Spacing="10" Margin="10,20,0,40">
+                <Label x:Name="EditLabel" Text="Edit account" FontSize="30" TextColor="#C5BB64"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10" Margin="20,20,0,0">
+                <Image x:Name="PasswordImage" Source="padlock.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="PasswordLabel" Placeholder="Password" Text="{Binding Password}" TextColor="Black" 
+                       FontSize="16" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                       WidthRequest="300" IsPassword="True"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10" Margin="20,20,0,0">
+                <Image x:Name="AddressImage" Source="address.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="AddressLabel" Placeholder="Address" Text="{Binding Address}" TextColor="Black" 
+                       FontSize="16" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                       WidthRequest="300"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10" Margin="20,20,0,0">
+                <Image x:Name="PhoneNumberImage" Source="phone.png" WidthRequest="32" HeightRequest="32"/>
+                <Entry x:Name="PhoneNumberLabel" Placeholder="Phone Number" Text="{Binding PhoneNumber}" TextColor="Black" 
+                       FontSize="16" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                       WidthRequest="300"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="End" Margin="30,50,0,0">
+                <Button x:Name="UploadBtn" Text="Upload" FontSize="18" FontAttributes="Bold" TextColor="#C5BB64" WidthRequest="200" 
+                        BackgroundColor="Transparent" BorderWidth="2" BorderColor="#C5BB64" CornerRadius="20" Command="{Binding UpdateCommand}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

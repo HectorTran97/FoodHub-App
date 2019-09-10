@@ -14,7 +14,7 @@ namespace FoodHub.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        LoginViewModel loginViewModel;
+        readonly LoginViewModel loginViewModel;
         public LoginPage()
         {
             loginViewModel = new LoginViewModel(); 

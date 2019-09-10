@@ -1,5 +1,4 @@
-﻿using BottomBar.XamarinForms;
-using FoodHub.View;
+﻿using FoodHub.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,13 +12,11 @@ namespace FoodHub
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
-    public partial class MainPage : BottomBarPage
+    public partial class MainPage : ContentPage
     {
         public MainPage()
         {
-            InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
-
+            InitializeComponent();           
         }
     }
 }

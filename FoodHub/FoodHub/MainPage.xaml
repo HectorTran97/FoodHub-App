@@ -1,26 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<xamarinforms:BottomBarPage
-            xmlns:xamarinforms="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
-            xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-            xmlns:local="clr-namespace:FoodHub.View"
-            mc:Ignorable="d"
-            x:Class="FoodHub.MainPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FoodHub.MainPage">
 
-    <local:RestaurantPage Title="Home" 
-                          Icon ="home.png"
-                          xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
-    <local:FavouritePage Title="Favourite" 
-                         IconImageSource="favourite.png"
-                         xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
-    <local:UserMapPage Title="Map" 
-                       IconImageSource="map.png"
-                       xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
-    <local:AccountPage Title="Account" 
-                       IconImageSource="account.png"
-                       xamarinforms:BottomBarPageExtensions.TabColor="Orange"/>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
 
-
-</xamarinforms:BottomBarPage>
+</ContentPage>
