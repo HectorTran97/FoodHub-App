@@ -42,13 +42,13 @@ namespace FoodHub.Data
                     {
                         var content = await response.Content.ReadAsStringAsync();
                         var result = JsonConvert.DeserializeObject<RestaurantList>(content);
-                        return restaurantList = ConvertToRes(result); 
+                        return restaurantList = ConvertToRes(result);
                     }
                 }
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(@"       Error{0} ", ex.Message);
+                Debug.WriteLine($"Error{ex.Message}");
             }
             return restaurantList;
         }
@@ -84,19 +84,19 @@ namespace FoodHub.Data
                     }
                 }
             }
-            catch (FeatureNotSupportedException fnsEx)
+            catch (FeatureNotSupportedException)
             {
                 // Handle not supported on device exception
             }
-            catch (FeatureNotEnabledException fneEx)
+            catch (FeatureNotEnabledException)
             {
                 // Handle not enabled on device exception
             }
-            catch (PermissionException pEx)
+            catch (PermissionException)
             {
                 // Handle permission exception
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Unable to get location
             }
@@ -113,15 +113,11 @@ namespace FoodHub.Data
         private List<Restaurant> ConvertToRes(RestaurantList data)
         {
             List<Restaurant> result = new List<Restaurant>();
-            for(int i = 0; i < data.Restaurants.Count; i++)
+            for (int i = 0; i < data.Restaurants.Count; i++)
             {
                 result.Add(data.Restaurants[i].Restaurant);
             }
             return result;
         }
-
-
-
-
     }
 }

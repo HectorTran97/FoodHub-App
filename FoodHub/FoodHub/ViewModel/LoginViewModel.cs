@@ -79,6 +79,7 @@ namespace FoodHub.ViewModel
                         tabbedPage.Children.Add(new RestaurantPage());
                         tabbedPage.Children.Add(new FavouritePage());
                         tabbedPage.Children.Add(new UserMapPage());
+
                         if (string.IsNullOrEmpty(userLogin.PhoneNumber))
                         {
                             tabbedPage.Children.Add(new AccountPage(Username, userLogin.Address, emptyPhoneNo));
@@ -88,7 +89,7 @@ namespace FoodHub.ViewModel
                             tabbedPage.Children.Add(new AccountPage(Username, userLogin.Address, userLogin.PhoneNumber));
                         }
 
-                        tabbedPage.UnselectedTabColor = Color.FromHex("D18402");
+                        tabbedPage.UnselectedTabColor = Color.FromHex("#D18402");
                         tabbedPage.SelectedTabColor = Color.FromHex("#C03251");
                         tabbedPage.BarBackgroundColor = Color.FromHex("#FFFFFF");
 

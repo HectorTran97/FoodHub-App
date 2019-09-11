@@ -27,7 +27,7 @@
 
             <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10" Margin="20,20,0,0">
                 <Image x:Name="PhoneNumberImage" Source="phone.png" WidthRequest="32" HeightRequest="32"/>
-                <Entry x:Name="PhoneNumberLabel" Placeholder="Phone Number" Text="{Binding PhoneNumber}" TextColor="Black" 
+                <Entry x:Name="PhoneNumberLabel" Placeholder="Phone (Optional)" Text="{Binding PhoneNumber}" TextColor="Black" 
                        FontSize="16" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
                        WidthRequest="300"/>
             </StackLayout>

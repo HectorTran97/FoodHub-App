@@ -95,9 +95,9 @@ namespace FoodHub.ViewModel
         private async void SignUp()
         {
             //null or empty validation, check if Email and Password is null or empty
-            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
+            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password) || string.IsNullOrEmpty(Address))
             {
-                await App.Current.MainPage.DisplayAlert("Empty Value", "Please enter Username and Password", "OK");
+                await App.Current.MainPage.DisplayAlert("Empty Value", "Please enter Username, Password and Address", "OK");
             }
             else
             {
