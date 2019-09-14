@@ -7,12 +7,18 @@
              x:Class="FoodHub.View.LoginPage"
              xmlns:local ="clr-namespace:FoodHub.ViewModel" BackgroundColor="#BCA70C" Title="Login" BackgroundImageSource="FoodHUBsmall.png"
              NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="False">
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Welcome to FoodHUB"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="10,280,0,0">
+                            <Label Text=" {Binding ConnectionStatus}"
+                   x:Name="lblConnected" TextColor="Black"
+                   Font = "30" VerticalOptions="StartAndExpand">
+
+            </Label>
             <!--Enter Username-->
             <StackLayout Orientation="Horizontal">
                 <Image x:Name="UsernameImage" Source="users.png" WidthRequest="24" HeightRequest="24"/>

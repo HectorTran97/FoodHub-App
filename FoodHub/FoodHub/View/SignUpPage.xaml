@@ -6,12 +6,15 @@
              mc:Ignorable="d"             
              x:Class="FoodHub.View.SignUpPage" BackgroundColor="#E6F1F5" Title="Create Account" BackgroundImageSource="CreateACCOUNTsmall.png"
              NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="False">
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Create Account"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
+
         <StackLayout Orientation="Vertical" Padding="10,280,0,0">
+
             <!--Enter Username-->
             <StackLayout Orientation="Horizontal">
                 <Image x:Name="UsernameImage" Source="users.png" WidthRequest="32" HeightRequest="32"/>

@@ -5,19 +5,54 @@ using System.Text;
 using FoodHub.Helper;
 using FoodHub.Model;
 using FoodHub.View;
+using Plugin.Connectivity;
 using Xamarin.Forms;
 
 namespace FoodHub.ViewModel
 {
     class LoginViewModel : INotifyPropertyChanged
     {
+        //added by Phong 11/9
+        string _connectionStatus = "";
+        //event triggered when connectivity changes
+        public event PropertyChangedEventHandler PropertyChanged1;
+        public string ConnectionStatus
+        {
+            get { return _connectionStatus; }
+            set
+            {
+                _connectionStatus = value;
+                PropertyChanged1?.Invoke(this, new PropertyChangedEventArgs("ConnectionStatus"));
+            }
+        }
+
+       //added by Phong 11/9
+        void UpdateConnectionStatus()
+        {
+            //loop through all connectivity options available.
+            if (CrossConnectivity.Current != null && CrossConnectivity.Current.IsConnected == true)
+            {
+                //var str = "";
+                //foreach (ConnectionType type in CrossConnectivity.Current.ConnectionTypes)
+                //    str += type.ToString() + " ";
+                //ConnectionStatus = string.Format("Connected to {0}", str);
+                ConnectionStatus = "";
+            }
+            else
+                ConnectionStatus = "Not Connected";
+        }
+
+   
         private const string emptyPhoneNo = "(None)";
         public event PropertyChangedEventHandler PropertyChanged;
         SignupViewModel signupVM = new SignupViewModel();
-
+        //added update connection stattus by Phong 11/9
         public LoginViewModel()
         {
-
+            //load current status
+            UpdateConnectionStatus();
+            //Using CrossConnectivity class makes it easier to work across different platforms
+            CrossConnectivity.Current.ConnectivityChanged += (sender, e) => { this.UpdateConnectionStatus(); };
         }
 
         private string username;
@@ -60,6 +95,10 @@ namespace FoodHub.ViewModel
 
         private async void Login()
         {
+            if(CrossConnectivity.Current != null && CrossConnectivity.Current.IsConnected == false)
+            {
+                await App.Current.MainPage.DisplayAlert("Network error", "Please check ur network connection", "OK");
+            }
             //null or empty validation, check if Email and Password is null or empty
             if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
             {

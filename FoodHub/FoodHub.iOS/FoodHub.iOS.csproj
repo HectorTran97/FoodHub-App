@@ -120,13 +120,13 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\FoodHub\FoodHub.csproj">
-      <Project>{D542F080-260E-4C6B-AF1A-4D06CBF84AE6}</Project>
+      <Project>{F7EEC252-12AF-468A-9F74-9ACB93FDBBD8}</Project>
       <Name>FoodHub</Name>
     </ProjectReference>
   </ItemGroup>
