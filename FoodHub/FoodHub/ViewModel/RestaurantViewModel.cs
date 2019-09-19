@@ -12,12 +12,11 @@ namespace FoodHub.ViewModel
     class RestaurantViewModel : INotifyPropertyChanged
     {
         // this is a sample data to test whether the listview shows any data
-        List<Restaurant> sampleList = new List<Restaurant>(new Restaurant[] {
+        private readonly List<Restaurant> sampleList = new List<Restaurant>(new Restaurant[] {
                 new Restaurant{ ID = 1, Name = "Azure"},
                 new Restaurant{ ID = 2, Name = "Watson"}
             });
-
-        RestaurantManager myRestaurantManager = new RestaurantManager();
+        readonly RestaurantManager myRestaurantManager = new RestaurantManager();
         public event PropertyChangedEventHandler PropertyChanged;
         private ObservableCollection<Restaurant> myRestaurantList;
         public ObservableCollection<Restaurant> MyRestaurantList
@@ -26,10 +25,7 @@ namespace FoodHub.ViewModel
             set
             {
                 myRestaurantList = value;
-                if (PropertyChanged != null)
-                {
-                    PropertyChanged(this, new PropertyChangedEventArgs("MyRestaurantList"));
-                }
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("MyRestaurantList"));
             }
 
         }
@@ -40,11 +36,8 @@ namespace FoodHub.ViewModel
         }
         public RestaurantViewModel()
         {
-            FetchDataAsync();
+            _ = FetchDataAsync();
             //MyRestaurantList = new ObservableCollection<Restaurant>(sampleList);
         }
-
-
-
     }
 }

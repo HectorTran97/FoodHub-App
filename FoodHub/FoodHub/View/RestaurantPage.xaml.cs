@@ -14,17 +14,19 @@ namespace FoodHub.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RestaurantPage : ContentPage
     {
+        private readonly RestaurantViewModel restaurantViewModel;
         public RestaurantPage()
         {
+            restaurantViewModel = new RestaurantViewModel();
             InitializeComponent();
-            BindingContext = new RestaurantViewModel();
+            BindingContext = restaurantViewModel;
         }
 
         // this method sends the Restaurant object of the item that is clicked in the listView
         public async void OnItemSelected(Object sender, ItemTappedEventArgs e)
         {
             var resDetails = e.Item as Restaurant;
-            await Navigation.PushAsync(new RestaurantDetailsPage(resDetails.ID, resDetails.Name));
+            await Navigation.PushAsync(new MenuPage(resDetails.ImageURL.ToString(), resDetails.Name, resDetails.Rating.AggregateRating, resDetails.AverageCost));
         }
     }
 }

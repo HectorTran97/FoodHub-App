@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FoodHub.Model
 {
-    class UserRating
+    public class UserRating
     {
         [JsonProperty("aggregate_rating")]
         public string AggregateRating { get; set; }

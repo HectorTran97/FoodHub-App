@@ -13,21 +13,21 @@ namespace FoodHub.ViewModel
     class LoginViewModel : INotifyPropertyChanged
     {
         //added by Phong 11/9
-        string _connectionStatus = "";
+        private string _connectionStatus;
         //event triggered when connectivity changes
-        public event PropertyChangedEventHandler PropertyChanged1;
+        public event PropertyChangedEventHandler PropertyChanged;
         public string ConnectionStatus
         {
             get { return _connectionStatus; }
             set
             {
                 _connectionStatus = value;
-                PropertyChanged1?.Invoke(this, new PropertyChangedEventArgs("ConnectionStatus"));
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("ConnectionStatus"));
             }
         }
 
        //added by Phong 11/9
-        void UpdateConnectionStatus()
+        async void UpdateConnectionStatus()
         {
             //loop through all connectivity options available.
             if (CrossConnectivity.Current != null && CrossConnectivity.Current.IsConnected == true)
@@ -36,16 +36,17 @@ namespace FoodHub.ViewModel
                 //foreach (ConnectionType type in CrossConnectivity.Current.ConnectionTypes)
                 //    str += type.ToString() + " ";
                 //ConnectionStatus = string.Format("Connected to {0}", str);
-                ConnectionStatus = "";
+                ConnectionStatus = "";                
             }
             else
+            {
                 ConnectionStatus = "Not Connected";
+                await App.Current.MainPage.DisplayAlert("Error", ConnectionStatus, "Try Again");
+            }                
         }
 
    
         private const string emptyPhoneNo = "(None)";
-        public event PropertyChangedEventHandler PropertyChanged;
-        SignupViewModel signupVM = new SignupViewModel();
         //added update connection stattus by Phong 11/9
         public LoginViewModel()
         {
