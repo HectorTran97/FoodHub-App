@@ -9,27 +9,28 @@
              xmlns:map="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              IconImageSource="nearby.png">
     <ContentPage.Content>
+
  
-        <!--<StackLayout>
-            <Label Text="Map Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>-->
-            <!--<Grid>
-        <map:Map x:Name="MyMap" MapType="Street" HasZoomEnabled="True">
+            <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="11*" />
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" x:Name="Direction" Text="Direction" Command="{Binding GetDirectionCommand}"/>
+        <map:Map Grid.Row="1"
+            x:Name="MyMap"
+                  MoveToLastRegionOnLayoutChange="false"
+                  ItemsSource=" {Binding RestaurantLocations}">
             <map:Map.ItemTemplate>
                 <DataTemplate>
-                    <map:Pin Position="{Binding Position}"
-                              Address="{Binding Address}"
-                              Label="{Binding PlaceName}" />
+                    <map:Pin Position=" {Binding RestaurantPosition}"
+                              Address=" {Binding Address}"
+                              Label=" {Binding Description}" />
                 </DataTemplate>
             </map:Map.ItemTemplate>
         </map:Map>
-    </Grid>-->
-        <ScrollView>
-            <StackLayout>
-                <Button x:Name="OpenMap" Clicked="OpenMapButtonClicked"/>
-            </StackLayout>
-        </ScrollView>
+      
+    </Grid>
+
        </ContentPage.Content>
 </ContentPage>
