@@ -6669,6 +6669,9 @@ namespace FoodHub.Droid
 			// aapt resource value: 0x7F07015D
 			public const int users = 2131165533;
 			
+			// aapt resource value: 0x7F07015E
+			public const int zouzcafe = 2131165534;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

@@ -9,9 +9,6 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Vertical">
-                <!--<StackLayout.BindingContext>
-                    <local:MenuViewModel/>
-                </StackLayout.BindingContext>-->
                 <RelativeLayout BackgroundColor="White">
                     <StackLayout Padding="0" Spacing="0" HorizontalOptions="FillAndExpand" WidthRequest="500"
                                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">                        
@@ -32,38 +29,32 @@
                     </StackLayout>
                 </RelativeLayout>
                 
+                
 
-                <!--<ListView x:Name="RestaurantCusListView">
-                    --><!--HasUnevenRows="True" 
-                      ItemsSource="{Binding MyMenuList}" 
-                      ItemTapped="OnItemSelected" 
+                <ListView x:Name="MenuCusListView" 
+                      HasUnevenRows="True" 
+                      ItemsSource="{Binding MyMenuList}"
                       SeparatorVisibility="None"
                       SelectionMode="Single"
-                      BackgroundColor="WhiteSmoke"--><!--
+                      BackgroundColor="White">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <ViewCell.View>
-                                    <StackLayout Orientation="Vertical" BackgroundColor="White" Padding="0" Margin="10, 15, 10, 15" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                                        <Image Source="{Binding ImageURL}" Margin="10, 10, 10, 10" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="200"/>
-                                        <Label Text="{Binding Name}" x:Name="ResName" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center"/>
-                                        <StackLayout Orientation="Horizontal" Margin="0, 10, 0, 20" HorizontalOptions="Center">
-                                            <Frame Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
-                                                <Label x:Name="RatingLabel" Text="{Binding Rating.AggregateRating}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HeightRequest="35" WidthRequest="120" BackgroundColor="LightBlue"/>
-                                            </Frame>
-                                            <Frame Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
-                                                <Label x:Name="cusLabel2" Text="{Binding AverageCost, StringFormat=' Price(2):  ${0:F0}'}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HeightRequest="35" WidthRequest="120" BackgroundColor="LightBlue"/>
-                                            </Frame>
-                                            <Frame Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
-                                                <Label x:Name="cusLabel3" Text="Distance: 200m" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HeightRequest="35" WidthRequest="120" BackgroundColor="LightBlue"/>
-                                            </Frame>
-                                        </StackLayout>
+                                    <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="10" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                                            <Label x:Name="foodName" Text="{Binding foodName}" FontSize="20" FontAttributes="Bold" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
+                                            <Label x:Name="foodDescription" Text="{Binding foodDescription}" FontSize="14" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
+                                            <Label x:Name="foodPrice" Text="{Binding foodPrice, StringFormat='${0}'}" FontSize="16" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
+                                        </StackLayout>                                        
+                                        <Image x:Name="foodImage" Source="{Binding foodImage}" Margin="8" Aspect="AspectFit" HorizontalOptions="EndAndExpand" 
+                                               VerticalOptions="FillAndExpand" HeightRequest="200" WidthRequest="200"/>                                        
                                     </StackLayout>
                                 </ViewCell.View>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
-                </ListView>-->
+                </ListView>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -14,9 +14,8 @@
 
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="10,280,0,0">
-                            <Label Text=" {Binding ConnectionStatus}"
-                   x:Name="lblConnected" TextColor="Black"
-                   Font = "30" VerticalOptions="StartAndExpand">
+            <Label x:Name="lblConnected" Text="{Binding ConnectionStatus}" TextColor="Black"
+                   Font="30" VerticalOptions="StartAndExpand">
 
             </Label>
             <!--Enter Username-->

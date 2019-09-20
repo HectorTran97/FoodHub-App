@@ -26,7 +26,7 @@ namespace FoodHub.View
         public async void OnItemSelected(Object sender, ItemTappedEventArgs e)
         {
             var resDetails = e.Item as Restaurant;
-            await Navigation.PushAsync(new MenuPage(resDetails.ImageURL.ToString(), resDetails.Name, resDetails.Rating.AggregateRating, resDetails.AverageCost));
+            await Navigation.PushAsync(new MenuPage(resDetails.ID, resDetails.ImageURL.ToString(), resDetails.Name, resDetails.Rating.AggregateRating, resDetails.AverageCost));
         }
     }
 }

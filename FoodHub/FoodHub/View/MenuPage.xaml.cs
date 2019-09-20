@@ -15,9 +15,9 @@ namespace FoodHub.View
     public partial class MenuPage : ContentPage
     {
         readonly MenuViewModel menuViewModel;
-        public MenuPage(string resImage, string resName, string ResRating, string ResAverageCost)
+        public MenuPage(int resID, string resImage, string resName, string ResRating, string ResAverageCost)
         {
-            menuViewModel = new MenuViewModel(resImage, resName, ResRating, ResAverageCost);
+            menuViewModel = new MenuViewModel(resID, resImage, resName, ResRating, ResAverageCost);
             InitializeComponent();
             BindingContext = menuViewModel;
         }
