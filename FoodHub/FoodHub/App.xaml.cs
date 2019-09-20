@@ -12,7 +12,7 @@ namespace FoodHub
         {
             InitializeComponent();
             // Set the login page as main page
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new UserMapPage());
         }
 
         protected override void OnStart()

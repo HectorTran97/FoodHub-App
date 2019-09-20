@@ -110,6 +110,35 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\FoodHUBsmall.png" />
+    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\FoodHUBsmall-1.png" />
+    <ImageAsset Include="Assets.xcassets\address.png.imageset\address.png" />
+    <ImageAsset Include="Assets.xcassets\address.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\CreateACCOUNTsmall.png" />
+    <ImageAsset Include="Assets.xcassets\edit.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\edit.png.imageset\edit.png" />
+    <ImageAsset Include="Assets.xcassets\home.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\home.png.imageset\home.png" />
+    <ImageAsset Include="Assets.xcassets\nearby.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\nearby.png.imageset\nearby.png" />
+    <ImageAsset Include="Assets.xcassets\padlock.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\padlock.png.imageset\padlock.png" />
+    <ImageAsset Include="Assets.xcassets\phone.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\phone.png.imageset\phone.png" />
+    <ImageAsset Include="Assets.xcassets\photoCamera.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\photoCamera.png.imageset\photoCamera.png" />
+    <ImageAsset Include="Assets.xcassets\profile.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\profile.png.imageset\profile.png" />
+    <ImageAsset Include="Assets.xcassets\SignIn.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\SignIn.png.imageset\SignIn.png" />
+    <ImageAsset Include="Assets.xcassets\star.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\star.png.imageset\star.png" />
+    <ImageAsset Include="Assets.xcassets\user.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\user.png.imageset\user.png" />
+    <ImageAsset Include="Assets.xcassets\users.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\users.png.imageset\users.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -122,6 +151,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.0" />
+    <PackageReference Include="Xamarin.Forms.Maps">
+      <Version>4.2.0.778463</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -129,5 +161,21 @@
       <Project>{F7EEC252-12AF-468A-9F74-9ACB93FDBBD8}</Project>
       <Name>FoodHub</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\FoodHUBsmall.png.imageset\" />
+    <Folder Include="Assets.xcassets\address.png.imageset\" />
+    <Folder Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\" />
+    <Folder Include="Assets.xcassets\edit.png.imageset\" />
+    <Folder Include="Assets.xcassets\home.png.imageset\" />
+    <Folder Include="Assets.xcassets\nearby.png.imageset\" />
+    <Folder Include="Assets.xcassets\padlock.png.imageset\" />
+    <Folder Include="Assets.xcassets\phone.png.imageset\" />
+    <Folder Include="Assets.xcassets\photoCamera.png.imageset\" />
+    <Folder Include="Assets.xcassets\profile.png.imageset\" />
+    <Folder Include="Assets.xcassets\SignIn.png.imageset\" />
+    <Folder Include="Assets.xcassets\star.png.imageset\" />
+    <Folder Include="Assets.xcassets\user.png.imageset\" />
+    <Folder Include="Assets.xcassets\users.png.imageset\" />
   </ItemGroup>
 </Project>
