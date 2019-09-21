@@ -35,5 +35,4 @@
             <Button x:Name="Btn_SignUp" Text="Sign Up" Command="{Binding SignUp}" HorizontalOptions="Start" BackgroundColor="Transparent" BorderWidth="0"/>
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>
