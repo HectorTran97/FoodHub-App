@@ -110,35 +110,93 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\FoodHUBsmall.png" />
-    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\FoodHUBsmall-1.png" />
-    <ImageAsset Include="Assets.xcassets\address.png.imageset\address.png" />
-    <ImageAsset Include="Assets.xcassets\address.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\CreateACCOUNTsmall.png" />
-    <ImageAsset Include="Assets.xcassets\edit.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\edit.png.imageset\edit.png" />
-    <ImageAsset Include="Assets.xcassets\home.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\home.png.imageset\home.png" />
-    <ImageAsset Include="Assets.xcassets\nearby.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\nearby.png.imageset\nearby.png" />
-    <ImageAsset Include="Assets.xcassets\padlock.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\padlock.png.imageset\padlock.png" />
-    <ImageAsset Include="Assets.xcassets\phone.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\phone.png.imageset\phone.png" />
-    <ImageAsset Include="Assets.xcassets\photoCamera.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\photoCamera.png.imageset\photoCamera.png" />
-    <ImageAsset Include="Assets.xcassets\profile.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\profile.png.imageset\profile.png" />
-    <ImageAsset Include="Assets.xcassets\SignIn.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\SignIn.png.imageset\SignIn.png" />
-    <ImageAsset Include="Assets.xcassets\star.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\star.png.imageset\star.png" />
-    <ImageAsset Include="Assets.xcassets\user.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\user.png.imageset\user.png" />
-    <ImageAsset Include="Assets.xcassets\users.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\users.png.imageset\users.png" />
+    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\FoodHUBsmall.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\FoodHUBsmall.png.imageset\FoodHUBsmall-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\address.png.imageset\address.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\address.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\CreateACCOUNTsmall.png.imageset\CreateACCOUNTsmall.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\edit.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\edit.png.imageset\edit.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\home.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\home.png.imageset\home.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\nearby.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\nearby.png.imageset\nearby.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\padlock.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\padlock.png.imageset\padlock.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.png.imageset\phone.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\photoCamera.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\photoCamera.png.imageset\photoCamera.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\profile.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\profile.png.imageset\profile.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SignIn.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SignIn.png.imageset\SignIn.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\star.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\star.png.imageset\star.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\user.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\user.png.imageset\user.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\users.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\users.png.imageset\users.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

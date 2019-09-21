@@ -19,9 +19,6 @@ namespace FoodHub.Model
         [JsonProperty("average_cost_for_two")]
         public string AverageCost { get; set; }
 
-        [JsonProperty("cusines")]
-        public string Cusines { get; set; }
-
         [JsonProperty("location")]
         public Location RestaurantLocation { get; set; }
 

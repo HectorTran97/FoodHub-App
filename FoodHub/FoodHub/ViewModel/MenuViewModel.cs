@@ -1,4 +1,5 @@
-﻿using FoodHub.Helper;
+﻿using FoodHub.Data;
+using FoodHub.Helper;
 using FoodHub.Model;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace FoodHub.ViewModel
     class MenuViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+        readonly RestaurantManager myRestaurantManager = new RestaurantManager();
+        readonly RestaurantViewModel restaurantViewModel = new RestaurantViewModel();
 
         private ObservableCollection<Food> myMenuList;
         public ObservableCollection<Food> MyMenuList
@@ -28,22 +31,30 @@ namespace FoodHub.ViewModel
         public string ResName { get; set; }
         public string ResRating { get; set; }
         public string ResAverageCost { get; set; }
-        public int ResID { get; set; }
+        public string ResID { get; set; }
 
-        public MenuViewModel(int resID, string resImage, string resName, string resRating, string resAverageCost)
-        {
+        public MenuViewModel(string resID, string resImage, string resName, string resRating, string resAverageCost)
+        {            
             this.ResID = resID;
             this.ResImage = resImage;
             this.ResName = resName;
             this.ResRating = resRating;
             this.ResAverageCost = resAverageCost;
-            _ = FetchDataAsync();
+            _ = FetchDataAsync(this.ResID);
         }
 
-        public async Task FetchDataAsync()
+        private async Task FetchDataAsync(string ID)
         {
-            var list = await FireBaseHelper.GetAllFood();
-            MyMenuList = new ObservableCollection<Food>(list);
+            var resIDList = await myRestaurantManager.FetchRestaurantAsync();
+
+            foreach (var item in resIDList)
+            {
+                if (ID == item.ID.ToString())
+                {
+                    var foodList = await FireBaseHelper.GetAllFood(ID);
+                    MyMenuList = new ObservableCollection<Food>(foodList);
+                }
+            }
         }
     }
 }

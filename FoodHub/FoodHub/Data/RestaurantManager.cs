@@ -43,7 +43,7 @@ namespace FoodHub.Data
                     {
                         var content = await response.Content.ReadAsStringAsync();
                         var result = JsonConvert.DeserializeObject<RestaurantList>(content);
-                        return restaurantList = ConvertToRes(result);
+                        return ConvertToRes(result);
                     }
                 }
             }

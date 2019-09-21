@@ -17,12 +17,12 @@ namespace FoodHub.Helper
         // Connect app to Firebase by using the API Url 
         public static FirebaseClient firebaseClient = new FirebaseClient("https://foodhub-39462.firebaseio.com/");
 
-        public static async Task<List<Food>> GetAllFood()
+        public static async Task<List<Food>> GetAllFood(string resID)
         {
             try
             {
                 var foodList = (await firebaseClient
-                    .Child("Food")
+                    .Child(resID)
                     .OnceAsync<Food>()).Select(item =>
                     new Food
                     {
@@ -32,7 +32,7 @@ namespace FoodHub.Helper
                         FoodDescription = item.Object.FoodDescription,
                         FoodPrice = item.Object.FoodPrice
                     }).ToList();
-                return foodList;
+                return foodList;                
             }
             catch (Exception e)
             {

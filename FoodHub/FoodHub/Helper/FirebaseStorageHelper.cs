@@ -16,7 +16,7 @@ namespace FoodHub.Helper
         public async Task<string> UploadImage(Stream fileStream, string fileName)
         {
             try
-            {
+            {                
                 var imageUrl = await firebaseStorage
                     .Child("foodhub")
                     .Child(fileName)

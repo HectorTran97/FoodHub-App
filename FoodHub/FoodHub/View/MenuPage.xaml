@@ -12,7 +12,7 @@
                 <RelativeLayout BackgroundColor="White">
                     <StackLayout Padding="0" Spacing="0" HorizontalOptions="FillAndExpand" WidthRequest="500"
                                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">                        
-                        <Image x:Name="RestaurantImage" Source="{Binding ResImage}" HeightRequest="250" Aspect="Fill"/>                    
+                        <Image x:Name="RestaurantImage" Source="{Binding ResImage}" HeightRequest="220" Aspect="Fill"/>                    
                     </StackLayout>
                     <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" 
                                  Padding="0,8,0,8" WidthRequest="310" BackgroundColor="White" Spacing="10" 
@@ -23,14 +23,12 @@
                         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40">
                             <Label x:Name="ResRatingLabel" Text="{Binding ResRating, StringFormat='{0}&#9734;'}" FontSize="14" 
                                    VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="Black"/>
-                            <Label x:Name="ResCostLabel" Text="{Binding ResAverageCost, StringFormat='${0}'}" FontSize="14" 
+                            <Label x:Name="ResCostLabel" Text="{Binding ResAverageCost, StringFormat='${0:F0}'}" FontSize="14" 
                                    VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="Black"/>
                         </StackLayout>
                     </StackLayout>
-                </RelativeLayout>
+                </RelativeLayout>              
                 
-                
-
                 <ListView x:Name="MenuCusListView" 
                       HasUnevenRows="True" 
                       ItemsSource="{Binding MyMenuList}"
@@ -43,12 +41,12 @@
                                 <ViewCell.View>
                                     <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="10" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
                                         <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
-                                            <Label x:Name="foodName" Text="{Binding foodName}" FontSize="20" FontAttributes="Bold" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
-                                            <Label x:Name="foodDescription" Text="{Binding foodDescription}" FontSize="14" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
-                                            <Label x:Name="foodPrice" Text="{Binding foodPrice, StringFormat='${0}'}" FontSize="16" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
+                                            <Label x:Name="foodName" Text="{Binding FoodName}" FontSize="20" FontAttributes="Bold" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
+                                            <Label x:Name="foodDescription" Text="{Binding FoodDescription}" FontSize="14" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
+                                            <Label x:Name="foodPrice" Text="{Binding FoodPrice, StringFormat='${0:F0}'}" FontAttributes="Bold" FontSize="17" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
                                         </StackLayout>                                        
-                                        <Image x:Name="foodImage" Source="{Binding foodImage}" Margin="8" Aspect="AspectFit" HorizontalOptions="EndAndExpand" 
-                                               VerticalOptions="FillAndExpand" HeightRequest="200" WidthRequest="200"/>                                        
+                                        <Image x:Name="foodImage" Source="{Binding FoodImage}" Margin="8" Aspect="AspectFit" HorizontalOptions="EndAndExpand" 
+                                               VerticalOptions="FillAndExpand" HeightRequest="100" WidthRequest="100"/>                                        
                                     </StackLayout>
                                 </ViewCell.View>
                             </ViewCell>
