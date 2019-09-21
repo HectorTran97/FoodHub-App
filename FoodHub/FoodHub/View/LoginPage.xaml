@@ -16,7 +16,6 @@
         <StackLayout Orientation="Vertical" Padding="10,280,0,0">
             <Label x:Name="lblConnected" Text="{Binding ConnectionStatus}" TextColor="Black"
                    Font="30" VerticalOptions="StartAndExpand">
-
             </Label>
             <!--Enter Username-->
             <StackLayout Orientation="Horizontal">
@@ -30,9 +29,8 @@
                 <Entry x:Name="Entry_Password" Placeholder="Password" Text="{Binding Password}" HorizontalOptions="Start" WidthRequest="150" IsPassword="True"/>
             </StackLayout>
 
-            <Button x:Name="Btn_SignInNew" Text="Sign In" Command="{Binding LoginCommand}" 
-                    Font="Bold,14" ImageSource="SignIn.png" HorizontalOptions="Start" 
-                    BackgroundColor="Orange" BorderWidth="0" HeightRequest="38" Margin="0,40,0,60"/>
+            <Button x:Name="Btn_SignInNew" Text="Sign In" Command="{Binding LoginCommand}" FontAttributes="Bold" FontSize="15" BorderWidth="0"
+                    ImageSource="login.png" HorizontalOptions="StartAndExpand" BackgroundColor="Orange"  HeightRequest="38" Margin="0,40,0,60"/>
 
             <Button x:Name="Btn_SignUp" Text="Sign Up" Command="{Binding SignUp}" HorizontalOptions="Start" BackgroundColor="Transparent" BorderWidth="0"/>
         </StackLayout>
