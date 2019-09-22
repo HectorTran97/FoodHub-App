@@ -28,5 +28,29 @@ namespace FoodHub.View
             var resDetails = e.Item as Restaurant;
             await Navigation.PushAsync(new MenuPage(resDetails.ID.ToString(), resDetails.ImageURL.ToString(), resDetails.Name, resDetails.Rating.AggregateRating, resDetails.AverageCost));
         }
+
+        // search method 
+        /*
+         * takes text type in search bar and compare with the restaurant name with myRestaurantList list in our view model
+         * show the matched name on the screen
+         */
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var vm = BindingContext as RestaurantViewModel;
+            // refresh the list in custom listview
+            RestaurantCusListView.BeginRefresh();
+
+            if (String.IsNullOrWhiteSpace(e.NewTextValue))
+            {
+                RestaurantCusListView.ItemsSource = vm.MyRestaurantList;
+            }
+            else
+            {
+                RestaurantCusListView.ItemsSource = vm.MyRestaurantList.Where(i => i.Name.ToLower().Contains(e.NewTextValue.ToLower()));
+            }
+            RestaurantCusListView.EndRefresh();
+
+        }
+
     }
 }
