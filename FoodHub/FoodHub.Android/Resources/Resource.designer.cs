@@ -26,6 +26,4504 @@ namespace FoodHub.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.InputKit.Resource.Animation.abc_fade_in = global::FoodHub.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.InputKit.Resource.Animation.abc_fade_out = global::FoodHub.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.InputKit.Resource.Animation.abc_grow_fade_in_from_bottom = global::FoodHub.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_enter = global::FoodHub.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_exit = global::FoodHub.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.InputKit.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FoodHub.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_bottom = global::FoodHub.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_top = global::FoodHub.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_bottom = global::FoodHub.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_top = global::FoodHub.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_in = global::FoodHub.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_out = global::FoodHub.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_in = global::FoodHub.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_out = global::FoodHub.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.InputKit.Resource.Animator.design_appbar_state_list_animator = global::FoodHub.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.InputKit.Resource.Attribute.actionBarDivider = global::FoodHub.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.InputKit.Resource.Attribute.actionBarItemBackground = global::FoodHub.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionBarPopupTheme = global::FoodHub.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSize = global::FoodHub.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSplitStyle = global::FoodHub.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarStyle = global::FoodHub.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabBarStyle = global::FoodHub.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabStyle = global::FoodHub.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabTextStyle = global::FoodHub.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTheme = global::FoodHub.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarWidgetTheme = global::FoodHub.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionButtonStyle = global::FoodHub.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionDropDownStyle = global::FoodHub.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionLayout = global::FoodHub.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextAppearance = global::FoodHub.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextColor = global::FoodHub.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Attribute.actionModeBackground = global::FoodHub.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseButtonStyle = global::FoodHub.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCopyDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCutDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeFindDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePasteDrawable = global::FoodHub.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePopupWindowStyle = global::FoodHub.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSelectAllDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeShareDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSplitBackground = global::FoodHub.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeStyle = global::FoodHub.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeWebSearchDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowButtonStyle = global::FoodHub.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowMenuStyle = global::FoodHub.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionProviderClass = global::FoodHub.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.InputKit.Resource.Attribute.actionViewClass = global::FoodHub.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.InputKit.Resource.Attribute.activityChooserViewStyle = global::FoodHub.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogButtonGroupStyle = global::FoodHub.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogCenterButtons = global::FoodHub.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogStyle = global::FoodHub.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogTheme = global::FoodHub.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.allowStacking = global::FoodHub.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.InputKit.Resource.Attribute.alpha = global::FoodHub.Droid.Resource.Attribute.alpha;
+			global::Plugin.InputKit.Resource.Attribute.alphabeticModifiers = global::FoodHub.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Attribute.arrowHeadLength = global::FoodHub.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.InputKit.Resource.Attribute.arrowShaftLength = global::FoodHub.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.InputKit.Resource.Attribute.autoCompleteTextViewStyle = global::FoodHub.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMaxTextSize = global::FoodHub.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMinTextSize = global::FoodHub.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizePresetSizes = global::FoodHub.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeStepGranularity = global::FoodHub.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeTextType = global::FoodHub.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.InputKit.Resource.Attribute.background = global::FoodHub.Droid.Resource.Attribute.background;
+			global::Plugin.InputKit.Resource.Attribute.backgroundSplit = global::FoodHub.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.InputKit.Resource.Attribute.backgroundStacked = global::FoodHub.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTint = global::FoodHub.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTintMode = global::FoodHub.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.InputKit.Resource.Attribute.barLength = global::FoodHub.Droid.Resource.Attribute.barLength;
+			global::Plugin.InputKit.Resource.Attribute.behavior_autoHide = global::FoodHub.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.InputKit.Resource.Attribute.behavior_hideable = global::FoodHub.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.InputKit.Resource.Attribute.behavior_overlapTop = global::FoodHub.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Attribute.behavior_peekHeight = global::FoodHub.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Attribute.behavior_skipCollapsed = global::FoodHub.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Attribute.borderWidth = global::FoodHub.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.InputKit.Resource.Attribute.borderlessButtonStyle = global::FoodHub.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetDialogTheme = global::FoodHub.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetStyle = global::FoodHub.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNegativeButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNeutralButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarPositiveButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonGravity = global::FoodHub.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.InputKit.Resource.Attribute.buttonPanelSideLayout = global::FoodHub.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyle = global::FoodHub.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyleSmall = global::FoodHub.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.buttonTint = global::FoodHub.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.InputKit.Resource.Attribute.buttonTintMode = global::FoodHub.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.InputKit.Resource.Attribute.cardBackgroundColor = global::FoodHub.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.cardCornerRadius = global::FoodHub.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.cardElevation = global::FoodHub.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardMaxElevation = global::FoodHub.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardPreventCornerOverlap = global::FoodHub.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Attribute.cardUseCompatPadding = global::FoodHub.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.checkboxStyle = global::FoodHub.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkedTextViewStyle = global::FoodHub.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.closeIcon = global::FoodHub.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.InputKit.Resource.Attribute.closeItemLayout = global::FoodHub.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.collapseContentDescription = global::FoodHub.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.collapseIcon = global::FoodHub.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleGravity = global::FoodHub.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleTextAppearance = global::FoodHub.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.color = global::FoodHub.Droid.Resource.Attribute.color;
+			global::Plugin.InputKit.Resource.Attribute.colorAccent = global::FoodHub.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.InputKit.Resource.Attribute.colorBackgroundFloating = global::FoodHub.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Attribute.colorButtonNormal = global::FoodHub.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorControlActivated = global::FoodHub.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.InputKit.Resource.Attribute.colorControlHighlight = global::FoodHub.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.InputKit.Resource.Attribute.colorControlNormal = global::FoodHub.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorError = global::FoodHub.Droid.Resource.Attribute.colorError;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimary = global::FoodHub.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimaryDark = global::FoodHub.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Attribute.colorSwitchThumbNormal = global::FoodHub.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Attribute.commitIcon = global::FoodHub.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.InputKit.Resource.Attribute.contentDescription = global::FoodHub.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEnd = global::FoodHub.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEndWithActions = global::FoodHub.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetLeft = global::FoodHub.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetRight = global::FoodHub.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStart = global::FoodHub.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStartWithNavigation = global::FoodHub.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Attribute.contentPadding = global::FoodHub.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingBottom = global::FoodHub.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingLeft = global::FoodHub.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingRight = global::FoodHub.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingTop = global::FoodHub.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.contentScrim = global::FoodHub.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.InputKit.Resource.Attribute.controlBackground = global::FoodHub.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.InputKit.Resource.Attribute.counterEnabled = global::FoodHub.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.InputKit.Resource.Attribute.counterMaxLength = global::FoodHub.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.InputKit.Resource.Attribute.counterOverflowTextAppearance = global::FoodHub.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.counterTextAppearance = global::FoodHub.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.customNavigationLayout = global::FoodHub.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.InputKit.Resource.Attribute.defaultQueryHint = global::FoodHub.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.InputKit.Resource.Attribute.dialogPreferredPadding = global::FoodHub.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Attribute.dialogTheme = global::FoodHub.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.displayOptions = global::FoodHub.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.InputKit.Resource.Attribute.divider = global::FoodHub.Droid.Resource.Attribute.divider;
+			global::Plugin.InputKit.Resource.Attribute.dividerHorizontal = global::FoodHub.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.dividerPadding = global::FoodHub.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.InputKit.Resource.Attribute.dividerVertical = global::FoodHub.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.InputKit.Resource.Attribute.drawableSize = global::FoodHub.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.InputKit.Resource.Attribute.drawerArrowStyle = global::FoodHub.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.InputKit.Resource.Attribute.dropDownListViewStyle = global::FoodHub.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.dropdownListPreferredItemHeight = global::FoodHub.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.editTextBackground = global::FoodHub.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.InputKit.Resource.Attribute.editTextColor = global::FoodHub.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.InputKit.Resource.Attribute.editTextStyle = global::FoodHub.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.elevation = global::FoodHub.Droid.Resource.Attribute.elevation;
+			global::Plugin.InputKit.Resource.Attribute.errorEnabled = global::FoodHub.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.InputKit.Resource.Attribute.errorTextAppearance = global::FoodHub.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FoodHub.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Attribute.expanded = global::FoodHub.Droid.Resource.Attribute.expanded;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleGravity = global::FoodHub.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMargin = global::FoodHub.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginBottom = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginEnd = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginStart = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginTop = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleTextAppearance = global::FoodHub.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.externalRouteEnabledDrawable = global::FoodHub.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fabSize = global::FoodHub.Droid.Resource.Attribute.fabSize;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollEnabled = global::FoodHub.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.font = global::FoodHub.Droid.Resource.Attribute.font;
+			global::Plugin.InputKit.Resource.Attribute.fontFamily = global::FoodHub.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderAuthority = global::FoodHub.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderCerts = global::FoodHub.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchStrategy = global::FoodHub.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchTimeout = global::FoodHub.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderPackage = global::FoodHub.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderQuery = global::FoodHub.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.InputKit.Resource.Attribute.fontStyle = global::FoodHub.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.InputKit.Resource.Attribute.fontWeight = global::FoodHub.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.InputKit.Resource.Attribute.foregroundInsidePadding = global::FoodHub.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Attribute.gapBetweenBars = global::FoodHub.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.InputKit.Resource.Attribute.goIcon = global::FoodHub.Droid.Resource.Attribute.goIcon;
+			global::Plugin.InputKit.Resource.Attribute.headerLayout = global::FoodHub.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.InputKit.Resource.Attribute.height = global::FoodHub.Droid.Resource.Attribute.height;
+			global::Plugin.InputKit.Resource.Attribute.hideOnContentScroll = global::FoodHub.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Attribute.hintAnimationEnabled = global::FoodHub.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintEnabled = global::FoodHub.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintTextAppearance = global::FoodHub.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.homeAsUpIndicator = global::FoodHub.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Attribute.homeLayout = global::FoodHub.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.InputKit.Resource.Attribute.icon = global::FoodHub.Droid.Resource.Attribute.icon;
+			global::Plugin.InputKit.Resource.Attribute.iconTint = global::FoodHub.Droid.Resource.Attribute.iconTint;
+			global::Plugin.InputKit.Resource.Attribute.iconTintMode = global::FoodHub.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.iconifiedByDefault = global::FoodHub.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Attribute.imageButtonStyle = global::FoodHub.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.indeterminateProgressStyle = global::FoodHub.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Attribute.initialActivityCount = global::FoodHub.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.InputKit.Resource.Attribute.insetForeground = global::FoodHub.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.InputKit.Resource.Attribute.isLightTheme = global::FoodHub.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.InputKit.Resource.Attribute.itemBackground = global::FoodHub.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.InputKit.Resource.Attribute.itemIconTint = global::FoodHub.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.InputKit.Resource.Attribute.itemPadding = global::FoodHub.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearance = global::FoodHub.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.itemTextColor = global::FoodHub.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.InputKit.Resource.Attribute.keylines = global::FoodHub.Droid.Resource.Attribute.keylines;
+			global::Plugin.InputKit.Resource.Attribute.layout = global::FoodHub.Droid.Resource.Attribute.layout;
+			global::Plugin.InputKit.Resource.Attribute.layoutManager = global::FoodHub.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchor = global::FoodHub.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchorGravity = global::FoodHub.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Attribute.layout_behavior = global::FoodHub.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseMode = global::FoodHub.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseParallaxMultiplier = global::FoodHub.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Attribute.layout_dodgeInsetEdges = global::FoodHub.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Attribute.layout_insetEdge = global::FoodHub.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.InputKit.Resource.Attribute.layout_keyline = global::FoodHub.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollFlags = global::FoodHub.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollInterpolator = global::FoodHub.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceBackgroundIndicator = global::FoodHub.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Attribute.listDividerAlertDialog = global::FoodHub.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Attribute.listItemLayout = global::FoodHub.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.listLayout = global::FoodHub.Droid.Resource.Attribute.listLayout;
+			global::Plugin.InputKit.Resource.Attribute.listMenuViewStyle = global::FoodHub.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPopupWindowStyle = global::FoodHub.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeight = global::FoodHub.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightLarge = global::FoodHub.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightSmall = global::FoodHub.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingLeft = global::FoodHub.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingRight = global::FoodHub.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.logo = global::FoodHub.Droid.Resource.Attribute.logo;
+			global::Plugin.InputKit.Resource.Attribute.logoDescription = global::FoodHub.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.InputKit.Resource.Attribute.maxActionInlineWidth = global::FoodHub.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Attribute.maxButtonHeight = global::FoodHub.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.InputKit.Resource.Attribute.measureWithLargestChild = global::FoodHub.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteAudioTrackDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteButtonStyle = global::FoodHub.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteButtonTint = global::FoodHub.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteCloseDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::FoodHub.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteDefaultIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRoutePauseDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRoutePlayDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteStopDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteTheme = global::FoodHub.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Plugin.InputKit.Resource.Attribute.mediaRouteTvIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Plugin.InputKit.Resource.Attribute.menu = global::FoodHub.Droid.Resource.Attribute.menu;
+			global::Plugin.InputKit.Resource.Attribute.multiChoiceItemLayout = global::FoodHub.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.navigationContentDescription = global::FoodHub.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.navigationIcon = global::FoodHub.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.InputKit.Resource.Attribute.navigationMode = global::FoodHub.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.InputKit.Resource.Attribute.numericModifiers = global::FoodHub.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.InputKit.Resource.Attribute.overlapAnchor = global::FoodHub.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.InputKit.Resource.Attribute.paddingBottomNoButtons = global::FoodHub.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Attribute.paddingEnd = global::FoodHub.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.paddingStart = global::FoodHub.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.InputKit.Resource.Attribute.paddingTopNoTitle = global::FoodHub.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Attribute.panelBackground = global::FoodHub.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListTheme = global::FoodHub.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListWidth = global::FoodHub.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleContentDescription = global::FoodHub.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleDrawable = global::FoodHub.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleEnabled = global::FoodHub.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTint = global::FoodHub.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTintMode = global::FoodHub.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Attribute.popupMenuStyle = global::FoodHub.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.popupTheme = global::FoodHub.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.InputKit.Resource.Attribute.popupWindowStyle = global::FoodHub.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.preserveIconSpacing = global::FoodHub.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Attribute.pressedTranslationZ = global::FoodHub.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.progressBarPadding = global::FoodHub.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.InputKit.Resource.Attribute.progressBarStyle = global::FoodHub.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.queryBackground = global::FoodHub.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.InputKit.Resource.Attribute.queryHint = global::FoodHub.Droid.Resource.Attribute.queryHint;
+			global::Plugin.InputKit.Resource.Attribute.radioButtonStyle = global::FoodHub.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyle = global::FoodHub.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleIndicator = global::FoodHub.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleSmall = global::FoodHub.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.reverseLayout = global::FoodHub.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.InputKit.Resource.Attribute.rippleColor = global::FoodHub.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.InputKit.Resource.Attribute.scrimAnimationDuration = global::FoodHub.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.scrimVisibleHeightTrigger = global::FoodHub.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Attribute.searchHintIcon = global::FoodHub.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchIcon = global::FoodHub.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchViewStyle = global::FoodHub.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.seekBarStyle = global::FoodHub.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackground = global::FoodHub.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackgroundBorderless = global::FoodHub.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Attribute.showAsAction = global::FoodHub.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.InputKit.Resource.Attribute.showDividers = global::FoodHub.Droid.Resource.Attribute.showDividers;
+			global::Plugin.InputKit.Resource.Attribute.showText = global::FoodHub.Droid.Resource.Attribute.showText;
+			global::Plugin.InputKit.Resource.Attribute.showTitle = global::FoodHub.Droid.Resource.Attribute.showTitle;
+			global::Plugin.InputKit.Resource.Attribute.singleChoiceItemLayout = global::FoodHub.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.spanCount = global::FoodHub.Droid.Resource.Attribute.spanCount;
+			global::Plugin.InputKit.Resource.Attribute.spinBars = global::FoodHub.Droid.Resource.Attribute.spinBars;
+			global::Plugin.InputKit.Resource.Attribute.spinnerDropDownItemStyle = global::FoodHub.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Attribute.spinnerStyle = global::FoodHub.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.InputKit.Resource.Attribute.splitTrack = global::FoodHub.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.InputKit.Resource.Attribute.srcCompat = global::FoodHub.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.InputKit.Resource.Attribute.stackFromEnd = global::FoodHub.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.InputKit.Resource.Attribute.state_above_anchor = global::FoodHub.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsed = global::FoodHub.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsible = global::FoodHub.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.InputKit.Resource.Attribute.statusBarBackground = global::FoodHub.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.InputKit.Resource.Attribute.statusBarScrim = global::FoodHub.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.InputKit.Resource.Attribute.subMenuArrow = global::FoodHub.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.InputKit.Resource.Attribute.submitBackground = global::FoodHub.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.InputKit.Resource.Attribute.subtitle = global::FoodHub.Droid.Resource.Attribute.subtitle;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextAppearance = global::FoodHub.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextColor = global::FoodHub.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextStyle = global::FoodHub.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.suggestionRowLayout = global::FoodHub.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Attribute.switchMinWidth = global::FoodHub.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.switchPadding = global::FoodHub.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.InputKit.Resource.Attribute.switchStyle = global::FoodHub.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.InputKit.Resource.Attribute.switchTextAppearance = global::FoodHub.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabBackground = global::FoodHub.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.InputKit.Resource.Attribute.tabContentStart = global::FoodHub.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.InputKit.Resource.Attribute.tabGravity = global::FoodHub.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorColor = global::FoodHub.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorHeight = global::FoodHub.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Attribute.tabMaxWidth = global::FoodHub.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMinWidth = global::FoodHub.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMode = global::FoodHub.Droid.Resource.Attribute.tabMode;
+			global::Plugin.InputKit.Resource.Attribute.tabPadding = global::FoodHub.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingBottom = global::FoodHub.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingEnd = global::FoodHub.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingStart = global::FoodHub.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingTop = global::FoodHub.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.tabSelectedTextColor = global::FoodHub.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabTextAppearance = global::FoodHub.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabTextColor = global::FoodHub.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.InputKit.Resource.Attribute.textAllCaps = global::FoodHub.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceLargePopupMenu = global::FoodHub.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItem = global::FoodHub.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSecondary = global::FoodHub.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSmall = global::FoodHub.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Attribute.textAppearancePopupMenuHeader = global::FoodHub.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FoodHub.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultTitle = global::FoodHub.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSmallPopupMenu = global::FoodHub.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textColorAlertDialogListItem = global::FoodHub.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Attribute.textColorSearchUrl = global::FoodHub.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Attribute.theme = global::FoodHub.Droid.Resource.Attribute.theme;
+			global::Plugin.InputKit.Resource.Attribute.thickness = global::FoodHub.Droid.Resource.Attribute.thickness;
+			global::Plugin.InputKit.Resource.Attribute.thumbTextPadding = global::FoodHub.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.InputKit.Resource.Attribute.thumbTint = global::FoodHub.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.InputKit.Resource.Attribute.thumbTintMode = global::FoodHub.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tickMark = global::FoodHub.Droid.Resource.Attribute.tickMark;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTint = global::FoodHub.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTintMode = global::FoodHub.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tint = global::FoodHub.Droid.Resource.Attribute.tint;
+			global::Plugin.InputKit.Resource.Attribute.tintMode = global::FoodHub.Droid.Resource.Attribute.tintMode;
+			global::Plugin.InputKit.Resource.Attribute.title = global::FoodHub.Droid.Resource.Attribute.title;
+			global::Plugin.InputKit.Resource.Attribute.titleEnabled = global::FoodHub.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.titleMargin = global::FoodHub.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginBottom = global::FoodHub.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginEnd = global::FoodHub.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginStart = global::FoodHub.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginTop = global::FoodHub.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.titleMargins = global::FoodHub.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.InputKit.Resource.Attribute.titleTextAppearance = global::FoodHub.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.titleTextColor = global::FoodHub.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.titleTextStyle = global::FoodHub.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarId = global::FoodHub.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.InputKit.Resource.Attribute.toolbarNavigationButtonStyle = global::FoodHub.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarStyle = global::FoodHub.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.tooltipForegroundColor = global::FoodHub.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Attribute.tooltipFrameBackground = global::FoodHub.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Attribute.tooltipText = global::FoodHub.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.InputKit.Resource.Attribute.track = global::FoodHub.Droid.Resource.Attribute.track;
+			global::Plugin.InputKit.Resource.Attribute.trackTint = global::FoodHub.Droid.Resource.Attribute.trackTint;
+			global::Plugin.InputKit.Resource.Attribute.trackTintMode = global::FoodHub.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.InputKit.Resource.Attribute.useCompatPadding = global::FoodHub.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.voiceIcon = global::FoodHub.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBar = global::FoodHub.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBarOverlay = global::FoodHub.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowActionModeOverlay = global::FoodHub.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMajor = global::FoodHub.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMinor = global::FoodHub.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMajor = global::FoodHub.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMinor = global::FoodHub.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMajor = global::FoodHub.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMinor = global::FoodHub.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowNoTitle = global::FoodHub.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.InputKit.Resource.Boolean.abc_action_bar_embed_tabs = global::FoodHub.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.InputKit.Resource.Boolean.abc_allow_stacked_button_bar = global::FoodHub.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.InputKit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FoodHub.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FoodHub.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_light = global::FoodHub.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_borderless_text_material = global::FoodHub.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_text_material = global::FoodHub.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_color_highlight_material = global::FoodHub.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_dark = global::FoodHub.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_light = global::FoodHub.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_input_method_navigation_guard = global::FoodHub.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_dark = global::FoodHub.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_light = global::FoodHub.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_dark = global::FoodHub.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_light = global::FoodHub.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text = global::FoodHub.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_normal = global::FoodHub.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_pressed = global::FoodHub.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_selected = global::FoodHub.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_dark = global::FoodHub.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_light = global::FoodHub.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_tint_btn_checkable = global::FoodHub.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.InputKit.Resource.Color.abc_tint_default = global::FoodHub.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.InputKit.Resource.Color.abc_tint_edittext = global::FoodHub.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.InputKit.Resource.Color.abc_tint_seek_thumb = global::FoodHub.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.InputKit.Resource.Color.abc_tint_spinner = global::FoodHub.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.InputKit.Resource.Color.abc_tint_switch_track = global::FoodHub.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.InputKit.Resource.Color.accent_material_dark = global::FoodHub.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.InputKit.Resource.Color.accent_material_light = global::FoodHub.Droid.Resource.Color.accent_material_light;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_dark = global::FoodHub.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_light = global::FoodHub.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.InputKit.Resource.Color.background_material_dark = global::FoodHub.Droid.Resource.Color.background_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_material_light = global::FoodHub.Droid.Resource.Color.background_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_dark = global::FoodHub.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_light = global::FoodHub.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_dark = global::FoodHub.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_light = global::FoodHub.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_dark = global::FoodHub.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_light = global::FoodHub.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.button_material_dark = global::FoodHub.Droid.Resource.Color.button_material_dark;
+			global::Plugin.InputKit.Resource.Color.button_material_light = global::FoodHub.Droid.Resource.Color.button_material_light;
+			global::Plugin.InputKit.Resource.Color.cardview_dark_background = global::FoodHub.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.InputKit.Resource.Color.cardview_light_background = global::FoodHub.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_end_color = global::FoodHub.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_start_color = global::FoodHub.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_bottom_navigation_shadow_color = global::FoodHub.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.InputKit.Resource.Color.design_error = global::FoodHub.Droid.Resource.Color.design_error;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_end_color = global::FoodHub.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_mid_color = global::FoodHub.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_start_color = global::FoodHub.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_inner_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_outer_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_inner_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_outer_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_snackbar_background_color = global::FoodHub.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.InputKit.Resource.Color.design_tint_password_toggle = global::FoodHub.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_dark = global::FoodHub.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_light = global::FoodHub.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_dark = global::FoodHub.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_light = global::FoodHub.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.foreground_material_dark = global::FoodHub.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.foreground_material_light = global::FoodHub.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_dark = global::FoodHub.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_light = global::FoodHub.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_800 = global::FoodHub.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_900 = global::FoodHub.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_950 = global::FoodHub.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_200 = global::FoodHub.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_500 = global::FoodHub.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.InputKit.Resource.Color.material_grey_100 = global::FoodHub.Droid.Resource.Color.material_grey_100;
+			global::Plugin.InputKit.Resource.Color.material_grey_300 = global::FoodHub.Droid.Resource.Color.material_grey_300;
+			global::Plugin.InputKit.Resource.Color.material_grey_50 = global::FoodHub.Droid.Resource.Color.material_grey_50;
+			global::Plugin.InputKit.Resource.Color.material_grey_600 = global::FoodHub.Droid.Resource.Color.material_grey_600;
+			global::Plugin.InputKit.Resource.Color.material_grey_800 = global::FoodHub.Droid.Resource.Color.material_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_grey_850 = global::FoodHub.Droid.Resource.Color.material_grey_850;
+			global::Plugin.InputKit.Resource.Color.material_grey_900 = global::FoodHub.Droid.Resource.Color.material_grey_900;
+			global::Plugin.InputKit.Resource.Color.notification_action_color_filter = global::FoodHub.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.InputKit.Resource.Color.notification_icon_bg_color = global::FoodHub.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.InputKit.Resource.Color.notification_material_background_media_default_color = global::FoodHub.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_dark = global::FoodHub.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_light = global::FoodHub.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_material_dark = global::FoodHub.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_material_light = global::FoodHub.Droid.Resource.Color.primary_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_dark = global::FoodHub.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_light = global::FoodHub.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_dark = global::FoodHub.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_light = global::FoodHub.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.ripple_material_dark = global::FoodHub.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.InputKit.Resource.Color.ripple_material_light = global::FoodHub.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_dark = global::FoodHub.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_light = global::FoodHub.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_dark = global::FoodHub.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_light = global::FoodHub.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_dark = global::FoodHub.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_light = global::FoodHub.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_dark = global::FoodHub.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_light = global::FoodHub.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_dark = global::FoodHub.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_light = global::FoodHub.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_dark = global::FoodHub.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_light = global::FoodHub.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_height_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_elevation_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_max_height = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_height_material = global::FoodHub.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_material = global::FoodHub.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FoodHub.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FoodHub.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_vertical_material = global::FoodHub.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_vertical_material = global::FoodHub.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FoodHub.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_config_prefDialogWidth = global::FoodHub.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_corner_material = global::FoodHub.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_inset_material = global::FoodHub.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_padding_material = global::FoodHub.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_major = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_minor = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_major = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_minor = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FoodHub.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FoodHub.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_major = global::FoodHub.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_minor = global::FoodHub.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_material = global::FoodHub.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_top_material = global::FoodHub.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_title_divider_material = global::FoodHub.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_icon_width = global::FoodHub.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FoodHub.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FoodHub.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FoodHub.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_top_material = global::FoodHub.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_floating_window_z = global::FoodHub.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_panel_menu_list_width = global::FoodHub.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_progress_bar_height_material = global::FoodHub.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_height = global::FoodHub.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_width = global::FoodHub.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_background_height_material = global::FoodHub.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FoodHub.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_select_dialog_padding_start_material = global::FoodHub.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_switch_padding = global::FoodHub.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_1_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_2_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_button_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_caption_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_1_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_2_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_3_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_4_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_headline_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_large_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_medium_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_header_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_small_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subhead_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FoodHub.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material_toolbar = global::FoodHub.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.cardview_compat_inset_shadow = global::FoodHub.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_elevation = global::FoodHub.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_radius = global::FoodHub.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_horizontal_material = global::FoodHub.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_vertical_material = global::FoodHub.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_horizontal_material = global::FoodHub.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_vertical_material = global::FoodHub.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_control_corner_material = global::FoodHub.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.design_appbar_elevation = global::FoodHub.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_text_size = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_elevation = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_height = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_max_width = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_min_width = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_margin = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_shadow_height = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_text_size = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FoodHub.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FoodHub.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_border_width = global::FoodHub.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_elevation = global::FoodHub.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_image_size = global::FoodHub.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_mini = global::FoodHub.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_normal = global::FoodHub.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_pressed = global::FoodHub.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_elevation = global::FoodHub.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_padding = global::FoodHub.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_size = global::FoodHub.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_max_width = global::FoodHub.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_padding_bottom = global::FoodHub.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_separator_vertical_padding = global::FoodHub.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_action_inline_max_width = global::FoodHub.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_background_corner_radius = global::FoodHub.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_elevation = global::FoodHub.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FoodHub.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_max_width = global::FoodHub.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_min_width = global::FoodHub.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_horizontal = global::FoodHub.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical = global::FoodHub.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FoodHub.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_text_size = global::FoodHub.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_max_width = global::FoodHub.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_scrollable_min_width = global::FoodHub.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size = global::FoodHub.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size_2line = global::FoodHub.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_default_thickness = global::FoodHub.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_margin = global::FoodHub.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_minimum_range = global::FoodHub.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_colored = global::FoodHub.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FoodHub.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FoodHub.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FoodHub.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_item_height = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_max_height = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.mr_dialog_fixed_width_major = global::FoodHub.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Plugin.InputKit.Resource.Dimension.mr_dialog_fixed_width_minor = global::FoodHub.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_icon_size = global::FoodHub.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_text_size = global::FoodHub.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_big_circle_margin = global::FoodHub.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_content_margin_start = global::FoodHub.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_height = global::FoodHub.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_width = global::FoodHub.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.notification_main_column_padding_top = global::FoodHub.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_media_narrow_margin = global::FoodHub.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_icon_size = global::FoodHub.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_side_padding_top = global::FoodHub.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_background_padding = global::FoodHub.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_size_as_large = global::FoodHub.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.InputKit.Resource.Dimension.notification_subtext_size = global::FoodHub.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad = global::FoodHub.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad_large_text = global::FoodHub.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_corner_radius = global::FoodHub.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_horizontal_padding = global::FoodHub.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_margin = global::FoodHub.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FoodHub.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_threshold = global::FoodHub.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_vertical_padding = global::FoodHub.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_non_touch = global::FoodHub.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_touch = global::FoodHub.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.InputKit.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_action_bar_item_background_material = global::FoodHub.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_borderless_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FoodHub.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FoodHub.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_colored_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_default_mtrl_shape = global::FoodHub.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FoodHub.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FoodHub.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FoodHub.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FoodHub.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_internal_bg = global::FoodHub.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_material = global::FoodHub.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_control_background_material = global::FoodHub.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_dialog_material_background = global::FoodHub.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.InputKit.Resource.Drawable.abc_edit_text_material = global::FoodHub.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_ab_back_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_clear_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_go_search_api_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_overflow_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_search_api_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_16dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_36dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_48dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_16dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_36dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_48dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_voice_search_api_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_focused_holo = global::FoodHub.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_longpressed_holo = global::FoodHub.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FoodHub.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_popup_background_mtrl_mult = global::FoodHub.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_indicator_material = global::FoodHub.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_material = global::FoodHub.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_small_material = global::FoodHub.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_thumb_material = global::FoodHub.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_tick_mark_material = global::FoodHub.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_track_material = global::FoodHub.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FoodHub.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_textfield_background_material = global::FoodHub.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_thumb_material = global::FoodHub.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_material = global::FoodHub.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_cursor_material = global::FoodHub.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_material = global::FoodHub.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_vector_test = global::FoodHub.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.InputKit.Resource.Drawable.avd_hide_password = global::FoodHub.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.InputKit.Resource.Drawable.avd_show_password = global::FoodHub.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.InputKit.Resource.Drawable.design_bottom_navigation_item_background = global::FoodHub.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.InputKit.Resource.Drawable.design_fab_background = global::FoodHub.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility = global::FoodHub.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility_off = global::FoodHub.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.InputKit.Resource.Drawable.design_password_eye = global::FoodHub.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.InputKit.Resource.Drawable.design_snackbar_background = global::FoodHub.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.InputKit.Resource.Drawable.ic_audiotrack_dark = global::FoodHub.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_audiotrack_light = global::FoodHub.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_dialog_close_dark = global::FoodHub.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_dialog_close_light = global::FoodHub.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_00 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_01 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_02 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_03 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_04 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_05 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_06 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_07 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_08 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_09 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_10 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_11 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_12 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_13 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_14 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_15 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_00 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_01 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_02 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_03 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_04 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_05 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_06 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_07 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_08 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_09 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_10 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_11 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_12 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_13 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_14 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_15 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Plugin.InputKit.Resource.Drawable.ic_media_pause_dark = global::FoodHub.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_media_pause_light = global::FoodHub.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_media_play_dark = global::FoodHub.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_media_play_light = global::FoodHub.Droid.Resource.Drawable.ic_media_play_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_media_stop_dark = global::FoodHub.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_media_stop_light = global::FoodHub.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_00_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_00_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_01_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_01_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_02_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_02_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_03_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_03_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_04_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_04_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_05_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_05_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_06_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_06_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_07_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_07_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_08_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_08_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_09_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_09_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_10_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_10_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_11_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_11_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_12_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_12_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_13_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_13_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_14_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_14_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_15_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_15_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_16_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_16_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_17_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_17_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_18_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_18_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_19_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_19_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_20_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_20_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_21_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_21_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_22_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_22_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_23_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_23_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_24_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_24_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_25_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_25_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_26_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_26_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_27_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_27_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_28_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_28_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_29_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_29_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_30_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_30_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_00_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_00_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_01_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_01_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_02_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_02_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_03_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_03_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_04_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_04_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_05_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_05_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_06_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_06_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_07_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_07_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_08_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_08_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_09_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_09_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_10_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_10_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_11_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_11_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_12_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_12_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_13_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_13_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_14_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_14_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_15_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_15_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_16_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_16_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_17_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_17_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_18_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_18_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_19_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_19_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_20_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_20_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_21_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_21_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_22_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_22_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_23_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_23_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_24_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_24_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_25_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_25_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_26_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_26_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_27_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_27_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_28_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_28_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_29_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_29_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_30_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_30_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disabled_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disabled_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disconnected_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disconnected_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_grey = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_dark = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_group_dark = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_group_light = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_light = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_tv_dark = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_tv_light = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_button_connected_dark = global::FoodHub.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_button_connected_light = global::FoodHub.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_button_connecting_dark = global::FoodHub.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_button_connecting_light = global::FoodHub.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_button_dark = global::FoodHub.Droid.Resource.Drawable.mr_button_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_button_light = global::FoodHub.Droid.Resource.Drawable.mr_button_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_dialog_close_dark = global::FoodHub.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_dialog_close_light = global::FoodHub.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_dialog_material_background_dark = global::FoodHub.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_dialog_material_background_light = global::FoodHub.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_group_collapse = global::FoodHub.Droid.Resource.Drawable.mr_group_collapse;
+			global::Plugin.InputKit.Resource.Drawable.mr_group_expand = global::FoodHub.Droid.Resource.Drawable.mr_group_expand;
+			global::Plugin.InputKit.Resource.Drawable.mr_media_pause_dark = global::FoodHub.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_media_pause_light = global::FoodHub.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_media_play_dark = global::FoodHub.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_media_play_light = global::FoodHub.Droid.Resource.Drawable.mr_media_play_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_media_stop_dark = global::FoodHub.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_media_stop_light = global::FoodHub.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Plugin.InputKit.Resource.Drawable.mr_vol_type_audiotrack_dark = global::FoodHub.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Plugin.InputKit.Resource.Drawable.mr_vol_type_audiotrack_light = global::FoodHub.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Plugin.InputKit.Resource.Drawable.navigation_empty_icon = global::FoodHub.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.InputKit.Resource.Drawable.notification_action_background = global::FoodHub.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg = global::FoodHub.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low = global::FoodHub.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_normal = global::FoodHub.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_pressed = global::FoodHub.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal = global::FoodHub.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal_pressed = global::FoodHub.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_icon_background = global::FoodHub.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_bg = global::FoodHub.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_low_bg = global::FoodHub.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_tile_bg = global::FoodHub.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.InputKit.Resource.Drawable.notify_panel_notification_icon_bg = global::FoodHub.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_dark = global::FoodHub.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_light = global::FoodHub.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.InputKit.Resource.Id.ALT = global::FoodHub.Droid.Resource.Id.ALT;
+			global::Plugin.InputKit.Resource.Id.CTRL = global::FoodHub.Droid.Resource.Id.CTRL;
+			global::Plugin.InputKit.Resource.Id.FUNCTION = global::FoodHub.Droid.Resource.Id.FUNCTION;
+			global::Plugin.InputKit.Resource.Id.META = global::FoodHub.Droid.Resource.Id.META;
+			global::Plugin.InputKit.Resource.Id.SHIFT = global::FoodHub.Droid.Resource.Id.SHIFT;
+			global::Plugin.InputKit.Resource.Id.SYM = global::FoodHub.Droid.Resource.Id.SYM;
+			global::Plugin.InputKit.Resource.Id.action0 = global::FoodHub.Droid.Resource.Id.action0;
+			global::Plugin.InputKit.Resource.Id.action_bar = global::FoodHub.Droid.Resource.Id.action_bar;
+			global::Plugin.InputKit.Resource.Id.action_bar_activity_content = global::FoodHub.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.InputKit.Resource.Id.action_bar_container = global::FoodHub.Droid.Resource.Id.action_bar_container;
+			global::Plugin.InputKit.Resource.Id.action_bar_root = global::FoodHub.Droid.Resource.Id.action_bar_root;
+			global::Plugin.InputKit.Resource.Id.action_bar_spinner = global::FoodHub.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.InputKit.Resource.Id.action_bar_subtitle = global::FoodHub.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.InputKit.Resource.Id.action_bar_title = global::FoodHub.Droid.Resource.Id.action_bar_title;
+			global::Plugin.InputKit.Resource.Id.action_container = global::FoodHub.Droid.Resource.Id.action_container;
+			global::Plugin.InputKit.Resource.Id.action_context_bar = global::FoodHub.Droid.Resource.Id.action_context_bar;
+			global::Plugin.InputKit.Resource.Id.action_divider = global::FoodHub.Droid.Resource.Id.action_divider;
+			global::Plugin.InputKit.Resource.Id.action_image = global::FoodHub.Droid.Resource.Id.action_image;
+			global::Plugin.InputKit.Resource.Id.action_menu_divider = global::FoodHub.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.InputKit.Resource.Id.action_menu_presenter = global::FoodHub.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar = global::FoodHub.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar_stub = global::FoodHub.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.InputKit.Resource.Id.action_mode_close_button = global::FoodHub.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.InputKit.Resource.Id.action_text = global::FoodHub.Droid.Resource.Id.action_text;
+			global::Plugin.InputKit.Resource.Id.actions = global::FoodHub.Droid.Resource.Id.actions;
+			global::Plugin.InputKit.Resource.Id.activity_chooser_view_content = global::FoodHub.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.InputKit.Resource.Id.add = global::FoodHub.Droid.Resource.Id.add;
+			global::Plugin.InputKit.Resource.Id.alertTitle = global::FoodHub.Droid.Resource.Id.alertTitle;
+			global::Plugin.InputKit.Resource.Id.all = global::FoodHub.Droid.Resource.Id.all;
+			global::Plugin.InputKit.Resource.Id.always = global::FoodHub.Droid.Resource.Id.always;
+			global::Plugin.InputKit.Resource.Id.async = global::FoodHub.Droid.Resource.Id.async;
+			global::Plugin.InputKit.Resource.Id.auto = global::FoodHub.Droid.Resource.Id.auto;
+			global::Plugin.InputKit.Resource.Id.beginning = global::FoodHub.Droid.Resource.Id.beginning;
+			global::Plugin.InputKit.Resource.Id.blocking = global::FoodHub.Droid.Resource.Id.blocking;
+			global::Plugin.InputKit.Resource.Id.bottom = global::FoodHub.Droid.Resource.Id.bottom;
+			global::Plugin.InputKit.Resource.Id.buttonPanel = global::FoodHub.Droid.Resource.Id.buttonPanel;
+			global::Plugin.InputKit.Resource.Id.cancel_action = global::FoodHub.Droid.Resource.Id.cancel_action;
+			global::Plugin.InputKit.Resource.Id.center = global::FoodHub.Droid.Resource.Id.center;
+			global::Plugin.InputKit.Resource.Id.center_horizontal = global::FoodHub.Droid.Resource.Id.center_horizontal;
+			global::Plugin.InputKit.Resource.Id.center_vertical = global::FoodHub.Droid.Resource.Id.center_vertical;
+			global::Plugin.InputKit.Resource.Id.checkbox = global::FoodHub.Droid.Resource.Id.checkbox;
+			global::Plugin.InputKit.Resource.Id.chronometer = global::FoodHub.Droid.Resource.Id.chronometer;
+			global::Plugin.InputKit.Resource.Id.clip_horizontal = global::FoodHub.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.InputKit.Resource.Id.clip_vertical = global::FoodHub.Droid.Resource.Id.clip_vertical;
+			global::Plugin.InputKit.Resource.Id.collapseActionView = global::FoodHub.Droid.Resource.Id.collapseActionView;
+			global::Plugin.InputKit.Resource.Id.container = global::FoodHub.Droid.Resource.Id.container;
+			global::Plugin.InputKit.Resource.Id.contentPanel = global::FoodHub.Droid.Resource.Id.contentPanel;
+			global::Plugin.InputKit.Resource.Id.coordinator = global::FoodHub.Droid.Resource.Id.coordinator;
+			global::Plugin.InputKit.Resource.Id.custom = global::FoodHub.Droid.Resource.Id.custom;
+			global::Plugin.InputKit.Resource.Id.customPanel = global::FoodHub.Droid.Resource.Id.customPanel;
+			global::Plugin.InputKit.Resource.Id.decor_content_parent = global::FoodHub.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.InputKit.Resource.Id.default_activity_button = global::FoodHub.Droid.Resource.Id.default_activity_button;
+			global::Plugin.InputKit.Resource.Id.design_bottom_sheet = global::FoodHub.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area = global::FoodHub.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area_stub = global::FoodHub.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_text = global::FoodHub.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.design_navigation_view = global::FoodHub.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.InputKit.Resource.Id.disableHome = global::FoodHub.Droid.Resource.Id.disableHome;
+			global::Plugin.InputKit.Resource.Id.edit_query = global::FoodHub.Droid.Resource.Id.edit_query;
+			global::Plugin.InputKit.Resource.Id.end = global::FoodHub.Droid.Resource.Id.end;
+			global::Plugin.InputKit.Resource.Id.end_padder = global::FoodHub.Droid.Resource.Id.end_padder;
+			global::Plugin.InputKit.Resource.Id.enterAlways = global::FoodHub.Droid.Resource.Id.enterAlways;
+			global::Plugin.InputKit.Resource.Id.enterAlwaysCollapsed = global::FoodHub.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.InputKit.Resource.Id.exitUntilCollapsed = global::FoodHub.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.InputKit.Resource.Id.expand_activities_button = global::FoodHub.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.InputKit.Resource.Id.expanded_menu = global::FoodHub.Droid.Resource.Id.expanded_menu;
+			global::Plugin.InputKit.Resource.Id.fill = global::FoodHub.Droid.Resource.Id.fill;
+			global::Plugin.InputKit.Resource.Id.fill_horizontal = global::FoodHub.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.InputKit.Resource.Id.fill_vertical = global::FoodHub.Droid.Resource.Id.fill_vertical;
+			global::Plugin.InputKit.Resource.Id.@fixed = global::FoodHub.Droid.Resource.Id.@fixed;
+			global::Plugin.InputKit.Resource.Id.forever = global::FoodHub.Droid.Resource.Id.forever;
+			global::Plugin.InputKit.Resource.Id.ghost_view = global::FoodHub.Droid.Resource.Id.ghost_view;
+			global::Plugin.InputKit.Resource.Id.home = global::FoodHub.Droid.Resource.Id.home;
+			global::Plugin.InputKit.Resource.Id.homeAsUp = global::FoodHub.Droid.Resource.Id.homeAsUp;
+			global::Plugin.InputKit.Resource.Id.icon = global::FoodHub.Droid.Resource.Id.icon;
+			global::Plugin.InputKit.Resource.Id.icon_group = global::FoodHub.Droid.Resource.Id.icon_group;
+			global::Plugin.InputKit.Resource.Id.ifRoom = global::FoodHub.Droid.Resource.Id.ifRoom;
+			global::Plugin.InputKit.Resource.Id.image = global::FoodHub.Droid.Resource.Id.image;
+			global::Plugin.InputKit.Resource.Id.info = global::FoodHub.Droid.Resource.Id.info;
+			global::Plugin.InputKit.Resource.Id.italic = global::FoodHub.Droid.Resource.Id.italic;
+			global::Plugin.InputKit.Resource.Id.item_touch_helper_previous_elevation = global::FoodHub.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.InputKit.Resource.Id.largeLabel = global::FoodHub.Droid.Resource.Id.largeLabel;
+			global::Plugin.InputKit.Resource.Id.left = global::FoodHub.Droid.Resource.Id.left;
+			global::Plugin.InputKit.Resource.Id.line1 = global::FoodHub.Droid.Resource.Id.line1;
+			global::Plugin.InputKit.Resource.Id.line3 = global::FoodHub.Droid.Resource.Id.line3;
+			global::Plugin.InputKit.Resource.Id.listMode = global::FoodHub.Droid.Resource.Id.listMode;
+			global::Plugin.InputKit.Resource.Id.list_item = global::FoodHub.Droid.Resource.Id.list_item;
+			global::Plugin.InputKit.Resource.Id.masked = global::FoodHub.Droid.Resource.Id.masked;
+			global::Plugin.InputKit.Resource.Id.media_actions = global::FoodHub.Droid.Resource.Id.media_actions;
+			global::Plugin.InputKit.Resource.Id.message = global::FoodHub.Droid.Resource.Id.message;
+			global::Plugin.InputKit.Resource.Id.middle = global::FoodHub.Droid.Resource.Id.middle;
+			global::Plugin.InputKit.Resource.Id.mini = global::FoodHub.Droid.Resource.Id.mini;
+			global::Plugin.InputKit.Resource.Id.mr_art = global::FoodHub.Droid.Resource.Id.mr_art;
+			global::Plugin.InputKit.Resource.Id.mr_chooser_list = global::FoodHub.Droid.Resource.Id.mr_chooser_list;
+			global::Plugin.InputKit.Resource.Id.mr_chooser_route_desc = global::FoodHub.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Plugin.InputKit.Resource.Id.mr_chooser_route_icon = global::FoodHub.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Plugin.InputKit.Resource.Id.mr_chooser_route_name = global::FoodHub.Droid.Resource.Id.mr_chooser_route_name;
+			global::Plugin.InputKit.Resource.Id.mr_chooser_title = global::FoodHub.Droid.Resource.Id.mr_chooser_title;
+			global::Plugin.InputKit.Resource.Id.mr_close = global::FoodHub.Droid.Resource.Id.mr_close;
+			global::Plugin.InputKit.Resource.Id.mr_control_divider = global::FoodHub.Droid.Resource.Id.mr_control_divider;
+			global::Plugin.InputKit.Resource.Id.mr_control_playback_ctrl = global::FoodHub.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Plugin.InputKit.Resource.Id.mr_control_subtitle = global::FoodHub.Droid.Resource.Id.mr_control_subtitle;
+			global::Plugin.InputKit.Resource.Id.mr_control_title = global::FoodHub.Droid.Resource.Id.mr_control_title;
+			global::Plugin.InputKit.Resource.Id.mr_control_title_container = global::FoodHub.Droid.Resource.Id.mr_control_title_container;
+			global::Plugin.InputKit.Resource.Id.mr_custom_control = global::FoodHub.Droid.Resource.Id.mr_custom_control;
+			global::Plugin.InputKit.Resource.Id.mr_default_control = global::FoodHub.Droid.Resource.Id.mr_default_control;
+			global::Plugin.InputKit.Resource.Id.mr_dialog_area = global::FoodHub.Droid.Resource.Id.mr_dialog_area;
+			global::Plugin.InputKit.Resource.Id.mr_expandable_area = global::FoodHub.Droid.Resource.Id.mr_expandable_area;
+			global::Plugin.InputKit.Resource.Id.mr_group_expand_collapse = global::FoodHub.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Plugin.InputKit.Resource.Id.mr_media_main_control = global::FoodHub.Droid.Resource.Id.mr_media_main_control;
+			global::Plugin.InputKit.Resource.Id.mr_name = global::FoodHub.Droid.Resource.Id.mr_name;
+			global::Plugin.InputKit.Resource.Id.mr_playback_control = global::FoodHub.Droid.Resource.Id.mr_playback_control;
+			global::Plugin.InputKit.Resource.Id.mr_title_bar = global::FoodHub.Droid.Resource.Id.mr_title_bar;
+			global::Plugin.InputKit.Resource.Id.mr_volume_control = global::FoodHub.Droid.Resource.Id.mr_volume_control;
+			global::Plugin.InputKit.Resource.Id.mr_volume_group_list = global::FoodHub.Droid.Resource.Id.mr_volume_group_list;
+			global::Plugin.InputKit.Resource.Id.mr_volume_item_icon = global::FoodHub.Droid.Resource.Id.mr_volume_item_icon;
+			global::Plugin.InputKit.Resource.Id.mr_volume_slider = global::FoodHub.Droid.Resource.Id.mr_volume_slider;
+			global::Plugin.InputKit.Resource.Id.multiply = global::FoodHub.Droid.Resource.Id.multiply;
+			global::Plugin.InputKit.Resource.Id.navigation_header_container = global::FoodHub.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.InputKit.Resource.Id.never = global::FoodHub.Droid.Resource.Id.never;
+			global::Plugin.InputKit.Resource.Id.none = global::FoodHub.Droid.Resource.Id.none;
+			global::Plugin.InputKit.Resource.Id.normal = global::FoodHub.Droid.Resource.Id.normal;
+			global::Plugin.InputKit.Resource.Id.notification_background = global::FoodHub.Droid.Resource.Id.notification_background;
+			global::Plugin.InputKit.Resource.Id.notification_main_column = global::FoodHub.Droid.Resource.Id.notification_main_column;
+			global::Plugin.InputKit.Resource.Id.notification_main_column_container = global::FoodHub.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.InputKit.Resource.Id.parallax = global::FoodHub.Droid.Resource.Id.parallax;
+			global::Plugin.InputKit.Resource.Id.parentPanel = global::FoodHub.Droid.Resource.Id.parentPanel;
+			global::Plugin.InputKit.Resource.Id.parent_matrix = global::FoodHub.Droid.Resource.Id.parent_matrix;
+			global::Plugin.InputKit.Resource.Id.pin = global::FoodHub.Droid.Resource.Id.pin;
+			global::Plugin.InputKit.Resource.Id.progress_circular = global::FoodHub.Droid.Resource.Id.progress_circular;
+			global::Plugin.InputKit.Resource.Id.progress_horizontal = global::FoodHub.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.InputKit.Resource.Id.radio = global::FoodHub.Droid.Resource.Id.radio;
+			global::Plugin.InputKit.Resource.Id.right = global::FoodHub.Droid.Resource.Id.right;
+			global::Plugin.InputKit.Resource.Id.right_icon = global::FoodHub.Droid.Resource.Id.right_icon;
+			global::Plugin.InputKit.Resource.Id.right_side = global::FoodHub.Droid.Resource.Id.right_side;
+			global::Plugin.InputKit.Resource.Id.save_image_matrix = global::FoodHub.Droid.Resource.Id.save_image_matrix;
+			global::Plugin.InputKit.Resource.Id.save_non_transition_alpha = global::FoodHub.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.InputKit.Resource.Id.save_scale_type = global::FoodHub.Droid.Resource.Id.save_scale_type;
+			global::Plugin.InputKit.Resource.Id.screen = global::FoodHub.Droid.Resource.Id.screen;
+			global::Plugin.InputKit.Resource.Id.scroll = global::FoodHub.Droid.Resource.Id.scroll;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorDown = global::FoodHub.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorUp = global::FoodHub.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.InputKit.Resource.Id.scrollView = global::FoodHub.Droid.Resource.Id.scrollView;
+			global::Plugin.InputKit.Resource.Id.scrollable = global::FoodHub.Droid.Resource.Id.scrollable;
+			global::Plugin.InputKit.Resource.Id.search_badge = global::FoodHub.Droid.Resource.Id.search_badge;
+			global::Plugin.InputKit.Resource.Id.search_bar = global::FoodHub.Droid.Resource.Id.search_bar;
+			global::Plugin.InputKit.Resource.Id.search_button = global::FoodHub.Droid.Resource.Id.search_button;
+			global::Plugin.InputKit.Resource.Id.search_close_btn = global::FoodHub.Droid.Resource.Id.search_close_btn;
+			global::Plugin.InputKit.Resource.Id.search_edit_frame = global::FoodHub.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.InputKit.Resource.Id.search_go_btn = global::FoodHub.Droid.Resource.Id.search_go_btn;
+			global::Plugin.InputKit.Resource.Id.search_mag_icon = global::FoodHub.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.InputKit.Resource.Id.search_plate = global::FoodHub.Droid.Resource.Id.search_plate;
+			global::Plugin.InputKit.Resource.Id.search_src_text = global::FoodHub.Droid.Resource.Id.search_src_text;
+			global::Plugin.InputKit.Resource.Id.search_voice_btn = global::FoodHub.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.InputKit.Resource.Id.select_dialog_listview = global::FoodHub.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.InputKit.Resource.Id.shortcut = global::FoodHub.Droid.Resource.Id.shortcut;
+			global::Plugin.InputKit.Resource.Id.showCustom = global::FoodHub.Droid.Resource.Id.showCustom;
+			global::Plugin.InputKit.Resource.Id.showHome = global::FoodHub.Droid.Resource.Id.showHome;
+			global::Plugin.InputKit.Resource.Id.showTitle = global::FoodHub.Droid.Resource.Id.showTitle;
+			global::Plugin.InputKit.Resource.Id.smallLabel = global::FoodHub.Droid.Resource.Id.smallLabel;
+			global::Plugin.InputKit.Resource.Id.snackbar_action = global::FoodHub.Droid.Resource.Id.snackbar_action;
+			global::Plugin.InputKit.Resource.Id.snackbar_text = global::FoodHub.Droid.Resource.Id.snackbar_text;
+			global::Plugin.InputKit.Resource.Id.snap = global::FoodHub.Droid.Resource.Id.snap;
+			global::Plugin.InputKit.Resource.Id.spacer = global::FoodHub.Droid.Resource.Id.spacer;
+			global::Plugin.InputKit.Resource.Id.split_action_bar = global::FoodHub.Droid.Resource.Id.split_action_bar;
+			global::Plugin.InputKit.Resource.Id.src_atop = global::FoodHub.Droid.Resource.Id.src_atop;
+			global::Plugin.InputKit.Resource.Id.src_in = global::FoodHub.Droid.Resource.Id.src_in;
+			global::Plugin.InputKit.Resource.Id.src_over = global::FoodHub.Droid.Resource.Id.src_over;
+			global::Plugin.InputKit.Resource.Id.start = global::FoodHub.Droid.Resource.Id.start;
+			global::Plugin.InputKit.Resource.Id.status_bar_latest_event_content = global::FoodHub.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.InputKit.Resource.Id.submenuarrow = global::FoodHub.Droid.Resource.Id.submenuarrow;
+			global::Plugin.InputKit.Resource.Id.submit_area = global::FoodHub.Droid.Resource.Id.submit_area;
+			global::Plugin.InputKit.Resource.Id.tabMode = global::FoodHub.Droid.Resource.Id.tabMode;
+			global::Plugin.InputKit.Resource.Id.tag_transition_group = global::FoodHub.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.InputKit.Resource.Id.text = global::FoodHub.Droid.Resource.Id.text;
+			global::Plugin.InputKit.Resource.Id.text2 = global::FoodHub.Droid.Resource.Id.text2;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoButtons = global::FoodHub.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoTitle = global::FoodHub.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.InputKit.Resource.Id.text_input_password_toggle = global::FoodHub.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.InputKit.Resource.Id.textinput_counter = global::FoodHub.Droid.Resource.Id.textinput_counter;
+			global::Plugin.InputKit.Resource.Id.textinput_error = global::FoodHub.Droid.Resource.Id.textinput_error;
+			global::Plugin.InputKit.Resource.Id.time = global::FoodHub.Droid.Resource.Id.time;
+			global::Plugin.InputKit.Resource.Id.title = global::FoodHub.Droid.Resource.Id.title;
+			global::Plugin.InputKit.Resource.Id.titleDividerNoCustom = global::FoodHub.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.InputKit.Resource.Id.title_template = global::FoodHub.Droid.Resource.Id.title_template;
+			global::Plugin.InputKit.Resource.Id.top = global::FoodHub.Droid.Resource.Id.top;
+			global::Plugin.InputKit.Resource.Id.topPanel = global::FoodHub.Droid.Resource.Id.topPanel;
+			global::Plugin.InputKit.Resource.Id.touch_outside = global::FoodHub.Droid.Resource.Id.touch_outside;
+			global::Plugin.InputKit.Resource.Id.transition_current_scene = global::FoodHub.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.InputKit.Resource.Id.transition_layout_save = global::FoodHub.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.InputKit.Resource.Id.transition_position = global::FoodHub.Droid.Resource.Id.transition_position;
+			global::Plugin.InputKit.Resource.Id.transition_scene_layoutid_cache = global::FoodHub.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.InputKit.Resource.Id.transition_transform = global::FoodHub.Droid.Resource.Id.transition_transform;
+			global::Plugin.InputKit.Resource.Id.uniform = global::FoodHub.Droid.Resource.Id.uniform;
+			global::Plugin.InputKit.Resource.Id.up = global::FoodHub.Droid.Resource.Id.up;
+			global::Plugin.InputKit.Resource.Id.useLogo = global::FoodHub.Droid.Resource.Id.useLogo;
+			global::Plugin.InputKit.Resource.Id.view_offset_helper = global::FoodHub.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.InputKit.Resource.Id.visible = global::FoodHub.Droid.Resource.Id.visible;
+			global::Plugin.InputKit.Resource.Id.volume_item_container = global::FoodHub.Droid.Resource.Id.volume_item_container;
+			global::Plugin.InputKit.Resource.Id.withText = global::FoodHub.Droid.Resource.Id.withText;
+			global::Plugin.InputKit.Resource.Id.wrap_content = global::FoodHub.Droid.Resource.Id.wrap_content;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityDefaultDur = global::FoodHub.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityShortDur = global::FoodHub.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.InputKit.Resource.Integer.app_bar_elevation_anim_duration = global::FoodHub.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.bottom_sheet_slide_duration = global::FoodHub.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.InputKit.Resource.Integer.cancel_button_image_alpha = global::FoodHub.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.InputKit.Resource.Integer.config_tooltipAnimTime = global::FoodHub.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.InputKit.Resource.Integer.design_snackbar_text_max_lines = global::FoodHub.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.InputKit.Resource.Integer.hide_password_duration = global::FoodHub.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.InputKit.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::FoodHub.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::FoodHub.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::FoodHub.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.show_password_duration = global::FoodHub.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.InputKit.Resource.Integer.status_bar_notification_info_maxnum = global::FoodHub.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.InputKit.Resource.Interpolator.mr_fast_out_slow_in = global::FoodHub.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Plugin.InputKit.Resource.Interpolator.mr_linear_out_slow_in = global::FoodHub.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_title_item = global::FoodHub.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_up_container = global::FoodHub.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_item_layout = global::FoodHub.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_layout = global::FoodHub.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_bar = global::FoodHub.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_close_item_material = global::FoodHub.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view = global::FoodHub.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view_list_item = global::FoodHub.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_button_bar_material = global::FoodHub.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_material = global::FoodHub.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_title_material = global::FoodHub.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_dialog_title_material = global::FoodHub.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_expanded_menu_layout = global::FoodHub.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_checkbox = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_icon = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_layout = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_radio = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_header_item_layout = global::FoodHub.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_item_layout = global::FoodHub.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_content_include = global::FoodHub.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple = global::FoodHub.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FoodHub.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_toolbar = global::FoodHub.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.InputKit.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FoodHub.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.InputKit.Resource.Layout.abc_search_view = global::FoodHub.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.InputKit.Resource.Layout.abc_select_dialog_material = global::FoodHub.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_navigation_item = global::FoodHub.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_sheet_dialog = global::FoodHub.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar = global::FoodHub.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar_include = global::FoodHub.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_icon = global::FoodHub.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_text = global::FoodHub.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.InputKit.Resource.Layout.design_menu_item_action_area = global::FoodHub.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item = global::FoodHub.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_header = global::FoodHub.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_separator = global::FoodHub.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_subheader = global::FoodHub.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu = global::FoodHub.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu_item = global::FoodHub.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.InputKit.Resource.Layout.design_text_input_password_icon = global::FoodHub.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.InputKit.Resource.Layout.mr_chooser_dialog = global::FoodHub.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Plugin.InputKit.Resource.Layout.mr_chooser_list_item = global::FoodHub.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Plugin.InputKit.Resource.Layout.mr_controller_material_dialog_b = global::FoodHub.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Plugin.InputKit.Resource.Layout.mr_controller_volume_item = global::FoodHub.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Plugin.InputKit.Resource.Layout.mr_playback_control = global::FoodHub.Droid.Resource.Layout.mr_playback_control;
+			global::Plugin.InputKit.Resource.Layout.mr_volume_control = global::FoodHub.Droid.Resource.Layout.mr_volume_control;
+			global::Plugin.InputKit.Resource.Layout.notification_action = global::FoodHub.Droid.Resource.Layout.notification_action;
+			global::Plugin.InputKit.Resource.Layout.notification_action_tombstone = global::FoodHub.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.InputKit.Resource.Layout.notification_media_action = global::FoodHub.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.InputKit.Resource.Layout.notification_media_cancel_action = global::FoodHub.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media = global::FoodHub.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_custom = global::FoodHub.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow = global::FoodHub.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow_custom = global::FoodHub.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_custom_big = global::FoodHub.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.InputKit.Resource.Layout.notification_template_icon_group = global::FoodHub.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.InputKit.Resource.Layout.notification_template_lines_media = global::FoodHub.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media = global::FoodHub.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media_custom = global::FoodHub.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_chronometer = global::FoodHub.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_time = global::FoodHub.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_item_material = global::FoodHub.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_multichoice_material = global::FoodHub.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_singlechoice_material = global::FoodHub.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.InputKit.Resource.Layout.support_simple_spinner_dropdown_item = global::FoodHub.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_home_description = global::FoodHub.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_up_description = global::FoodHub.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.InputKit.Resource.String.abc_action_menu_overflow_description = global::FoodHub.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.InputKit.Resource.String.abc_action_mode_done = global::FoodHub.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.InputKit.Resource.String.abc_activity_chooser_view_see_all = global::FoodHub.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.InputKit.Resource.String.abc_activitychooserview_choose_application = global::FoodHub.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.InputKit.Resource.String.abc_capital_off = global::FoodHub.Droid.Resource.String.abc_capital_off;
+			global::Plugin.InputKit.Resource.String.abc_capital_on = global::FoodHub.Droid.Resource.String.abc_capital_on;
+			global::Plugin.InputKit.Resource.String.abc_font_family_body_1_material = global::FoodHub.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_body_2_material = global::FoodHub.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_button_material = global::FoodHub.Droid.Resource.String.abc_font_family_button_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_caption_material = global::FoodHub.Droid.Resource.String.abc_font_family_caption_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_1_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_2_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_3_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_4_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_headline_material = global::FoodHub.Droid.Resource.String.abc_font_family_headline_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_menu_material = global::FoodHub.Droid.Resource.String.abc_font_family_menu_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_subhead_material = global::FoodHub.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_title_material = global::FoodHub.Droid.Resource.String.abc_font_family_title_material;
+			global::Plugin.InputKit.Resource.String.abc_search_hint = global::FoodHub.Droid.Resource.String.abc_search_hint;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_clear = global::FoodHub.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_query = global::FoodHub.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_search = global::FoodHub.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_submit = global::FoodHub.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_voice = global::FoodHub.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with = global::FoodHub.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with_application = global::FoodHub.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.InputKit.Resource.String.abc_toolbar_collapse_description = global::FoodHub.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.InputKit.Resource.String.appbar_scrolling_view_behavior = global::FoodHub.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.InputKit.Resource.String.bottom_sheet_behavior = global::FoodHub.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.character_counter_pattern = global::FoodHub.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.InputKit.Resource.String.mr_button_content_description = global::FoodHub.Droid.Resource.String.mr_button_content_description;
+			global::Plugin.InputKit.Resource.String.mr_cast_button_connected = global::FoodHub.Droid.Resource.String.mr_cast_button_connected;
+			global::Plugin.InputKit.Resource.String.mr_cast_button_connecting = global::FoodHub.Droid.Resource.String.mr_cast_button_connecting;
+			global::Plugin.InputKit.Resource.String.mr_cast_button_disconnected = global::FoodHub.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Plugin.InputKit.Resource.String.mr_chooser_searching = global::FoodHub.Droid.Resource.String.mr_chooser_searching;
+			global::Plugin.InputKit.Resource.String.mr_chooser_title = global::FoodHub.Droid.Resource.String.mr_chooser_title;
+			global::Plugin.InputKit.Resource.String.mr_controller_album_art = global::FoodHub.Droid.Resource.String.mr_controller_album_art;
+			global::Plugin.InputKit.Resource.String.mr_controller_casting_screen = global::FoodHub.Droid.Resource.String.mr_controller_casting_screen;
+			global::Plugin.InputKit.Resource.String.mr_controller_close_description = global::FoodHub.Droid.Resource.String.mr_controller_close_description;
+			global::Plugin.InputKit.Resource.String.mr_controller_collapse_group = global::FoodHub.Droid.Resource.String.mr_controller_collapse_group;
+			global::Plugin.InputKit.Resource.String.mr_controller_disconnect = global::FoodHub.Droid.Resource.String.mr_controller_disconnect;
+			global::Plugin.InputKit.Resource.String.mr_controller_expand_group = global::FoodHub.Droid.Resource.String.mr_controller_expand_group;
+			global::Plugin.InputKit.Resource.String.mr_controller_no_info_available = global::FoodHub.Droid.Resource.String.mr_controller_no_info_available;
+			global::Plugin.InputKit.Resource.String.mr_controller_no_media_selected = global::FoodHub.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Plugin.InputKit.Resource.String.mr_controller_pause = global::FoodHub.Droid.Resource.String.mr_controller_pause;
+			global::Plugin.InputKit.Resource.String.mr_controller_play = global::FoodHub.Droid.Resource.String.mr_controller_play;
+			global::Plugin.InputKit.Resource.String.mr_controller_stop = global::FoodHub.Droid.Resource.String.mr_controller_stop;
+			global::Plugin.InputKit.Resource.String.mr_controller_stop_casting = global::FoodHub.Droid.Resource.String.mr_controller_stop_casting;
+			global::Plugin.InputKit.Resource.String.mr_controller_volume_slider = global::FoodHub.Droid.Resource.String.mr_controller_volume_slider;
+			global::Plugin.InputKit.Resource.String.mr_system_route_name = global::FoodHub.Droid.Resource.String.mr_system_route_name;
+			global::Plugin.InputKit.Resource.String.mr_user_route_category_name = global::FoodHub.Droid.Resource.String.mr_user_route_category_name;
+			global::Plugin.InputKit.Resource.String.password_toggle_content_description = global::FoodHub.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.InputKit.Resource.String.path_password_eye = global::FoodHub.Droid.Resource.String.path_password_eye;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_strike_through = global::FoodHub.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_visible = global::FoodHub.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.InputKit.Resource.String.path_password_strike_through = global::FoodHub.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.InputKit.Resource.String.search_menu_title = global::FoodHub.Droid.Resource.String.search_menu_title;
+			global::Plugin.InputKit.Resource.String.status_bar_notification_info_overflow = global::FoodHub.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat = global::FoodHub.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat_Light = global::FoodHub.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_DropDownUp = global::FoodHub.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Animation_Design_BottomSheetDialog = global::FoodHub.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat = global::FoodHub.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FoodHub.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_CardView = global::FoodHub.Droid.Resource.Style.Base_CardView;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FoodHub.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FoodHub.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FoodHub.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_EditText = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_Design_TabLayout = global::FoodHub.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.CardView = global::FoodHub.Droid.Resource.Style.CardView;
+			global::Plugin.InputKit.Resource.Style.CardView_Dark = global::FoodHub.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.InputKit.Resource.Style.CardView_Light = global::FoodHub.Droid.Resource.Style.CardView_Light;
+			global::Plugin.InputKit.Resource.Style.MyPopupMenu = global::FoodHub.Droid.Resource.Style.MyPopupMenu;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FoodHub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FoodHub.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FoodHub.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FoodHub.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body1 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body2 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Button = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Caption = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display1 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display2 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display3 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display4 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Headline = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Menu = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Error = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Hint = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Tab = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::FoodHub.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::FoodHub.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MediaRouter_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FoodHub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_CompactMenu = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design = global::FoodHub.Droid.Resource.Style.Theme_Design;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_BottomSheetDialog = global::FoodHub.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light = global::FoodHub.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FoodHub.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter;
+			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter_Light = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter_LightControlPanel = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Light = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::FoodHub.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MediaRouter_Light = global::FoodHub.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionMode = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Colored = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Small = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_EditText = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ImageButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_SearchView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListMenuView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_Menu = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupWindow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionContainer = global::FoodHub.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionText = global::FoodHub.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_AppBarLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomNavigationView = global::FoodHub.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomSheet_Modal = global::FoodHub.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_CollapsingToolbar = global::FoodHub.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_FloatingActionButton = global::FoodHub.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_NavigationView = global::FoodHub.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_Snackbar = global::FoodHub.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TabLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TextInputLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::FoodHub.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::FoodHub.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar = global::FoodHub.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_background = global::FoodHub.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundSplit = global::FoodHub.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundStacked = global::FoodHub.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEnd = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetLeft = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetRight = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStart = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_customNavigationLayout = global::FoodHub.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_displayOptions = global::FoodHub.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_divider = global::FoodHub.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_elevation = global::FoodHub.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_height = global::FoodHub.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_hideOnContentScroll = global::FoodHub.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FoodHub.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeLayout = global::FoodHub.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_icon = global::FoodHub.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_itemPadding = global::FoodHub.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_logo = global::FoodHub.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_navigationMode = global::FoodHub.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_popupTheme = global::FoodHub.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarPadding = global::FoodHub.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitle = global::FoodHub.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_title = global::FoodHub.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_titleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout = global::FoodHub.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FoodHub.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView = global::FoodHub.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FoodHub.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuView = global::FoodHub.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode = global::FoodHub.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_background = global::FoodHub.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_backgroundSplit = global::FoodHub.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_closeItemLayout = global::FoodHub.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_height = global::FoodHub.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_subtitleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_titleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView = global::FoodHub.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FoodHub.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FoodHub.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog = global::FoodHub.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_android_layout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listItemLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_showTitle = global::FoodHub.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout = global::FoodHub.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_background = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_elevation = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_expanded = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates = global::FoodHub.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FoodHub.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FoodHub.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_android_src = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_srcCompat = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tint = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tintMode = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMark = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_fontFamily = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textAllCaps = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSize = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorAccent = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorError = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimary = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_controlBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerVertical = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextColor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_switchStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBar = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_elevation = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemBackground = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemIconTint = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemTextColor = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_menu = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout = global::FoodHub.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout_allowStacking = global::FoodHub.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.InputKit.Resource.Styleable.CardView = global::FoodHub.Droid.Resource.Styleable.CardView;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minHeight = global::FoodHub.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minWidth = global::FoodHub.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardBackgroundColor = global::FoodHub.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardCornerRadius = global::FoodHub.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardElevation = global::FoodHub.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardMaxElevation = global::FoodHub.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FoodHub.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardUseCompatPadding = global::FoodHub.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPadding = global::FoodHub.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingBottom = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingLeft = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingRight = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingTop = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_title = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_alpha = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_alpha = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_color = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton = global::FoodHub.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_android_button = global::FoodHub.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTint = global::FoodHub.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTintMode = global::FoodHub.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_keylines = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.InputKit.Resource.Styleable.DesignTheme = global::FoodHub.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.InputKit.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FoodHub.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FoodHub.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_barLength = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_color = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_spinBars = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_thickness = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTint = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_borderWidth = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_elevation = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabSize = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_rippleColor = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily = global::FoodHub.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderAuthority = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderCerts = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderPackage = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderQuery = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_font = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_font = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontStyle = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontWeight = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_divider = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_showDividers = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow = global::FoodHub.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FoodHub.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FoodHub.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton;
+			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_android_minHeight = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_android_minWidth = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup = global::FoodHub.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_enabled = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_id = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_menuCategory = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_orderInCategory = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_visible = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem = global::FoodHub.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionLayout = global::FoodHub.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionProviderClass = global::FoodHub.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionViewClass = global::FoodHub.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_alphabeticModifiers = global::FoodHub.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checkable = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checked = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_enabled = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_icon = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_id = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_menuCategory = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_numericShortcut = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_onClick = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_orderInCategory = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_title = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_titleCondensed = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_visible = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_contentDescription = global::FoodHub.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTint = global::FoodHub.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTintMode = global::FoodHub.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_numericModifiers = global::FoodHub.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_showAsAction = global::FoodHub.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_tooltipText = global::FoodHub.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.InputKit.Resource.Styleable.MenuView = global::FoodHub.Droid.Resource.Styleable.MenuView;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_headerBackground = global::FoodHub.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_horizontalDivider = global::FoodHub.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemBackground = global::FoodHub.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FoodHub.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemTextAppearance = global::FoodHub.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_verticalDivider = global::FoodHub.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FoodHub.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_preserveIconSpacing = global::FoodHub.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_subMenuArrow = global::FoodHub.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView = global::FoodHub.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_background = global::FoodHub.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FoodHub.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_maxWidth = global::FoodHub.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_elevation = global::FoodHub.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_headerLayout = global::FoodHub.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemBackground = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconTint = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextAppearance = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextColor = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_menu = global::FoodHub.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow = global::FoodHub.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FoodHub.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupBackground = global::FoodHub.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_overlapAnchor = global::FoodHub.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState = global::FoodHub.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FoodHub.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView = global::FoodHub.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FoodHub.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FoodHub.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView = global::FoodHub.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FoodHub.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_orientation = global::FoodHub.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_layoutManager = global::FoodHub.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_reverseLayout = global::FoodHub.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_spanCount = global::FoodHub.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_stackFromEnd = global::FoodHub.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout = global::FoodHub.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FoodHub.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout = global::FoodHub.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FoodHub.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Styleable.SearchView = global::FoodHub.Droid.Resource.Styleable.SearchView;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_focusable = global::FoodHub.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_imeOptions = global::FoodHub.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_inputType = global::FoodHub.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_maxWidth = global::FoodHub.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_closeIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_commitIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_defaultQueryHint = global::FoodHub.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_goIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_iconifiedByDefault = global::FoodHub.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_layout = global::FoodHub.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryBackground = global::FoodHub.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryHint = global::FoodHub.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchHintIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_submitBackground = global::FoodHub.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_suggestionRowLayout = global::FoodHub.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_voiceIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_elevation = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Styleable.Spinner = global::FoodHub.Droid.Resource.Styleable.Spinner;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_dropDownWidth = global::FoodHub.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_entries = global::FoodHub.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_popupBackground = global::FoodHub.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_prompt = global::FoodHub.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_popupTheme = global::FoodHub.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat = global::FoodHub.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOff = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOn = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_thumb = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_showText = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_splitTrack = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchMinWidth = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchPadding = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTint = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTintMode = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_track = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTint = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTintMode = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabItem = global::FoodHub.Droid.Resource.Styleable.TabItem;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_icon = global::FoodHub.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_layout = global::FoodHub.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_text = global::FoodHub.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout = global::FoodHub.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabBackground = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabContentStart = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabGravity = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorColor = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMaxWidth = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMinWidth = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMode = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPadding = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingBottom = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingEnd = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingStart = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingTop = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextAppearance = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextColor = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance = global::FoodHub.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_fontFamily = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowColor = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDx = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDy = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowRadius = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColor = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorHint = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorLink = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textSize = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textStyle = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_typeface = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_fontFamily = global::FoodHub.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textAllCaps = global::FoodHub.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout = global::FoodHub.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_hint = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_textColorHint = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterMaxLength = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar = global::FoodHub.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_gravity = global::FoodHub.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_minHeight = global::FoodHub.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_buttonGravity = global::FoodHub.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseContentDescription = global::FoodHub.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseIcon = global::FoodHub.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEnd = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetLeft = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetRight = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStart = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logo = global::FoodHub.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logoDescription = global::FoodHub.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_maxButtonHeight = global::FoodHub.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationContentDescription = global::FoodHub.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationIcon = global::FoodHub.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_popupTheme = global::FoodHub.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitle = global::FoodHub.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FoodHub.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextColor = global::FoodHub.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_title = global::FoodHub.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargin = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginBottom = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginEnd = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginStart = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginTop = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargins = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextAppearance = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextColor = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.View = global::FoodHub.Droid.Resource.Styleable.View;
+			global::Plugin.InputKit.Resource.Styleable.View_android_focusable = global::FoodHub.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.View_android_theme = global::FoodHub.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingEnd = global::FoodHub.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingStart = global::FoodHub.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.InputKit.Resource.Styleable.View_theme = global::FoodHub.Droid.Resource.Styleable.View_theme;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_android_background = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_id = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_layout = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_fade_in = global::FoodHub.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_fade_out = global::FoodHub.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::FoodHub.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_popup_enter = global::FoodHub.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_popup_exit = global::FoodHub.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FoodHub.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_slide_in_bottom = global::FoodHub.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_slide_in_top = global::FoodHub.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_slide_out_bottom = global::FoodHub.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.abc_slide_out_top = global::FoodHub.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::FoodHub.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::FoodHub.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.design_snackbar_in = global::FoodHub.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.design_snackbar_out = global::FoodHub.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.EnterFromLeft = global::FoodHub.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.EnterFromRight = global::FoodHub.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.ExitToLeft = global::FoodHub.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Animation.ExitToRight = global::FoodHub.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Animator.design_appbar_state_list_animator = global::FoodHub.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarDivider = global::FoodHub.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarItemBackground = global::FoodHub.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarPopupTheme = global::FoodHub.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarSize = global::FoodHub.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarSplitStyle = global::FoodHub.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarStyle = global::FoodHub.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarTabBarStyle = global::FoodHub.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarTabStyle = global::FoodHub.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarTabTextStyle = global::FoodHub.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarTheme = global::FoodHub.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionBarWidgetTheme = global::FoodHub.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionButtonStyle = global::FoodHub.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionDropDownStyle = global::FoodHub.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionLayout = global::FoodHub.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionMenuTextAppearance = global::FoodHub.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionMenuTextColor = global::FoodHub.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeBackground = global::FoodHub.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::FoodHub.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeCloseDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeCopyDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeCutDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeFindDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModePasteDrawable = global::FoodHub.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModePopupWindowStyle = global::FoodHub.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeShareDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeSplitBackground = global::FoodHub.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeStyle = global::FoodHub.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::FoodHub.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionOverflowButtonStyle = global::FoodHub.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionOverflowMenuStyle = global::FoodHub.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionProviderClass = global::FoodHub.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.actionViewClass = global::FoodHub.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.activityChooserViewStyle = global::FoodHub.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::FoodHub.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.alertDialogCenterButtons = global::FoodHub.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.alertDialogStyle = global::FoodHub.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.alertDialogTheme = global::FoodHub.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.allowStacking = global::FoodHub.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.alpha = global::FoodHub.Droid.Resource.Attribute.alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.alphabeticModifiers = global::FoodHub.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.arrowHeadLength = global::FoodHub.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.arrowShaftLength = global::FoodHub.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::FoodHub.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.autoSizeMaxTextSize = global::FoodHub.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.autoSizeMinTextSize = global::FoodHub.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.autoSizePresetSizes = global::FoodHub.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.autoSizeStepGranularity = global::FoodHub.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.autoSizeTextType = global::FoodHub.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.background = global::FoodHub.Droid.Resource.Attribute.background;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.backgroundSplit = global::FoodHub.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.backgroundStacked = global::FoodHub.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.backgroundTint = global::FoodHub.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.backgroundTintMode = global::FoodHub.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.barLength = global::FoodHub.Droid.Resource.Attribute.barLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.behavior_autoHide = global::FoodHub.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.behavior_hideable = global::FoodHub.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.behavior_overlapTop = global::FoodHub.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.behavior_peekHeight = global::FoodHub.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.behavior_skipCollapsed = global::FoodHub.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.borderWidth = global::FoodHub.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.borderlessButtonStyle = global::FoodHub.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.bottomSheetDialogTheme = global::FoodHub.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.bottomSheetStyle = global::FoodHub.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonBarButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonBarStyle = global::FoodHub.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonGravity = global::FoodHub.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonPanelSideLayout = global::FoodHub.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonStyle = global::FoodHub.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonStyleSmall = global::FoodHub.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonTint = global::FoodHub.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.buttonTintMode = global::FoodHub.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.cardBackgroundColor = global::FoodHub.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.cardCornerRadius = global::FoodHub.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.cardElevation = global::FoodHub.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.cardMaxElevation = global::FoodHub.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.cardPreventCornerOverlap = global::FoodHub.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.cardUseCompatPadding = global::FoodHub.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.checkboxStyle = global::FoodHub.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.checkedTextViewStyle = global::FoodHub.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.closeIcon = global::FoodHub.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.closeItemLayout = global::FoodHub.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.collapseContentDescription = global::FoodHub.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.collapseIcon = global::FoodHub.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.collapsedTitleGravity = global::FoodHub.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::FoodHub.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.color = global::FoodHub.Droid.Resource.Attribute.color;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorAccent = global::FoodHub.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorBackgroundFloating = global::FoodHub.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorButtonNormal = global::FoodHub.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorControlActivated = global::FoodHub.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorControlHighlight = global::FoodHub.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorControlNormal = global::FoodHub.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorError = global::FoodHub.Droid.Resource.Attribute.colorError;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorPrimary = global::FoodHub.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorPrimaryDark = global::FoodHub.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.colorSwitchThumbNormal = global::FoodHub.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.commitIcon = global::FoodHub.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentDescription = global::FoodHub.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentInsetEnd = global::FoodHub.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentInsetEndWithActions = global::FoodHub.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentInsetLeft = global::FoodHub.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentInsetRight = global::FoodHub.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentInsetStart = global::FoodHub.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::FoodHub.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentPadding = global::FoodHub.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentPaddingBottom = global::FoodHub.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentPaddingLeft = global::FoodHub.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentPaddingRight = global::FoodHub.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentPaddingTop = global::FoodHub.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.contentScrim = global::FoodHub.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.controlBackground = global::FoodHub.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.counterEnabled = global::FoodHub.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.counterMaxLength = global::FoodHub.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.counterOverflowTextAppearance = global::FoodHub.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.counterTextAppearance = global::FoodHub.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.customNavigationLayout = global::FoodHub.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.defaultQueryHint = global::FoodHub.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dialogPreferredPadding = global::FoodHub.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dialogTheme = global::FoodHub.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.displayOptions = global::FoodHub.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.divider = global::FoodHub.Droid.Resource.Attribute.divider;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dividerHorizontal = global::FoodHub.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dividerPadding = global::FoodHub.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dividerVertical = global::FoodHub.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.drawableSize = global::FoodHub.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.drawerArrowStyle = global::FoodHub.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dropDownListViewStyle = global::FoodHub.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::FoodHub.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.editTextBackground = global::FoodHub.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.editTextColor = global::FoodHub.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.editTextStyle = global::FoodHub.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.elevation = global::FoodHub.Droid.Resource.Attribute.elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.errorEnabled = global::FoodHub.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.errorTextAppearance = global::FoodHub.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FoodHub.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expanded = global::FoodHub.Droid.Resource.Attribute.expanded;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleGravity = global::FoodHub.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleMargin = global::FoodHub.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleMarginBottom = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleMarginEnd = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleMarginStart = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleMarginTop = global::FoodHub.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.expandedTitleTextAppearance = global::FoodHub.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::FoodHub.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fabSize = global::FoodHub.Droid.Resource.Attribute.fabSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fastScrollEnabled = global::FoodHub.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FoodHub.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.font = global::FoodHub.Droid.Resource.Attribute.font;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontFamily = global::FoodHub.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontProviderAuthority = global::FoodHub.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontProviderCerts = global::FoodHub.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontProviderFetchStrategy = global::FoodHub.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontProviderFetchTimeout = global::FoodHub.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontProviderPackage = global::FoodHub.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontProviderQuery = global::FoodHub.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontStyle = global::FoodHub.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.fontWeight = global::FoodHub.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.foregroundInsidePadding = global::FoodHub.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.gapBetweenBars = global::FoodHub.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.goIcon = global::FoodHub.Droid.Resource.Attribute.goIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.headerLayout = global::FoodHub.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.height = global::FoodHub.Droid.Resource.Attribute.height;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.hideOnContentScroll = global::FoodHub.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.hintAnimationEnabled = global::FoodHub.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.hintEnabled = global::FoodHub.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.hintTextAppearance = global::FoodHub.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.homeAsUpIndicator = global::FoodHub.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.homeLayout = global::FoodHub.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.icon = global::FoodHub.Droid.Resource.Attribute.icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.iconTint = global::FoodHub.Droid.Resource.Attribute.iconTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.iconTintMode = global::FoodHub.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.iconifiedByDefault = global::FoodHub.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.imageButtonStyle = global::FoodHub.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.indeterminateProgressStyle = global::FoodHub.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.initialActivityCount = global::FoodHub.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.insetForeground = global::FoodHub.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.isLightTheme = global::FoodHub.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.itemBackground = global::FoodHub.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.itemIconTint = global::FoodHub.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.itemPadding = global::FoodHub.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.itemTextAppearance = global::FoodHub.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.itemTextColor = global::FoodHub.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.keylines = global::FoodHub.Droid.Resource.Attribute.keylines;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout = global::FoodHub.Droid.Resource.Attribute.layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layoutManager = global::FoodHub.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_anchor = global::FoodHub.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_anchorGravity = global::FoodHub.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_behavior = global::FoodHub.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_collapseMode = global::FoodHub.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::FoodHub.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::FoodHub.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_insetEdge = global::FoodHub.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_keyline = global::FoodHub.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_scrollFlags = global::FoodHub.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.layout_scrollInterpolator = global::FoodHub.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::FoodHub.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listDividerAlertDialog = global::FoodHub.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listItemLayout = global::FoodHub.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listLayout = global::FoodHub.Droid.Resource.Attribute.listLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listMenuViewStyle = global::FoodHub.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listPopupWindowStyle = global::FoodHub.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listPreferredItemHeight = global::FoodHub.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::FoodHub.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::FoodHub.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::FoodHub.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::FoodHub.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.logo = global::FoodHub.Droid.Resource.Attribute.logo;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.logoDescription = global::FoodHub.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.maxActionInlineWidth = global::FoodHub.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.maxButtonHeight = global::FoodHub.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.measureWithLargestChild = global::FoodHub.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteButtonStyle = global::FoodHub.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteButtonTint = global::FoodHub.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::FoodHub.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteStopDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteTheme = global::FoodHub.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::FoodHub.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.menu = global::FoodHub.Droid.Resource.Attribute.menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.multiChoiceItemLayout = global::FoodHub.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.navigationContentDescription = global::FoodHub.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.navigationIcon = global::FoodHub.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.navigationMode = global::FoodHub.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.numericModifiers = global::FoodHub.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.overlapAnchor = global::FoodHub.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.paddingBottomNoButtons = global::FoodHub.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.paddingEnd = global::FoodHub.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.paddingStart = global::FoodHub.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.paddingTopNoTitle = global::FoodHub.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.panelBackground = global::FoodHub.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.panelMenuListTheme = global::FoodHub.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.panelMenuListWidth = global::FoodHub.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.passwordToggleContentDescription = global::FoodHub.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.passwordToggleDrawable = global::FoodHub.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.passwordToggleEnabled = global::FoodHub.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.passwordToggleTint = global::FoodHub.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.passwordToggleTintMode = global::FoodHub.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.popupMenuStyle = global::FoodHub.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.popupTheme = global::FoodHub.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.popupWindowStyle = global::FoodHub.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.preserveIconSpacing = global::FoodHub.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.pressedTranslationZ = global::FoodHub.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.progressBarPadding = global::FoodHub.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.progressBarStyle = global::FoodHub.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.queryBackground = global::FoodHub.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.queryHint = global::FoodHub.Droid.Resource.Attribute.queryHint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.radioButtonStyle = global::FoodHub.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.ratingBarStyle = global::FoodHub.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.ratingBarStyleIndicator = global::FoodHub.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.ratingBarStyleSmall = global::FoodHub.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.reverseLayout = global::FoodHub.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.rippleColor = global::FoodHub.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.scrimAnimationDuration = global::FoodHub.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::FoodHub.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.searchHintIcon = global::FoodHub.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.searchIcon = global::FoodHub.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.searchViewStyle = global::FoodHub.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.seekBarStyle = global::FoodHub.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.selectableItemBackground = global::FoodHub.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::FoodHub.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.showAsAction = global::FoodHub.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.showDividers = global::FoodHub.Droid.Resource.Attribute.showDividers;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.showText = global::FoodHub.Droid.Resource.Attribute.showText;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.showTitle = global::FoodHub.Droid.Resource.Attribute.showTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.singleChoiceItemLayout = global::FoodHub.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.spanCount = global::FoodHub.Droid.Resource.Attribute.spanCount;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.spinBars = global::FoodHub.Droid.Resource.Attribute.spinBars;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::FoodHub.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.spinnerStyle = global::FoodHub.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.splitTrack = global::FoodHub.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.srcCompat = global::FoodHub.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.stackFromEnd = global::FoodHub.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.state_above_anchor = global::FoodHub.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.state_collapsed = global::FoodHub.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.state_collapsible = global::FoodHub.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.statusBarBackground = global::FoodHub.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.statusBarScrim = global::FoodHub.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.subMenuArrow = global::FoodHub.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.submitBackground = global::FoodHub.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.subtitle = global::FoodHub.Droid.Resource.Attribute.subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.subtitleTextAppearance = global::FoodHub.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.subtitleTextColor = global::FoodHub.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.subtitleTextStyle = global::FoodHub.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.suggestionRowLayout = global::FoodHub.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.switchMinWidth = global::FoodHub.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.switchPadding = global::FoodHub.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.switchStyle = global::FoodHub.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.switchTextAppearance = global::FoodHub.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabBackground = global::FoodHub.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabContentStart = global::FoodHub.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabGravity = global::FoodHub.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabIndicatorColor = global::FoodHub.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabIndicatorHeight = global::FoodHub.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabMaxWidth = global::FoodHub.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabMinWidth = global::FoodHub.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabMode = global::FoodHub.Droid.Resource.Attribute.tabMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabPadding = global::FoodHub.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabPaddingBottom = global::FoodHub.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabPaddingEnd = global::FoodHub.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabPaddingStart = global::FoodHub.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabPaddingTop = global::FoodHub.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabSelectedTextColor = global::FoodHub.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabTextAppearance = global::FoodHub.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tabTextColor = global::FoodHub.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAllCaps = global::FoodHub.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::FoodHub.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceListItem = global::FoodHub.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::FoodHub.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceListItemSmall = global::FoodHub.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::FoodHub.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FoodHub.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::FoodHub.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::FoodHub.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textColorAlertDialogListItem = global::FoodHub.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.textColorSearchUrl = global::FoodHub.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.theme = global::FoodHub.Droid.Resource.Attribute.theme;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.thickness = global::FoodHub.Droid.Resource.Attribute.thickness;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.thumbTextPadding = global::FoodHub.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.thumbTint = global::FoodHub.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.thumbTintMode = global::FoodHub.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tickMark = global::FoodHub.Droid.Resource.Attribute.tickMark;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tickMarkTint = global::FoodHub.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tickMarkTintMode = global::FoodHub.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tint = global::FoodHub.Droid.Resource.Attribute.tint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tintMode = global::FoodHub.Droid.Resource.Attribute.tintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.title = global::FoodHub.Droid.Resource.Attribute.title;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleEnabled = global::FoodHub.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleMargin = global::FoodHub.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleMarginBottom = global::FoodHub.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleMarginEnd = global::FoodHub.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleMarginStart = global::FoodHub.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleMarginTop = global::FoodHub.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleMargins = global::FoodHub.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleTextAppearance = global::FoodHub.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleTextColor = global::FoodHub.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.titleTextStyle = global::FoodHub.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.toolbarId = global::FoodHub.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::FoodHub.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.toolbarStyle = global::FoodHub.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tooltipForegroundColor = global::FoodHub.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tooltipFrameBackground = global::FoodHub.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.tooltipText = global::FoodHub.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.track = global::FoodHub.Droid.Resource.Attribute.track;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.trackTint = global::FoodHub.Droid.Resource.Attribute.trackTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.trackTintMode = global::FoodHub.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.useCompatPadding = global::FoodHub.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.voiceIcon = global::FoodHub.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowActionBar = global::FoodHub.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowActionBarOverlay = global::FoodHub.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowActionModeOverlay = global::FoodHub.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowFixedHeightMajor = global::FoodHub.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowFixedHeightMinor = global::FoodHub.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowFixedWidthMajor = global::FoodHub.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowFixedWidthMinor = global::FoodHub.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowMinWidthMajor = global::FoodHub.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowMinWidthMinor = global::FoodHub.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.Segmented.Control.Droid.Resource.Attribute.windowNoTitle = global::FoodHub.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::FoodHub.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.Segmented.Control.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::FoodHub.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FoodHub.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FoodHub.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::FoodHub.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::FoodHub.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_btn_colored_text_material = global::FoodHub.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_color_highlight_material = global::FoodHub.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_hint_foreground_material_dark = global::FoodHub.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_hint_foreground_material_light = global::FoodHub.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_input_method_navigation_guard = global::FoodHub.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::FoodHub.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::FoodHub.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_primary_text_material_dark = global::FoodHub.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_primary_text_material_light = global::FoodHub.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_search_url_text = global::FoodHub.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_search_url_text_normal = global::FoodHub.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_search_url_text_pressed = global::FoodHub.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_search_url_text_selected = global::FoodHub.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_secondary_text_material_dark = global::FoodHub.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_secondary_text_material_light = global::FoodHub.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_tint_btn_checkable = global::FoodHub.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_tint_default = global::FoodHub.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_tint_edittext = global::FoodHub.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_tint_seek_thumb = global::FoodHub.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_tint_spinner = global::FoodHub.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.abc_tint_switch_track = global::FoodHub.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.accent_material_dark = global::FoodHub.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.accent_material_light = global::FoodHub.Droid.Resource.Color.accent_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.background_floating_material_dark = global::FoodHub.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.background_floating_material_light = global::FoodHub.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.background_material_dark = global::FoodHub.Droid.Resource.Color.background_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.background_material_light = global::FoodHub.Droid.Resource.Color.background_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::FoodHub.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.bright_foreground_disabled_material_light = global::FoodHub.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::FoodHub.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.bright_foreground_inverse_material_light = global::FoodHub.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.bright_foreground_material_dark = global::FoodHub.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.bright_foreground_material_light = global::FoodHub.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.button_material_dark = global::FoodHub.Droid.Resource.Color.button_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.button_material_light = global::FoodHub.Droid.Resource.Color.button_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.cardview_dark_background = global::FoodHub.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.cardview_light_background = global::FoodHub.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.cardview_shadow_end_color = global::FoodHub.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.cardview_shadow_start_color = global::FoodHub.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::FoodHub.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_error = global::FoodHub.Droid.Resource.Color.design_error;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_shadow_end_color = global::FoodHub.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_shadow_mid_color = global::FoodHub.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_shadow_start_color = global::FoodHub.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::FoodHub.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_snackbar_background_color = global::FoodHub.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.design_tint_password_toggle = global::FoodHub.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::FoodHub.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.dim_foreground_disabled_material_light = global::FoodHub.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.dim_foreground_material_dark = global::FoodHub.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.dim_foreground_material_light = global::FoodHub.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.foreground_material_dark = global::FoodHub.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.foreground_material_light = global::FoodHub.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.highlighted_text_material_dark = global::FoodHub.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.highlighted_text_material_light = global::FoodHub.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_blue_grey_800 = global::FoodHub.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_blue_grey_900 = global::FoodHub.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_blue_grey_950 = global::FoodHub.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_deep_teal_200 = global::FoodHub.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_deep_teal_500 = global::FoodHub.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_100 = global::FoodHub.Droid.Resource.Color.material_grey_100;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_300 = global::FoodHub.Droid.Resource.Color.material_grey_300;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_50 = global::FoodHub.Droid.Resource.Color.material_grey_50;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_600 = global::FoodHub.Droid.Resource.Color.material_grey_600;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_800 = global::FoodHub.Droid.Resource.Color.material_grey_800;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_850 = global::FoodHub.Droid.Resource.Color.material_grey_850;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.material_grey_900 = global::FoodHub.Droid.Resource.Color.material_grey_900;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.normal = global::FoodHub.Droid.Resource.Color.normal;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.notification_action_color_filter = global::FoodHub.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.notification_icon_bg_color = global::FoodHub.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.notification_material_background_media_default_color = global::FoodHub.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_dark_material_dark = global::FoodHub.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_dark_material_light = global::FoodHub.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_material_dark = global::FoodHub.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_material_light = global::FoodHub.Droid.Resource.Color.primary_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_text_default_material_dark = global::FoodHub.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_text_default_material_light = global::FoodHub.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_text_disabled_material_dark = global::FoodHub.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.primary_text_disabled_material_light = global::FoodHub.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.ripple_material_dark = global::FoodHub.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.ripple_material_light = global::FoodHub.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.secondary_text_default_material_dark = global::FoodHub.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.secondary_text_default_material_light = global::FoodHub.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.secondary_text_disabled_material_dark = global::FoodHub.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.secondary_text_disabled_material_light = global::FoodHub.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.segmented_control_text = global::FoodHub.Droid.Resource.Color.segmented_control_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.selected = global::FoodHub.Droid.Resource.Color.selected;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::FoodHub.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.switch_thumb_disabled_material_light = global::FoodHub.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.switch_thumb_material_dark = global::FoodHub.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.switch_thumb_material_light = global::FoodHub.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.switch_thumb_normal_material_dark = global::FoodHub.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.switch_thumb_normal_material_light = global::FoodHub.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.tooltip_background_dark = global::FoodHub.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Color.tooltip_background_light = global::FoodHub.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FoodHub.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_button_min_height_material = global::FoodHub.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_button_min_width_material = global::FoodHub.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FoodHub.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FoodHub.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::FoodHub.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::FoodHub.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FoodHub.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::FoodHub.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_control_corner_material = global::FoodHub.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_control_inset_material = global::FoodHub.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_control_padding_material = global::FoodHub.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::FoodHub.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FoodHub.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FoodHub.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_min_width_major = global::FoodHub.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::FoodHub.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_padding_material = global::FoodHub.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::FoodHub.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::FoodHub.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::FoodHub.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FoodHub.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FoodHub.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FoodHub.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::FoodHub.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_floating_window_z = global::FoodHub.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FoodHub.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_panel_menu_list_width = global::FoodHub.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_progress_bar_height_material = global::FoodHub.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_search_view_preferred_height = global::FoodHub.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_search_view_preferred_width = global::FoodHub.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::FoodHub.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FoodHub.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::FoodHub.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_switch_padding = global::FoodHub.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_body_1_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_body_2_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_button_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_caption_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_display_1_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_display_2_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_display_3_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_display_4_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_headline_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_large_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_medium_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_menu_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_small_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_subhead_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FoodHub.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_title_material = global::FoodHub.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::FoodHub.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::FoodHub.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.cardview_default_elevation = global::FoodHub.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.cardview_default_radius = global::FoodHub.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::FoodHub.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::FoodHub.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::FoodHub.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::FoodHub.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.compat_control_corner_material = global::FoodHub.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_appbar_elevation = global::FoodHub.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_height = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_margin = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::FoodHub.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FoodHub.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FoodHub.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_fab_border_width = global::FoodHub.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_fab_elevation = global::FoodHub.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_fab_image_size = global::FoodHub.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_fab_size_mini = global::FoodHub.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_fab_size_normal = global::FoodHub.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::FoodHub.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_navigation_elevation = global::FoodHub.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_navigation_icon_padding = global::FoodHub.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_navigation_icon_size = global::FoodHub.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_navigation_max_width = global::FoodHub.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_navigation_padding_bottom = global::FoodHub.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::FoodHub.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::FoodHub.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::FoodHub.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_elevation = global::FoodHub.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FoodHub.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_max_width = global::FoodHub.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_min_width = global::FoodHub.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::FoodHub.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::FoodHub.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FoodHub.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_snackbar_text_size = global::FoodHub.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_tab_max_width = global::FoodHub.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::FoodHub.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_tab_text_size = global::FoodHub.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.design_tab_text_size_2line = global::FoodHub.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.disabled_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.disabled_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.fastscroll_default_thickness = global::FoodHub.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.fastscroll_margin = global::FoodHub.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.fastscroll_minimum_range = global::FoodHub.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.highlight_alpha_material_colored = global::FoodHub.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.highlight_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.highlight_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.hint_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.hint_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::FoodHub.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::FoodHub.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FoodHub.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FoodHub.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FoodHub.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::FoodHub.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::FoodHub.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::FoodHub.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_action_icon_size = global::FoodHub.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_action_text_size = global::FoodHub.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_big_circle_margin = global::FoodHub.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_content_margin_start = global::FoodHub.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_large_icon_height = global::FoodHub.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_large_icon_width = global::FoodHub.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_main_column_padding_top = global::FoodHub.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_media_narrow_margin = global::FoodHub.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_right_icon_size = global::FoodHub.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_right_side_padding_top = global::FoodHub.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_small_icon_background_padding = global::FoodHub.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::FoodHub.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_subtext_size = global::FoodHub.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_top_pad = global::FoodHub.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.notification_top_pad_large_text = global::FoodHub.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_corner_radius = global::FoodHub.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_horizontal_padding = global::FoodHub.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_margin = global::FoodHub.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FoodHub.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::FoodHub.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_vertical_padding = global::FoodHub.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::FoodHub.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.Segmented.Control.Droid.Resource.Dimension.tooltip_y_offset_touch = global::FoodHub.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::FoodHub.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_borderless_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_check_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FoodHub.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FoodHub.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_colored_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::FoodHub.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_radio_material = global::FoodHub.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FoodHub.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FoodHub.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FoodHub.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FoodHub.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::FoodHub.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_cab_background_top_material = global::FoodHub.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_control_background_material = global::FoodHub.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_dialog_material_background = global::FoodHub.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_edit_text_material = global::FoodHub.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_ab_back_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_clear_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_search_api_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::FoodHub.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::FoodHub.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_item_background_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_item_background_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_focused_holo = global::FoodHub.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_longpressed_holo = global::FoodHub.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_list_selector_holo_light = global::FoodHub.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FoodHub.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::FoodHub.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::FoodHub.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ratingbar_material = global::FoodHub.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_ratingbar_small_material = global::FoodHub.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::FoodHub.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::FoodHub.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_seekbar_track_material = global::FoodHub.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FoodHub.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::FoodHub.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_switch_thumb_material = global::FoodHub.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_tab_indicator_material = global::FoodHub.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_cursor_material = global::FoodHub.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FoodHub.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FoodHub.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_textfield_search_material = global::FoodHub.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.abc_vector_test = global::FoodHub.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.avd_hide_password = global::FoodHub.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.avd_show_password = global::FoodHub.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::FoodHub.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.design_fab_background = global::FoodHub.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.design_ic_visibility = global::FoodHub.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.design_ic_visibility_off = global::FoodHub.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.design_password_eye = global::FoodHub.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.design_snackbar_background = global::FoodHub.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_audiotrack_dark = global::FoodHub.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_audiotrack_light = global::FoodHub.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_dialog_close_dark = global::FoodHub.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_dialog_close_light = global::FoodHub.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_00 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_01 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_02 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_03 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_04 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_05 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_06 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_07 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_08 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_09 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_10 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_11 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_12 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_13 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_14 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_collapse_15 = global::FoodHub.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_00 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_01 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_02 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_03 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_04 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_05 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_06 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_07 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_08 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_09 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_10 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_11 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_12 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_13 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_14 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_group_expand_15 = global::FoodHub.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_media_pause_dark = global::FoodHub.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_media_pause_light = global::FoodHub.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_media_play_dark = global::FoodHub.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_media_play_light = global::FoodHub.Droid.Resource.Drawable.ic_media_play_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_media_stop_dark = global::FoodHub.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_media_stop_light = global::FoodHub.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_mr_button_grey = global::FoodHub.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.ic_vol_type_tv_light = global::FoodHub.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_button_connected_dark = global::FoodHub.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_button_connected_light = global::FoodHub.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_button_connecting_dark = global::FoodHub.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_button_connecting_light = global::FoodHub.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_button_dark = global::FoodHub.Droid.Resource.Drawable.mr_button_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_button_light = global::FoodHub.Droid.Resource.Drawable.mr_button_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_dialog_close_dark = global::FoodHub.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_dialog_close_light = global::FoodHub.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::FoodHub.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_dialog_material_background_light = global::FoodHub.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_group_collapse = global::FoodHub.Droid.Resource.Drawable.mr_group_collapse;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_group_expand = global::FoodHub.Droid.Resource.Drawable.mr_group_expand;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_media_pause_dark = global::FoodHub.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_media_pause_light = global::FoodHub.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_media_play_dark = global::FoodHub.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_media_play_light = global::FoodHub.Droid.Resource.Drawable.mr_media_play_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_media_stop_dark = global::FoodHub.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_media_stop_light = global::FoodHub.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::FoodHub.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::FoodHub.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.navigation_empty_icon = global::FoodHub.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_action_background = global::FoodHub.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_bg = global::FoodHub.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_bg_low = global::FoodHub.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_bg_low_normal = global::FoodHub.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_bg_low_pressed = global::FoodHub.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_bg_normal = global::FoodHub.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_bg_normal_pressed = global::FoodHub.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_icon_background = global::FoodHub.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_template_icon_bg = global::FoodHub.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_template_icon_low_bg = global::FoodHub.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notification_tile_bg = global::FoodHub.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::FoodHub.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.segmented_control_background = global::FoodHub.Droid.Resource.Drawable.segmented_control_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.segmented_control_first_background = global::FoodHub.Droid.Resource.Drawable.segmented_control_first_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.segmented_control_last_background = global::FoodHub.Droid.Resource.Drawable.segmented_control_last_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.tooltip_frame_dark = global::FoodHub.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Drawable.tooltip_frame_light = global::FoodHub.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.ALT = global::FoodHub.Droid.Resource.Id.ALT;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.CTRL = global::FoodHub.Droid.Resource.Id.CTRL;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.FUNCTION = global::FoodHub.Droid.Resource.Id.FUNCTION;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.META = global::FoodHub.Droid.Resource.Id.META;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.SHIFT = global::FoodHub.Droid.Resource.Id.SHIFT;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.SYM = global::FoodHub.Droid.Resource.Id.SYM;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.SegControl = global::FoodHub.Droid.Resource.Id.SegControl;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action0 = global::FoodHub.Droid.Resource.Id.action0;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar = global::FoodHub.Droid.Resource.Id.action_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar_activity_content = global::FoodHub.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar_container = global::FoodHub.Droid.Resource.Id.action_bar_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar_root = global::FoodHub.Droid.Resource.Id.action_bar_root;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar_spinner = global::FoodHub.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar_subtitle = global::FoodHub.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_bar_title = global::FoodHub.Droid.Resource.Id.action_bar_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_container = global::FoodHub.Droid.Resource.Id.action_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_context_bar = global::FoodHub.Droid.Resource.Id.action_context_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_divider = global::FoodHub.Droid.Resource.Id.action_divider;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_image = global::FoodHub.Droid.Resource.Id.action_image;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_menu_divider = global::FoodHub.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_menu_presenter = global::FoodHub.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_mode_bar = global::FoodHub.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_mode_bar_stub = global::FoodHub.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_mode_close_button = global::FoodHub.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.action_text = global::FoodHub.Droid.Resource.Id.action_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.actions = global::FoodHub.Droid.Resource.Id.actions;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.activity_chooser_view_content = global::FoodHub.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.add = global::FoodHub.Droid.Resource.Id.add;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.alertTitle = global::FoodHub.Droid.Resource.Id.alertTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.all = global::FoodHub.Droid.Resource.Id.all;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.always = global::FoodHub.Droid.Resource.Id.always;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.async = global::FoodHub.Droid.Resource.Id.async;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.auto = global::FoodHub.Droid.Resource.Id.auto;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.beginning = global::FoodHub.Droid.Resource.Id.beginning;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.blocking = global::FoodHub.Droid.Resource.Id.blocking;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.bottom = global::FoodHub.Droid.Resource.Id.bottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.bottomtab_navarea = global::FoodHub.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.bottomtab_tabbar = global::FoodHub.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.buttonPanel = global::FoodHub.Droid.Resource.Id.buttonPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.cancel_action = global::FoodHub.Droid.Resource.Id.cancel_action;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.center = global::FoodHub.Droid.Resource.Id.center;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.center_horizontal = global::FoodHub.Droid.Resource.Id.center_horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.center_vertical = global::FoodHub.Droid.Resource.Id.center_vertical;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.checkbox = global::FoodHub.Droid.Resource.Id.checkbox;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.chronometer = global::FoodHub.Droid.Resource.Id.chronometer;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.clip_horizontal = global::FoodHub.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.clip_vertical = global::FoodHub.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.collapseActionView = global::FoodHub.Droid.Resource.Id.collapseActionView;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.container = global::FoodHub.Droid.Resource.Id.container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.contentPanel = global::FoodHub.Droid.Resource.Id.contentPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.coordinator = global::FoodHub.Droid.Resource.Id.coordinator;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.custom = global::FoodHub.Droid.Resource.Id.custom;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.customPanel = global::FoodHub.Droid.Resource.Id.customPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.decor_content_parent = global::FoodHub.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.default_activity_button = global::FoodHub.Droid.Resource.Id.default_activity_button;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.design_bottom_sheet = global::FoodHub.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.design_menu_item_action_area = global::FoodHub.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.design_menu_item_action_area_stub = global::FoodHub.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.design_menu_item_text = global::FoodHub.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.design_navigation_view = global::FoodHub.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.disableHome = global::FoodHub.Droid.Resource.Id.disableHome;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.edit_query = global::FoodHub.Droid.Resource.Id.edit_query;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.end = global::FoodHub.Droid.Resource.Id.end;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.end_padder = global::FoodHub.Droid.Resource.Id.end_padder;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.enterAlways = global::FoodHub.Droid.Resource.Id.enterAlways;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.enterAlwaysCollapsed = global::FoodHub.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.exitUntilCollapsed = global::FoodHub.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.expand_activities_button = global::FoodHub.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.expanded_menu = global::FoodHub.Droid.Resource.Id.expanded_menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.fill = global::FoodHub.Droid.Resource.Id.fill;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.fill_horizontal = global::FoodHub.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.fill_vertical = global::FoodHub.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.@fixed = global::FoodHub.Droid.Resource.Id.@fixed;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.flyoutcontent_appbar = global::FoodHub.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.flyoutcontent_recycler = global::FoodHub.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.forever = global::FoodHub.Droid.Resource.Id.forever;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.ghost_view = global::FoodHub.Droid.Resource.Id.ghost_view;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.home = global::FoodHub.Droid.Resource.Id.home;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.homeAsUp = global::FoodHub.Droid.Resource.Id.homeAsUp;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.icon = global::FoodHub.Droid.Resource.Id.icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.icon_group = global::FoodHub.Droid.Resource.Id.icon_group;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.ifRoom = global::FoodHub.Droid.Resource.Id.ifRoom;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.image = global::FoodHub.Droid.Resource.Id.image;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.info = global::FoodHub.Droid.Resource.Id.info;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.italic = global::FoodHub.Droid.Resource.Id.italic;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.item_touch_helper_previous_elevation = global::FoodHub.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.largeLabel = global::FoodHub.Droid.Resource.Id.largeLabel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.left = global::FoodHub.Droid.Resource.Id.left;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.line1 = global::FoodHub.Droid.Resource.Id.line1;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.line3 = global::FoodHub.Droid.Resource.Id.line3;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.listMode = global::FoodHub.Droid.Resource.Id.listMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.list_item = global::FoodHub.Droid.Resource.Id.list_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.main_appbar = global::FoodHub.Droid.Resource.Id.main_appbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.main_tablayout = global::FoodHub.Droid.Resource.Id.main_tablayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.main_toolbar = global::FoodHub.Droid.Resource.Id.main_toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.masked = global::FoodHub.Droid.Resource.Id.masked;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.media_actions = global::FoodHub.Droid.Resource.Id.media_actions;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.message = global::FoodHub.Droid.Resource.Id.message;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.middle = global::FoodHub.Droid.Resource.Id.middle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mini = global::FoodHub.Droid.Resource.Id.mini;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_art = global::FoodHub.Droid.Resource.Id.mr_art;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_chooser_list = global::FoodHub.Droid.Resource.Id.mr_chooser_list;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_chooser_route_desc = global::FoodHub.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_chooser_route_icon = global::FoodHub.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_chooser_route_name = global::FoodHub.Droid.Resource.Id.mr_chooser_route_name;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_chooser_title = global::FoodHub.Droid.Resource.Id.mr_chooser_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_close = global::FoodHub.Droid.Resource.Id.mr_close;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_control_divider = global::FoodHub.Droid.Resource.Id.mr_control_divider;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_control_playback_ctrl = global::FoodHub.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_control_subtitle = global::FoodHub.Droid.Resource.Id.mr_control_subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_control_title = global::FoodHub.Droid.Resource.Id.mr_control_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_control_title_container = global::FoodHub.Droid.Resource.Id.mr_control_title_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_custom_control = global::FoodHub.Droid.Resource.Id.mr_custom_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_default_control = global::FoodHub.Droid.Resource.Id.mr_default_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_dialog_area = global::FoodHub.Droid.Resource.Id.mr_dialog_area;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_expandable_area = global::FoodHub.Droid.Resource.Id.mr_expandable_area;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_group_expand_collapse = global::FoodHub.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_media_main_control = global::FoodHub.Droid.Resource.Id.mr_media_main_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_name = global::FoodHub.Droid.Resource.Id.mr_name;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_playback_control = global::FoodHub.Droid.Resource.Id.mr_playback_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_title_bar = global::FoodHub.Droid.Resource.Id.mr_title_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_volume_control = global::FoodHub.Droid.Resource.Id.mr_volume_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_volume_group_list = global::FoodHub.Droid.Resource.Id.mr_volume_group_list;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_volume_item_icon = global::FoodHub.Droid.Resource.Id.mr_volume_item_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.mr_volume_slider = global::FoodHub.Droid.Resource.Id.mr_volume_slider;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.multiply = global::FoodHub.Droid.Resource.Id.multiply;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.navigation_header_container = global::FoodHub.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.never = global::FoodHub.Droid.Resource.Id.never;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.none = global::FoodHub.Droid.Resource.Id.none;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.normal = global::FoodHub.Droid.Resource.Id.normal;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.notification_background = global::FoodHub.Droid.Resource.Id.notification_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.notification_main_column = global::FoodHub.Droid.Resource.Id.notification_main_column;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.notification_main_column_container = global::FoodHub.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.parallax = global::FoodHub.Droid.Resource.Id.parallax;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.parentPanel = global::FoodHub.Droid.Resource.Id.parentPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.parent_matrix = global::FoodHub.Droid.Resource.Id.parent_matrix;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.pin = global::FoodHub.Droid.Resource.Id.pin;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.progress_circular = global::FoodHub.Droid.Resource.Id.progress_circular;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.progress_horizontal = global::FoodHub.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.radio = global::FoodHub.Droid.Resource.Id.radio;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.right = global::FoodHub.Droid.Resource.Id.right;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.right_icon = global::FoodHub.Droid.Resource.Id.right_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.right_side = global::FoodHub.Droid.Resource.Id.right_side;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.save_image_matrix = global::FoodHub.Droid.Resource.Id.save_image_matrix;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.save_non_transition_alpha = global::FoodHub.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.save_scale_type = global::FoodHub.Droid.Resource.Id.save_scale_type;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.screen = global::FoodHub.Droid.Resource.Id.screen;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.scroll = global::FoodHub.Droid.Resource.Id.scroll;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.scrollIndicatorDown = global::FoodHub.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.scrollIndicatorUp = global::FoodHub.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.scrollView = global::FoodHub.Droid.Resource.Id.scrollView;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.scrollable = global::FoodHub.Droid.Resource.Id.scrollable;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_badge = global::FoodHub.Droid.Resource.Id.search_badge;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_bar = global::FoodHub.Droid.Resource.Id.search_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_button = global::FoodHub.Droid.Resource.Id.search_button;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_close_btn = global::FoodHub.Droid.Resource.Id.search_close_btn;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_edit_frame = global::FoodHub.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_go_btn = global::FoodHub.Droid.Resource.Id.search_go_btn;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_mag_icon = global::FoodHub.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_plate = global::FoodHub.Droid.Resource.Id.search_plate;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_src_text = global::FoodHub.Droid.Resource.Id.search_src_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.search_voice_btn = global::FoodHub.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.select_dialog_listview = global::FoodHub.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.shape_id = global::FoodHub.Droid.Resource.Id.shape_id;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.shellcontent_appbar = global::FoodHub.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.shellcontent_toolbar = global::FoodHub.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.shortcut = global::FoodHub.Droid.Resource.Id.shortcut;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.showCustom = global::FoodHub.Droid.Resource.Id.showCustom;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.showHome = global::FoodHub.Droid.Resource.Id.showHome;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.showTitle = global::FoodHub.Droid.Resource.Id.showTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.smallLabel = global::FoodHub.Droid.Resource.Id.smallLabel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.snackbar_action = global::FoodHub.Droid.Resource.Id.snackbar_action;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.snackbar_text = global::FoodHub.Droid.Resource.Id.snackbar_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.snap = global::FoodHub.Droid.Resource.Id.snap;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.spacer = global::FoodHub.Droid.Resource.Id.spacer;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.split_action_bar = global::FoodHub.Droid.Resource.Id.split_action_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.src_atop = global::FoodHub.Droid.Resource.Id.src_atop;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.src_in = global::FoodHub.Droid.Resource.Id.src_in;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.src_over = global::FoodHub.Droid.Resource.Id.src_over;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.start = global::FoodHub.Droid.Resource.Id.start;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.status_bar_latest_event_content = global::FoodHub.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.submenuarrow = global::FoodHub.Droid.Resource.Id.submenuarrow;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.submit_area = global::FoodHub.Droid.Resource.Id.submit_area;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.tabMode = global::FoodHub.Droid.Resource.Id.tabMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.tag_transition_group = global::FoodHub.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.text = global::FoodHub.Droid.Resource.Id.text;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.text2 = global::FoodHub.Droid.Resource.Id.text2;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.textSpacerNoButtons = global::FoodHub.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.textSpacerNoTitle = global::FoodHub.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.text_input_password_toggle = global::FoodHub.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.textinput_counter = global::FoodHub.Droid.Resource.Id.textinput_counter;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.textinput_error = global::FoodHub.Droid.Resource.Id.textinput_error;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.time = global::FoodHub.Droid.Resource.Id.time;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.title = global::FoodHub.Droid.Resource.Id.title;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.titleDividerNoCustom = global::FoodHub.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.title_template = global::FoodHub.Droid.Resource.Id.title_template;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.top = global::FoodHub.Droid.Resource.Id.top;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.topPanel = global::FoodHub.Droid.Resource.Id.topPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.touch_outside = global::FoodHub.Droid.Resource.Id.touch_outside;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.transition_current_scene = global::FoodHub.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.transition_layout_save = global::FoodHub.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.transition_position = global::FoodHub.Droid.Resource.Id.transition_position;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.transition_scene_layoutid_cache = global::FoodHub.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.transition_transform = global::FoodHub.Droid.Resource.Id.transition_transform;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.uniform = global::FoodHub.Droid.Resource.Id.uniform;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.up = global::FoodHub.Droid.Resource.Id.up;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.useLogo = global::FoodHub.Droid.Resource.Id.useLogo;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.view_offset_helper = global::FoodHub.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.visible = global::FoodHub.Droid.Resource.Id.visible;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.volume_item_container = global::FoodHub.Droid.Resource.Id.volume_item_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.withText = global::FoodHub.Droid.Resource.Id.withText;
+			global::Plugin.Segmented.Control.Droid.Resource.Id.wrap_content = global::FoodHub.Droid.Resource.Id.wrap_content;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.abc_config_activityDefaultDur = global::FoodHub.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.abc_config_activityShortDur = global::FoodHub.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::FoodHub.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.bottom_sheet_slide_duration = global::FoodHub.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.cancel_button_image_alpha = global::FoodHub.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.config_tooltipAnimTime = global::FoodHub.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.design_snackbar_text_max_lines = global::FoodHub.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.hide_password_duration = global::FoodHub.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::FoodHub.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::FoodHub.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::FoodHub.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.show_password_duration = global::FoodHub.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.Segmented.Control.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::FoodHub.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Segmented.Control.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::FoodHub.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Plugin.Segmented.Control.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::FoodHub.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_action_bar_title_item = global::FoodHub.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_action_bar_up_container = global::FoodHub.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_action_menu_item_layout = global::FoodHub.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_action_menu_layout = global::FoodHub.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_action_mode_bar = global::FoodHub.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_action_mode_close_item_material = global::FoodHub.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_activity_chooser_view = global::FoodHub.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::FoodHub.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::FoodHub.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_alert_dialog_material = global::FoodHub.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_alert_dialog_title_material = global::FoodHub.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_dialog_title_material = global::FoodHub.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_expanded_menu_layout = global::FoodHub.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_list_menu_item_icon = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_list_menu_item_layout = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_list_menu_item_radio = global::FoodHub.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::FoodHub.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_popup_menu_item_layout = global::FoodHub.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_screen_content_include = global::FoodHub.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_screen_simple = global::FoodHub.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FoodHub.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_screen_toolbar = global::FoodHub.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FoodHub.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_search_view = global::FoodHub.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.abc_select_dialog_material = global::FoodHub.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.BottomTabLayout = global::FoodHub.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_bottom_navigation_item = global::FoodHub.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_bottom_sheet_dialog = global::FoodHub.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_layout_snackbar = global::FoodHub.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_layout_snackbar_include = global::FoodHub.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_layout_tab_icon = global::FoodHub.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_layout_tab_text = global::FoodHub.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_menu_item_action_area = global::FoodHub.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_navigation_item = global::FoodHub.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_navigation_item_header = global::FoodHub.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_navigation_item_separator = global::FoodHub.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_navigation_item_subheader = global::FoodHub.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_navigation_menu = global::FoodHub.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_navigation_menu_item = global::FoodHub.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.design_text_input_password_icon = global::FoodHub.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.FlyoutContent = global::FoodHub.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.mr_chooser_dialog = global::FoodHub.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.mr_chooser_list_item = global::FoodHub.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.mr_controller_material_dialog_b = global::FoodHub.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.mr_controller_volume_item = global::FoodHub.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.mr_playback_control = global::FoodHub.Droid.Resource.Layout.mr_playback_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.mr_volume_control = global::FoodHub.Droid.Resource.Layout.mr_volume_control;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_action = global::FoodHub.Droid.Resource.Layout.notification_action;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_action_tombstone = global::FoodHub.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_media_action = global::FoodHub.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_media_cancel_action = global::FoodHub.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_big_media = global::FoodHub.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_big_media_custom = global::FoodHub.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_big_media_narrow = global::FoodHub.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::FoodHub.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_custom_big = global::FoodHub.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_icon_group = global::FoodHub.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_lines_media = global::FoodHub.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_media = global::FoodHub.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_media_custom = global::FoodHub.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_part_chronometer = global::FoodHub.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.notification_template_part_time = global::FoodHub.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.RadioButton = global::FoodHub.Droid.Resource.Layout.RadioButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.RadioGroup = global::FoodHub.Droid.Resource.Layout.RadioGroup;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.RootLayout = global::FoodHub.Droid.Resource.Layout.RootLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.select_dialog_item_material = global::FoodHub.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.select_dialog_multichoice_material = global::FoodHub.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.select_dialog_singlechoice_material = global::FoodHub.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.ShellContent = global::FoodHub.Droid.Resource.Layout.ShellContent;
+			global::Plugin.Segmented.Control.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::FoodHub.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_action_bar_home_description = global::FoodHub.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_action_bar_up_description = global::FoodHub.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_action_menu_overflow_description = global::FoodHub.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_action_mode_done = global::FoodHub.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_activity_chooser_view_see_all = global::FoodHub.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_activitychooserview_choose_application = global::FoodHub.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_capital_off = global::FoodHub.Droid.Resource.String.abc_capital_off;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_capital_on = global::FoodHub.Droid.Resource.String.abc_capital_on;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_body_1_material = global::FoodHub.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_body_2_material = global::FoodHub.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_button_material = global::FoodHub.Droid.Resource.String.abc_font_family_button_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_caption_material = global::FoodHub.Droid.Resource.String.abc_font_family_caption_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_display_1_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_display_2_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_display_3_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_display_4_material = global::FoodHub.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_headline_material = global::FoodHub.Droid.Resource.String.abc_font_family_headline_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_menu_material = global::FoodHub.Droid.Resource.String.abc_font_family_menu_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_subhead_material = global::FoodHub.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_font_family_title_material = global::FoodHub.Droid.Resource.String.abc_font_family_title_material;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_search_hint = global::FoodHub.Droid.Resource.String.abc_search_hint;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_searchview_description_clear = global::FoodHub.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_searchview_description_query = global::FoodHub.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_searchview_description_search = global::FoodHub.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_searchview_description_submit = global::FoodHub.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_searchview_description_voice = global::FoodHub.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_shareactionprovider_share_with = global::FoodHub.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::FoodHub.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.Segmented.Control.Droid.Resource.String.abc_toolbar_collapse_description = global::FoodHub.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.appbar_scrolling_view_behavior = global::FoodHub.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.Segmented.Control.Droid.Resource.String.bottom_sheet_behavior = global::FoodHub.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.Segmented.Control.Droid.Resource.String.character_counter_pattern = global::FoodHub.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_button_content_description = global::FoodHub.Droid.Resource.String.mr_button_content_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_cast_button_connected = global::FoodHub.Droid.Resource.String.mr_cast_button_connected;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_cast_button_connecting = global::FoodHub.Droid.Resource.String.mr_cast_button_connecting;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_cast_button_disconnected = global::FoodHub.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_chooser_searching = global::FoodHub.Droid.Resource.String.mr_chooser_searching;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_chooser_title = global::FoodHub.Droid.Resource.String.mr_chooser_title;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_album_art = global::FoodHub.Droid.Resource.String.mr_controller_album_art;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_casting_screen = global::FoodHub.Droid.Resource.String.mr_controller_casting_screen;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_close_description = global::FoodHub.Droid.Resource.String.mr_controller_close_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_collapse_group = global::FoodHub.Droid.Resource.String.mr_controller_collapse_group;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_disconnect = global::FoodHub.Droid.Resource.String.mr_controller_disconnect;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_expand_group = global::FoodHub.Droid.Resource.String.mr_controller_expand_group;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_no_info_available = global::FoodHub.Droid.Resource.String.mr_controller_no_info_available;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_no_media_selected = global::FoodHub.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_pause = global::FoodHub.Droid.Resource.String.mr_controller_pause;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_play = global::FoodHub.Droid.Resource.String.mr_controller_play;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_stop = global::FoodHub.Droid.Resource.String.mr_controller_stop;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_stop_casting = global::FoodHub.Droid.Resource.String.mr_controller_stop_casting;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_controller_volume_slider = global::FoodHub.Droid.Resource.String.mr_controller_volume_slider;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_system_route_name = global::FoodHub.Droid.Resource.String.mr_system_route_name;
+			global::Plugin.Segmented.Control.Droid.Resource.String.mr_user_route_category_name = global::FoodHub.Droid.Resource.String.mr_user_route_category_name;
+			global::Plugin.Segmented.Control.Droid.Resource.String.password_toggle_content_description = global::FoodHub.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.Segmented.Control.Droid.Resource.String.path_password_eye = global::FoodHub.Droid.Resource.String.path_password_eye;
+			global::Plugin.Segmented.Control.Droid.Resource.String.path_password_eye_mask_strike_through = global::FoodHub.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.Segmented.Control.Droid.Resource.String.path_password_eye_mask_visible = global::FoodHub.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.Segmented.Control.Droid.Resource.String.path_password_strike_through = global::FoodHub.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.Segmented.Control.Droid.Resource.String.search_menu_title = global::FoodHub.Droid.Resource.String.search_menu_title;
+			global::Plugin.Segmented.Control.Droid.Resource.String.status_bar_notification_info_overflow = global::FoodHub.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.AlertDialog_AppCompat = global::FoodHub.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::FoodHub.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Animation_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::FoodHub.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::FoodHub.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::FoodHub.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FoodHub.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_CardView = global::FoodHub.Droid.Resource.Style.Base_CardView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FoodHub.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FoodHub.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FoodHub.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FoodHub.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FoodHub.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::FoodHub.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.CardView = global::FoodHub.Droid.Resource.Style.CardView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.CardView_Dark = global::FoodHub.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.CardView_Light = global::FoodHub.Droid.Resource.Style.CardView_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FoodHub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_V21_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_V25_AppCompat = global::FoodHub.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FoodHub.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FoodHub.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FoodHub.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FoodHub.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FoodHub.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_Counter = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_Error = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_Hint = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Design_Tab = global::FoodHub.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::FoodHub.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::FoodHub.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FoodHub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FoodHub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FoodHub.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat = global::FoodHub.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_Design = global::FoodHub.Droid.Resource.Style.Theme_Design;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::FoodHub.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_Design_Light = global::FoodHub.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FoodHub.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_Design_NoActionBar = global::FoodHub.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_MediaRouter = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_MediaRouter_Light = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::FoodHub.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::FoodHub.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::FoodHub.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::FoodHub.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Button = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_EditText = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ListView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_SearchView = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Spinner = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FoodHub.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::FoodHub.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::FoodHub.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_AppBarLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::FoodHub.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::FoodHub.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::FoodHub.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::FoodHub.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_NavigationView = global::FoodHub.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_Snackbar = global::FoodHub.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_TabLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_Design_TextInputLayout = global::FoodHub.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::FoodHub.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::FoodHub.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar = global::FoodHub.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_background = global::FoodHub.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::FoodHub.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::FoodHub.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FoodHub.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::FoodHub.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_displayOptions = global::FoodHub.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_divider = global::FoodHub.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_elevation = global::FoodHub.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_height = global::FoodHub.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::FoodHub.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FoodHub.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_homeLayout = global::FoodHub.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_icon = global::FoodHub.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_itemPadding = global::FoodHub.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_logo = global::FoodHub.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_navigationMode = global::FoodHub.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_popupTheme = global::FoodHub.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::FoodHub.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_subtitle = global::FoodHub.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_title = global::FoodHub.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBarLayout = global::FoodHub.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FoodHub.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMenuItemView = global::FoodHub.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FoodHub.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMenuView = global::FoodHub.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode = global::FoodHub.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode_background = global::FoodHub.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::FoodHub.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::FoodHub.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode_height = global::FoodHub.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::FoodHub.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActivityChooserView = global::FoodHub.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FoodHub.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FoodHub.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog = global::FoodHub.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_android_layout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_listLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_showTitle = global::FoodHub.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FoodHub.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout = global::FoodHub.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_android_background = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_elevation = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_expanded = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayoutStates = global::FoodHub.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FoodHub.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FoodHub.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_Layout = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FoodHub.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatImageView = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatImageView_android_src = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatImageView_tint = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::FoodHub.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatSeekBar = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FoodHub.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FoodHub.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::FoodHub.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorError = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FoodHub.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomNavigationView = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomNavigationView_elevation = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomNavigationView_menu = global::FoodHub.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FoodHub.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ButtonBarLayout = global::FoodHub.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::FoodHub.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView = global::FoodHub.Droid.Resource.Styleable.CardView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_android_minHeight = global::FoodHub.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_android_minWidth = global::FoodHub.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::FoodHub.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_cardCornerRadius = global::FoodHub.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_cardElevation = global::FoodHub.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_cardMaxElevation = global::FoodHub.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FoodHub.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::FoodHub.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_contentPadding = global::FoodHub.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_contentPaddingRight = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CardView_contentPaddingTop = global::FoodHub.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FoodHub.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ColorStateListItem = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ColorStateListItem_alpha = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ColorStateListItem_android_color = global::FoodHub.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CompoundButton = global::FoodHub.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CompoundButton_android_button = global::FoodHub.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CompoundButton_buttonTint = global::FoodHub.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::FoodHub.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FoodHub.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DesignTheme = global::FoodHub.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FoodHub.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FoodHub.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_color = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::FoodHub.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_elevation = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FoodHub.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily = global::FoodHub.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::FoodHub.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont_android_font = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont_font = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::FoodHub.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ForegroundLinearLayout = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FoodHub.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FoodHub.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ListPopupWindow = global::FoodHub.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FoodHub.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FoodHub.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MediaRouteButton = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::FoodHub.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup = global::FoodHub.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup_android_enabled = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup_android_id = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuGroup_android_visible = global::FoodHub.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem = global::FoodHub.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_actionLayout = global::FoodHub.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::FoodHub.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_actionViewClass = global::FoodHub.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::FoodHub.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_checkable = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_checked = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_enabled = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_icon = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_id = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_onClick = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_title = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_android_visible = global::FoodHub.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_contentDescription = global::FoodHub.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_iconTint = global::FoodHub.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_iconTintMode = global::FoodHub.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_numericModifiers = global::FoodHub.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_showAsAction = global::FoodHub.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuItem_tooltipText = global::FoodHub.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView = global::FoodHub.Droid.Resource.Styleable.MenuView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_headerBackground = global::FoodHub.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::FoodHub.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_itemBackground = global::FoodHub.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FoodHub.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::FoodHub.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::FoodHub.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FoodHub.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::FoodHub.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.MenuView_subMenuArrow = global::FoodHub.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView = global::FoodHub.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_android_background = global::FoodHub.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FoodHub.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::FoodHub.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_elevation = global::FoodHub.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_headerLayout = global::FoodHub.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_itemBackground = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_itemIconTint = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_itemTextColor = global::FoodHub.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.NavigationView_menu = global::FoodHub.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.PopupWindow = global::FoodHub.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FoodHub.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::FoodHub.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::FoodHub.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.PopupWindowBackgroundState = global::FoodHub.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FoodHub.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecycleListView = global::FoodHub.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FoodHub.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FoodHub.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView = global::FoodHub.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FoodHub.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_android_orientation = global::FoodHub.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FoodHub.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_layoutManager = global::FoodHub.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::FoodHub.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_spanCount = global::FoodHub.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::FoodHub.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::FoodHub.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FoodHub.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::FoodHub.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FoodHub.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView = global::FoodHub.Droid.Resource.Styleable.SearchView;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_android_focusable = global::FoodHub.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_android_imeOptions = global::FoodHub.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_android_inputType = global::FoodHub.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_android_maxWidth = global::FoodHub.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_closeIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_commitIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::FoodHub.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_goIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::FoodHub.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_layout = global::FoodHub.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_queryBackground = global::FoodHub.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_queryHint = global::FoodHub.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_searchHintIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_searchIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_submitBackground = global::FoodHub.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::FoodHub.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SearchView_voiceIcon = global::FoodHub.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SnackbarLayout = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SnackbarLayout_elevation = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FoodHub.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Spinner = global::FoodHub.Droid.Resource.Styleable.Spinner;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::FoodHub.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Spinner_android_entries = global::FoodHub.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Spinner_android_popupBackground = global::FoodHub.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Spinner_android_prompt = global::FoodHub.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Spinner_popupTheme = global::FoodHub.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat = global::FoodHub.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_showText = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_track = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_trackTint = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::FoodHub.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabItem = global::FoodHub.Droid.Resource.Styleable.TabItem;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabItem_android_icon = global::FoodHub.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabItem_android_layout = global::FoodHub.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabItem_android_text = global::FoodHub.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout = global::FoodHub.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabBackground = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabContentStart = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabGravity = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabMode = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabPadding = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TabLayout_tabTextColor = global::FoodHub.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance = global::FoodHub.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_textColor = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_textSize = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_android_typeface = global::FoodHub.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_fontFamily = global::FoodHub.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::FoodHub.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout = global::FoodHub.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_android_hint = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FoodHub.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar = global::FoodHub.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_android_gravity = global::FoodHub.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_android_minHeight = global::FoodHub.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_buttonGravity = global::FoodHub.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::FoodHub.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_collapseIcon = global::FoodHub.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FoodHub.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_logo = global::FoodHub.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_logoDescription = global::FoodHub.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::FoodHub.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::FoodHub.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_navigationIcon = global::FoodHub.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_popupTheme = global::FoodHub.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_subtitle = global::FoodHub.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FoodHub.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::FoodHub.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_title = global::FoodHub.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleMargin = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleMargins = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.Toolbar_titleTextColor = global::FoodHub.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.View = global::FoodHub.Droid.Resource.Styleable.View;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.View_android_focusable = global::FoodHub.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.View_android_theme = global::FoodHub.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.View_paddingEnd = global::FoodHub.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.View_paddingStart = global::FoodHub.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.View_theme = global::FoodHub.Droid.Resource.Styleable.View_theme;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewBackgroundHelper = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FoodHub.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewStubCompat = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewStubCompat_android_id = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.Segmented.Control.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::FoodHub.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::FoodHub.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::FoodHub.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::FoodHub.Droid.Resource.Attribute.font;
@@ -4856,79 +9354,88 @@ namespace FoodHub.Droid
 			public const int mtrl_text_btn_text_color_selector = 2131034229;
 			
 			// aapt resource value: 0x7F05007A
-			public const int notification_action_color_filter = 2131034234;
+			public const int normal = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int notification_icon_bg_color = 2131034235;
+			public const int notification_action_color_filter = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int notification_material_background_media_default_color = 2131034236;
+			public const int notification_icon_bg_color = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int primary_dark_material_dark = 2131034237;
+			public const int notification_material_background_media_default_color = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int primary_dark_material_light = 2131034238;
+			public const int primary_dark_material_dark = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int primary_material_dark = 2131034239;
+			public const int primary_dark_material_light = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int primary_material_light = 2131034240;
+			public const int primary_material_dark = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int primary_text_default_material_dark = 2131034241;
+			public const int primary_material_light = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int primary_text_default_material_light = 2131034242;
+			public const int primary_text_default_material_dark = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int primary_text_disabled_material_dark = 2131034243;
+			public const int primary_text_default_material_light = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int primary_text_disabled_material_light = 2131034244;
+			public const int primary_text_disabled_material_dark = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int ripple_material_dark = 2131034245;
+			public const int primary_text_disabled_material_light = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int ripple_material_light = 2131034246;
+			public const int ripple_material_dark = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int secondary_text_default_material_dark = 2131034247;
+			public const int ripple_material_light = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int secondary_text_default_material_light = 2131034248;
+			public const int secondary_text_default_material_dark = 2131034248;
 			
 			// aapt resource value: 0x7F050089
-			public const int secondary_text_disabled_material_dark = 2131034249;
+			public const int secondary_text_default_material_light = 2131034249;
 			
 			// aapt resource value: 0x7F05008A
-			public const int secondary_text_disabled_material_light = 2131034250;
+			public const int secondary_text_disabled_material_dark = 2131034250;
 			
 			// aapt resource value: 0x7F05008B
-			public const int switch_thumb_disabled_material_dark = 2131034251;
+			public const int secondary_text_disabled_material_light = 2131034251;
 			
 			// aapt resource value: 0x7F05008C
-			public const int switch_thumb_disabled_material_light = 2131034252;
+			public const int segmented_control_text = 2131034252;
 			
 			// aapt resource value: 0x7F05008D
-			public const int switch_thumb_material_dark = 2131034253;
+			public const int selected = 2131034253;
 			
 			// aapt resource value: 0x7F05008E
-			public const int switch_thumb_material_light = 2131034254;
+			public const int switch_thumb_disabled_material_dark = 2131034254;
 			
 			// aapt resource value: 0x7F05008F
-			public const int switch_thumb_normal_material_dark = 2131034255;
+			public const int switch_thumb_disabled_material_light = 2131034255;
 			
 			// aapt resource value: 0x7F050090
-			public const int switch_thumb_normal_material_light = 2131034256;
+			public const int switch_thumb_material_dark = 2131034256;
 			
 			// aapt resource value: 0x7F050091
-			public const int tooltip_background_dark = 2131034257;
+			public const int switch_thumb_material_light = 2131034257;
 			
 			// aapt resource value: 0x7F050092
-			public const int tooltip_background_light = 2131034258;
+			public const int switch_thumb_normal_material_dark = 2131034258;
+			
+			// aapt resource value: 0x7F050093
+			public const int switch_thumb_normal_material_light = 2131034259;
+			
+			// aapt resource value: 0x7F050094
+			public const int tooltip_background_dark = 2131034260;
+			
+			// aapt resource value: 0x7F050095
+			public const int tooltip_background_light = 2131034261;
 			
 			static Color()
 			{
@@ -6655,19 +11162,28 @@ namespace FoodHub.Droid
 			public const int profile = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int star = 2131165529;
+			public const int segmented_control_background = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int tooltip_frame_dark = 2131165530;
+			public const int segmented_control_first_background = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int tooltip_frame_light = 2131165531;
+			public const int segmented_control_last_background = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int user = 2131165532;
+			public const int star = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int users = 2131165533;
+			public const int tooltip_frame_dark = 2131165533;
+			
+			// aapt resource value: 0x7F07015E
+			public const int tooltip_frame_light = 2131165534;
+			
+			// aapt resource value: 0x7F07015F
+			public const int user = 2131165535;
+			
+			// aapt resource value: 0x7F070160
+			public const int users = 2131165536;
 			
 			static Drawable()
 			{
@@ -6682,797 +11198,803 @@ namespace FoodHub.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int action0 = 2131230726;
-			
-			// aapt resource value: 0x7F080018
-			public const int actions = 2131230744;
-			
 			// aapt resource value: 0x7F080007
-			public const int action_bar = 2131230727;
-			
-			// aapt resource value: 0x7F080008
-			public const int action_bar_activity_content = 2131230728;
-			
-			// aapt resource value: 0x7F080009
-			public const int action_bar_container = 2131230729;
-			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_root = 2131230730;
-			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_spinner = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_subtitle = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_title = 2131230733;
-			
-			// aapt resource value: 0x7F08000E
-			public const int action_container = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int action_context_bar = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int action_divider = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int action_image = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int action_menu_divider = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_presenter = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int action_mode_bar = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar_stub = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_close_button = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int action_text = 2131230743;
+			public const int action0 = 2131230727;
 			
 			// aapt resource value: 0x7F080019
-			public const int activity_chooser_view_content = 2131230745;
+			public const int actions = 2131230745;
+			
+			// aapt resource value: 0x7F080008
+			public const int action_bar = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int action_bar_activity_content = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int action_bar_container = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int action_bar_root = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int action_bar_spinner = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int action_bar_subtitle = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int action_bar_title = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int action_container = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int action_context_bar = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int action_divider = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int action_image = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int action_menu_divider = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int action_menu_presenter = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int action_mode_bar = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int action_mode_bar_stub = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int action_mode_close_button = 2131230743;
+			
+			// aapt resource value: 0x7F080018
+			public const int action_text = 2131230744;
 			
 			// aapt resource value: 0x7F08001A
-			public const int add = 2131230746;
+			public const int activity_chooser_view_content = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int adjust_height = 2131230747;
+			public const int add = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int adjust_width = 2131230748;
+			public const int adjust_height = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int alertTitle = 2131230749;
+			public const int adjust_width = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int all = 2131230750;
+			public const int alertTitle = 2131230750;
+			
+			// aapt resource value: 0x7F08001F
+			public const int all = 2131230751;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08001F
-			public const int always = 2131230751;
-			
 			// aapt resource value: 0x7F080020
-			public const int async = 2131230752;
+			public const int always = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int auto = 2131230753;
+			public const int async = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int beginning = 2131230754;
+			public const int auto = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int blocking = 2131230755;
+			public const int beginning = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int bottom = 2131230756;
+			public const int blocking = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int bottomtab_navarea = 2131230757;
+			public const int bottom = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int bottomtab_tabbar = 2131230758;
+			public const int bottomtab_navarea = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int browser_actions_header_text = 2131230759;
-			
-			// aapt resource value: 0x7F08002A
-			public const int browser_actions_menu_items = 2131230762;
+			public const int bottomtab_tabbar = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int browser_actions_menu_item_icon = 2131230760;
-			
-			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_item_text = 2131230761;
+			public const int browser_actions_header_text = 2131230760;
 			
 			// aapt resource value: 0x7F08002B
-			public const int browser_actions_menu_view = 2131230763;
+			public const int browser_actions_menu_items = 2131230763;
+			
+			// aapt resource value: 0x7F080029
+			public const int browser_actions_menu_item_icon = 2131230761;
+			
+			// aapt resource value: 0x7F08002A
+			public const int browser_actions_menu_item_text = 2131230762;
 			
 			// aapt resource value: 0x7F08002C
-			public const int buttonPanel = 2131230764;
+			public const int browser_actions_menu_view = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int cancel_action = 2131230765;
+			public const int buttonPanel = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int center = 2131230766;
+			public const int cancel_action = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int center_horizontal = 2131230767;
+			public const int center = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int center_vertical = 2131230768;
+			public const int center_horizontal = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int checkbox = 2131230769;
+			public const int center_vertical = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int chronometer = 2131230770;
+			public const int checkbox = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int clip_horizontal = 2131230771;
+			public const int chronometer = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int clip_vertical = 2131230772;
+			public const int clip_horizontal = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int collapseActionView = 2131230773;
+			public const int clip_vertical = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int container = 2131230774;
+			public const int collapseActionView = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int content = 2131230775;
+			public const int container = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int contentPanel = 2131230776;
+			public const int content = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int coordinator = 2131230777;
+			public const int contentPanel = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int coordinator = 2131230778;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F08003A
-			public const int custom = 2131230778;
-			
 			// aapt resource value: 0x7F08003B
-			public const int customPanel = 2131230779;
+			public const int custom = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int dark = 2131230780;
+			public const int customPanel = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int decor_content_parent = 2131230781;
+			public const int dark = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int default_activity_button = 2131230782;
+			public const int decor_content_parent = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int design_bottom_sheet = 2131230783;
+			public const int default_activity_button = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int design_menu_item_action_area = 2131230784;
+			public const int design_bottom_sheet = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int design_menu_item_action_area_stub = 2131230785;
+			public const int design_menu_item_action_area = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int design_menu_item_text = 2131230786;
+			public const int design_menu_item_action_area_stub = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_navigation_view = 2131230787;
+			public const int design_menu_item_text = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int disableHome = 2131230788;
+			public const int design_navigation_view = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int edit_query = 2131230789;
+			public const int disableHome = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int end = 2131230790;
+			public const int edit_query = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int end_padder = 2131230791;
+			public const int end = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int enterAlways = 2131230792;
+			public const int end_padder = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int enterAlwaysCollapsed = 2131230793;
+			public const int enterAlways = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int exitUntilCollapsed = 2131230794;
-			
-			// aapt resource value: 0x7F08004C
-			public const int expanded_menu = 2131230796;
+			public const int enterAlwaysCollapsed = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int expand_activities_button = 2131230795;
+			public const int exitUntilCollapsed = 2131230795;
 			
 			// aapt resource value: 0x7F08004D
-			public const int fill = 2131230797;
+			public const int expanded_menu = 2131230797;
 			
-			// aapt resource value: 0x7F080050
-			public const int filled = 2131230800;
+			// aapt resource value: 0x7F08004C
+			public const int expand_activities_button = 2131230796;
 			
 			// aapt resource value: 0x7F08004E
-			public const int fill_horizontal = 2131230798;
-			
-			// aapt resource value: 0x7F08004F
-			public const int fill_vertical = 2131230799;
+			public const int fill = 2131230798;
 			
 			// aapt resource value: 0x7F080051
-			public const int @fixed = 2131230801;
+			public const int filled = 2131230801;
+			
+			// aapt resource value: 0x7F08004F
+			public const int fill_horizontal = 2131230799;
+			
+			// aapt resource value: 0x7F080050
+			public const int fill_vertical = 2131230800;
 			
 			// aapt resource value: 0x7F080052
-			public const int flyoutcontent_appbar = 2131230802;
+			public const int @fixed = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int flyoutcontent_recycler = 2131230803;
+			public const int flyoutcontent_appbar = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int forever = 2131230804;
+			public const int flyoutcontent_recycler = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int forever = 2131230805;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080055
-			public const int ghost_view = 2131230805;
-			
 			// aapt resource value: 0x7F080056
-			public const int group_divider = 2131230806;
+			public const int ghost_view = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int home = 2131230807;
+			public const int group_divider = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int homeAsUp = 2131230808;
+			public const int home = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int hybrid = 2131230809;
+			public const int homeAsUp = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int icon = 2131230810;
+			public const int hybrid = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int icon_group = 2131230811;
+			public const int icon = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int icon_only = 2131230812;
+			public const int icon_group = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int ifRoom = 2131230813;
+			public const int icon_only = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int image = 2131230814;
+			public const int ifRoom = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int info = 2131230815;
+			public const int image = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int italic = 2131230816;
+			public const int info = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int item_touch_helper_previous_elevation = 2131230817;
+			public const int italic = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int labeled = 2131230818;
+			public const int item_touch_helper_previous_elevation = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int largeLabel = 2131230819;
+			public const int labeled = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int left = 2131230820;
+			public const int largeLabel = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int light = 2131230821;
+			public const int left = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int line1 = 2131230822;
+			public const int light = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int line3 = 2131230823;
+			public const int line1 = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int listMode = 2131230824;
+			public const int line3 = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int list_item = 2131230825;
+			public const int listMode = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int main_appbar = 2131230826;
+			public const int list_item = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int main_tablayout = 2131230827;
+			public const int main_appbar = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int main_toolbar = 2131230828;
+			public const int main_tablayout = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int main_viewpager = 2131230829;
+			public const int main_toolbar = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int masked = 2131230830;
+			public const int main_viewpager = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int media_actions = 2131230831;
+			public const int masked = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int message = 2131230832;
+			public const int media_actions = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int message = 2131230833;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080071
-			public const int middle = 2131230833;
-			
 			// aapt resource value: 0x7F080072
-			public const int mini = 2131230834;
+			public const int middle = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int mr_art = 2131230835;
+			public const int mini = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mr_cast_checkbox = 2131230836;
+			public const int mr_art = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mr_cast_close_button = 2131230837;
+			public const int mr_cast_checkbox = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mr_cast_group_icon = 2131230838;
+			public const int mr_cast_close_button = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int mr_cast_group_name = 2131230839;
+			public const int mr_cast_group_icon = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int mr_cast_list = 2131230840;
+			public const int mr_cast_group_name = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int mr_cast_meta = 2131230841;
+			public const int mr_cast_list = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int mr_cast_meta_art = 2131230842;
+			public const int mr_cast_meta = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int mr_cast_meta_subtitle = 2131230843;
+			public const int mr_cast_meta_art = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int mr_cast_meta_title = 2131230844;
+			public const int mr_cast_meta_subtitle = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int mr_cast_route_icon = 2131230845;
+			public const int mr_cast_meta_title = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_cast_route_name = 2131230846;
+			public const int mr_cast_route_icon = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_cast_stop_button = 2131230847;
+			public const int mr_cast_route_name = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_cast_volume_layout = 2131230848;
+			public const int mr_cast_stop_button = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_cast_volume_slider = 2131230849;
+			public const int mr_cast_volume_layout = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_chooser_list = 2131230850;
+			public const int mr_cast_volume_slider = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_chooser_route_desc = 2131230851;
+			public const int mr_chooser_list = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_chooser_route_icon = 2131230852;
+			public const int mr_chooser_route_desc = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_chooser_route_name = 2131230853;
+			public const int mr_chooser_route_icon = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_chooser_title = 2131230854;
+			public const int mr_chooser_route_name = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_close = 2131230855;
+			public const int mr_chooser_title = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_control_divider = 2131230856;
+			public const int mr_close = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_control_playback_ctrl = 2131230857;
+			public const int mr_control_divider = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_control_subtitle = 2131230858;
+			public const int mr_control_playback_ctrl = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_control_title = 2131230859;
+			public const int mr_control_subtitle = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_control_title_container = 2131230860;
+			public const int mr_control_title = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_custom_control = 2131230861;
+			public const int mr_control_title_container = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_default_control = 2131230862;
+			public const int mr_custom_control = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_dialog_area = 2131230863;
+			public const int mr_default_control = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_dialog_header_name = 2131230864;
+			public const int mr_dialog_area = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_expandable_area = 2131230865;
+			public const int mr_dialog_header_name = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mr_group_expand_collapse = 2131230866;
+			public const int mr_expandable_area = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mr_group_volume_route_name = 2131230867;
+			public const int mr_group_expand_collapse = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int mr_group_volume_slider = 2131230868;
+			public const int mr_group_volume_route_name = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int mr_media_main_control = 2131230869;
+			public const int mr_group_volume_slider = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int mr_name = 2131230870;
+			public const int mr_media_main_control = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mr_picker_close_button = 2131230871;
+			public const int mr_name = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int mr_picker_list = 2131230872;
+			public const int mr_picker_close_button = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int mr_picker_route_icon = 2131230873;
+			public const int mr_picker_list = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int mr_picker_route_name = 2131230874;
+			public const int mr_picker_route_icon = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mr_playback_control = 2131230875;
+			public const int mr_picker_route_name = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mr_title_bar = 2131230876;
+			public const int mr_playback_control = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int mr_volume_control = 2131230877;
+			public const int mr_title_bar = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int mr_volume_group_list = 2131230878;
+			public const int mr_volume_control = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int mr_volume_item_icon = 2131230879;
+			public const int mr_volume_group_list = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int mr_volume_slider = 2131230880;
+			public const int mr_volume_item_icon = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int mtrl_child_content_container = 2131230881;
+			public const int mr_volume_slider = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int mtrl_internal_children_alpha_tag = 2131230882;
+			public const int mtrl_child_content_container = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int multiply = 2131230883;
+			public const int mtrl_internal_children_alpha_tag = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int navigation_header_container = 2131230884;
+			public const int multiply = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int never = 2131230885;
+			public const int navigation_header_container = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int none = 2131230886;
+			public const int never = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int normal = 2131230887;
+			public const int none = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int notification_background = 2131230888;
+			public const int normal = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int notification_main_column = 2131230889;
+			public const int notification_background = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int notification_main_column_container = 2131230890;
+			public const int notification_main_column = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int outline = 2131230891;
+			public const int notification_main_column_container = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int parallax = 2131230892;
+			public const int outline = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int parentPanel = 2131230893;
+			public const int parallax = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int parent_matrix = 2131230894;
+			public const int parentPanel = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int pin = 2131230895;
+			public const int parent_matrix = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int progress_circular = 2131230896;
+			public const int pin = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int progress_horizontal = 2131230897;
+			public const int progress_circular = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int radio = 2131230898;
+			public const int progress_horizontal = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int right = 2131230899;
+			public const int radio = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int right_icon = 2131230900;
+			public const int right = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int right_side = 2131230901;
+			public const int right_icon = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int satellite = 2131230902;
+			public const int right_side = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int save_image_matrix = 2131230903;
+			public const int satellite = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int save_non_transition_alpha = 2131230904;
+			public const int save_image_matrix = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int save_scale_type = 2131230905;
+			public const int save_non_transition_alpha = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int screen = 2131230906;
+			public const int save_scale_type = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int scroll = 2131230907;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int scrollable = 2131230911;
+			public const int screen = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int scrollIndicatorDown = 2131230908;
-			
-			// aapt resource value: 0x7F0800BD
-			public const int scrollIndicatorUp = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int scrollView = 2131230910;
+			public const int scroll = 2131230908;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int search_badge = 2131230912;
+			public const int scrollable = 2131230912;
+			
+			// aapt resource value: 0x7F0800BD
+			public const int scrollIndicatorDown = 2131230909;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int scrollIndicatorUp = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int scrollView = 2131230911;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int search_bar = 2131230913;
+			public const int search_badge = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int search_button = 2131230914;
+			public const int search_bar = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int search_close_btn = 2131230915;
+			public const int search_button = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int search_edit_frame = 2131230916;
+			public const int search_close_btn = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int search_go_btn = 2131230917;
+			public const int search_edit_frame = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int search_mag_icon = 2131230918;
+			public const int search_go_btn = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int search_plate = 2131230919;
+			public const int search_mag_icon = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int search_src_text = 2131230920;
+			public const int search_plate = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int search_voice_btn = 2131230921;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int selected = 2131230923;
+			public const int search_src_text = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int select_dialog_listview = 2131230922;
+			public const int search_voice_btn = 2131230922;
+			
+			// aapt resource value: 0x7F080006
+			public const int SegControl = 2131230726;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int shellcontent_appbar = 2131230924;
+			public const int selected = 2131230924;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int select_dialog_listview = 2131230923;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int shellcontent_toolbar = 2131230925;
+			public const int shape_id = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int shellcontent_appbar = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int shellcontent_toolbar = 2131230927;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800CE
-			public const int shortcut = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int showCustom = 2131230927;
-			
 			// aapt resource value: 0x7F0800D0
-			public const int showHome = 2131230928;
+			public const int shortcut = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int showTitle = 2131230929;
+			public const int showCustom = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int sliding_tabs = 2131230930;
+			public const int showHome = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int smallLabel = 2131230931;
+			public const int showTitle = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int snackbar_action = 2131230932;
+			public const int sliding_tabs = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int snackbar_text = 2131230933;
+			public const int smallLabel = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int snap = 2131230934;
+			public const int snackbar_action = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int snapMargins = 2131230935;
+			public const int snackbar_text = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int spacer = 2131230936;
+			public const int snap = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int split_action_bar = 2131230937;
+			public const int snapMargins = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int src_atop = 2131230938;
+			public const int spacer = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int src_in = 2131230939;
+			public const int split_action_bar = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int src_over = 2131230940;
+			public const int src_atop = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int standard = 2131230941;
+			public const int src_in = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int start = 2131230942;
+			public const int src_over = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int status_bar_latest_event_content = 2131230943;
+			public const int standard = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int stretch = 2131230944;
+			public const int start = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int submenuarrow = 2131230945;
+			public const int status_bar_latest_event_content = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int submit_area = 2131230946;
+			public const int stretch = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int submenuarrow = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int submit_area = 2131230948;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800E3
-			public const int tabMode = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int tag_transition_group = 2131230948;
-			
 			// aapt resource value: 0x7F0800E5
-			public const int tag_unhandled_key_event_manager = 2131230949;
+			public const int tabMode = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int tag_unhandled_key_listeners = 2131230950;
+			public const int tag_transition_group = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int terrain = 2131230951;
+			public const int tag_unhandled_key_event_manager = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int text = 2131230952;
+			public const int tag_unhandled_key_listeners = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int text2 = 2131230953;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int textinput_counter = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int textinput_error = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int textinput_helper_text = 2131230960;
+			public const int terrain = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int textSpacerNoButtons = 2131230954;
+			public const int text = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int textSpacerNoTitle = 2131230955;
+			public const int text2 = 2131230955;
 			
-			// aapt resource value: 0x7F0800EC
-			public const int textStart = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int text_input_password_toggle = 2131230957;
+			// aapt resource value: 0x7F0800F0
+			public const int textinput_counter = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int time = 2131230961;
+			public const int textinput_error = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int title = 2131230962;
+			public const int textinput_helper_text = 2131230962;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int textSpacerNoButtons = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int textSpacerNoTitle = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int textStart = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int text_input_password_toggle = 2131230959;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int titleDividerNoCustom = 2131230963;
+			public const int time = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int title_template = 2131230964;
+			public const int title = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int toolbar = 2131230965;
+			public const int titleDividerNoCustom = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int top = 2131230966;
+			public const int title_template = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int topPanel = 2131230967;
+			public const int toolbar = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int touch_outside = 2131230968;
+			public const int top = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int transition_current_scene = 2131230969;
+			public const int topPanel = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int transition_layout_save = 2131230970;
+			public const int touch_outside = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int transition_position = 2131230971;
+			public const int transition_current_scene = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int transition_scene_layoutid_cache = 2131230972;
+			public const int transition_layout_save = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int transition_transform = 2131230973;
+			public const int transition_position = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int uniform = 2131230974;
+			public const int transition_scene_layoutid_cache = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int unlabeled = 2131230975;
+			public const int transition_transform = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int up = 2131230976;
+			public const int uniform = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int useLogo = 2131230977;
+			public const int unlabeled = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int view_offset_helper = 2131230978;
+			public const int up = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int visible = 2131230979;
+			public const int useLogo = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int volume_item_container = 2131230980;
+			public const int view_offset_helper = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int wide = 2131230981;
+			public const int visible = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int withText = 2131230982;
+			public const int volume_item_container = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int wrap_content = 2131230983;
+			public const int wide = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int withText = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int wrap_content = 2131230985;
 			
 			static Id()
 			{
@@ -7823,28 +12345,34 @@ namespace FoodHub.Droid
 			public const int notification_template_part_time = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int RootLayout = 2131427405;
+			public const int RadioButton = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int select_dialog_item_material = 2131427406;
+			public const int RadioGroup = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int select_dialog_multichoice_material = 2131427407;
+			public const int RootLayout = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int select_dialog_singlechoice_material = 2131427408;
+			public const int select_dialog_item_material = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int ShellContent = 2131427409;
+			public const int select_dialog_multichoice_material = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int support_simple_spinner_dropdown_item = 2131427410;
+			public const int select_dialog_singlechoice_material = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int Tabbar = 2131427411;
+			public const int ShellContent = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int Toolbar = 2131427412;
+			public const int support_simple_spinner_dropdown_item = 2131427412;
+			
+			// aapt resource value: 0x7F0B0055
+			public const int Tabbar = 2131427413;
+			
+			// aapt resource value: 0x7F0B0056
+			public const int Toolbar = 2131427414;
 			
 			static Layout()
 			{
@@ -8773,8 +13301,8 @@ namespace FoodHub.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
-			// aapt resource value: 0x7F0E0202
-			public const int collectionViewStyle = 2131624450;
+			// aapt resource value: 0x7F0E0203
+			public const int collectionViewStyle = 2131624451;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
@@ -8783,946 +13311,949 @@ namespace FoodHub.Droid
 			public const int MainTheme_Base = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			public const int MyPopupMenu = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			public const int Platform_AppCompat = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			public const int Platform_AppCompat_Light = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			public const int Platform_MaterialComponents = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			public const int Platform_MaterialComponents_Dialog = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			public const int Platform_MaterialComponents_Light = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			public const int Platform_V21_AppCompat = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			public const int Platform_V21_AppCompat_Light = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			public const int Platform_V25_AppCompat = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			public const int Platform_V25_AppCompat_Light = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
-			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624165;
+			
+			// aapt resource value: 0x7F0E00E0
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
+			
+			// aapt resource value: 0x7F0E00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
+			public const int TextAppearance_AppCompat = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
+			public const int TextAppearance_AppCompat_Body1 = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
+			public const int TextAppearance_AppCompat_Body2 = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			public const int TextAppearance_AppCompat_Button = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			public const int TextAppearance_AppCompat_Caption = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			public const int TextAppearance_AppCompat_Display1 = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			public const int TextAppearance_AppCompat_Display2 = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			public const int TextAppearance_AppCompat_Display3 = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			public const int TextAppearance_AppCompat_Display4 = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			public const int TextAppearance_AppCompat_Headline = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			public const int TextAppearance_AppCompat_Inverse = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			public const int TextAppearance_AppCompat_Large = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			public const int TextAppearance_AppCompat_Medium = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			public const int TextAppearance_AppCompat_Menu = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			public const int TextAppearance_AppCompat_Small = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			public const int TextAppearance_AppCompat_Subhead = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			public const int TextAppearance_AppCompat_Title = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			public const int TextAppearance_Compat_Notification = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			public const int TextAppearance_Compat_Notification_Info = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			public const int TextAppearance_Compat_Notification_Media = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			public const int TextAppearance_Compat_Notification_Time = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			public const int TextAppearance_Compat_Notification_Title = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			public const int TextAppearance_Design_Counter = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			public const int TextAppearance_Design_Error = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			public const int TextAppearance_Design_HelperText = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			public const int TextAppearance_Design_Hint = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			public const int TextAppearance_Design_Tab = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			public const int TextAppearance_MaterialComponents_Button = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131624248;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131624249;
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_MediaRouter_Title = 2131624250;
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624251;
+			public const int TextAppearance_MediaRouter_Title = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624252;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624253;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat_Dark = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_AppCompat_Light = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624318;
-			
-			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624319;
-			
-			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624320;
-			
-			// aapt resource value: 0x7F0E0181
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624321;
-			
-			// aapt resource value: 0x7F0E0182
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624322;
-			
-			// aapt resource value: 0x7F0E0183
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624323;
-			
-			// aapt resource value: 0x7F0E0184
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624324;
-			
-			// aapt resource value: 0x7F0E0185
-			public const int ThemeOverlay_MediaRouter_Dark = 2131624325;
-			
-			// aapt resource value: 0x7F0E0186
-			public const int ThemeOverlay_MediaRouter_Light = 2131624326;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624253;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat = 2131624254;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624254;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_CompactMenu = 2131624255;
+			// aapt resource value: 0x7F0E0173
+			public const int ThemeOverlay_AppCompat = 2131624307;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight = 2131624256;
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624308;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624257;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_AppCompat_Dark = 2131624309;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624258;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624310;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624261;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624311;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624259;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624312;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624260;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_AppCompat_Light = 2131624313;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624262;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents = 2131624314;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Dialog = 2131624263;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624315;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624266;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624316;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Dialog_Alert = 2131624264;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624317;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624265;
+			// aapt resource value: 0x7F0E017E
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624318;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light = 2131624267;
+			// aapt resource value: 0x7F0E017F
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624319;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624268;
+			// aapt resource value: 0x7F0E0180
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624320;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_Dialog = 2131624269;
+			// aapt resource value: 0x7F0E0181
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624321;
 			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624272;
+			// aapt resource value: 0x7F0E0182
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624322;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624270;
+			// aapt resource value: 0x7F0E0183
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624323;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624271;
+			// aapt resource value: 0x7F0E0184
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624324;
 			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624273;
+			// aapt resource value: 0x7F0E0185
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624325;
 			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_NoActionBar = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_BottomSheetDialog = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_Light = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_Design_Light_NoActionBar = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_Design_NoActionBar = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Bridge = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_CompactMenu = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Dialog = 2131624285;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624288;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624286;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624287;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624294;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624297;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624296;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624298;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_NoActionBar = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int Theme_MediaRouter = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int Theme_MediaRouter_Light = 2131624303;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int Theme_MediaRouter_LightControlPanel = 2131624305;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624304;
+			// aapt resource value: 0x7F0E0186
+			public const int ThemeOverlay_MediaRouter_Dark = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionBar = 2131624327;
+			public const int ThemeOverlay_MediaRouter_Light = 2131624327;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat = 2131624255;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_CompactMenu = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight = 2131624257;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624258;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624259;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624262;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624261;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Dialog = 2131624264;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624267;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Dialog_Alert = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624266;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light = 2131624268;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624269;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_Dialog = 2131624270;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624273;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624272;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_AppCompat_NoActionBar = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_BottomSheetDialog = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_Design_Light = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_Design_Light_NoActionBar = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_Design_NoActionBar = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Bridge = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_CompactMenu = 2131624285;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Dialog = 2131624286;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624289;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624288;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624293;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624295;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624298;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624297;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624300;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_MaterialComponents_NoActionBar = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624302;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_MediaRouter = 2131624303;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MediaRouter_Light = 2131624304;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_MediaRouter_LightControlPanel = 2131624306;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624305;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624328;
+			public const int Widget_AppCompat_ActionBar = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624329;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624330;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624331;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ActionButton = 2131624332;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624333;
+			public const int Widget_AppCompat_ActionButton = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624334;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ActionMode = 2131624335;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ActivityChooserView = 2131624336;
+			public const int Widget_AppCompat_ActionMode = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624337;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_Button = 2131624338;
-			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ButtonBar = 2131624344;
-			
-			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624345;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_Button_Borderless = 2131624339;
+			public const int Widget_AppCompat_Button = 2131624339;
 			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624340;
-			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Button_Colored = 2131624342;
-			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Button_Small = 2131624343;
+			// aapt resource value: 0x7F0E0199
+			public const int Widget_AppCompat_ButtonBar = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624346;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624346;
+			
+			// aapt resource value: 0x7F0E0194
+			public const int Widget_AppCompat_Button_Borderless = 2131624340;
+			
+			// aapt resource value: 0x7F0E0195
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624341;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624342;
+			
+			// aapt resource value: 0x7F0E0197
+			public const int Widget_AppCompat_Button_Colored = 2131624343;
+			
+			// aapt resource value: 0x7F0E0198
+			public const int Widget_AppCompat_Button_Small = 2131624344;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624347;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624348;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624349;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624350;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_EditText = 2131624351;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_ImageButton = 2131624352;
+			public const int Widget_AppCompat_EditText = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar = 2131624353;
+			public const int Widget_AppCompat_ImageButton = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624361;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ActionButton = 2131624362;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624363;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624364;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624365;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624366;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624367;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624368;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624369;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624370;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624371;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624372;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_Light_SearchView = 2131624373;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624374;
+			public const int Widget_AppCompat_Light_SearchView = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ListMenuView = 2131624375;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ListPopupWindow = 2131624376;
+			public const int Widget_AppCompat_ListMenuView = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ListView = 2131624377;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ListView_DropDown = 2131624378;
+			public const int Widget_AppCompat_ListView = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_ListView_Menu = 2131624379;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_PopupMenu = 2131624380;
+			public const int Widget_AppCompat_ListView_Menu = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624381;
+			public const int Widget_AppCompat_PopupMenu = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_PopupWindow = 2131624382;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_ProgressBar = 2131624383;
+			public const int Widget_AppCompat_PopupWindow = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624384;
+			public const int Widget_AppCompat_ProgressBar = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_RatingBar = 2131624385;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624386;
+			public const int Widget_AppCompat_RatingBar = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_RatingBar_Small = 2131624387;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_SearchView = 2131624388;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624389;
+			public const int Widget_AppCompat_SearchView = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_SeekBar = 2131624390;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624391;
+			public const int Widget_AppCompat_SeekBar = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_Spinner = 2131624392;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624393;
+			public const int Widget_AppCompat_Spinner = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624394;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624395;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624396;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_AppCompat_Toolbar = 2131624397;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624398;
+			public const int Widget_AppCompat_Toolbar = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Compat_NotificationActionContainer = 2131624399;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Compat_NotificationActionText = 2131624400;
+			public const int Widget_Compat_NotificationActionContainer = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_AppBarLayout = 2131624401;
+			public const int Widget_Compat_NotificationActionText = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_BottomNavigationView = 2131624402;
+			public const int Widget_Design_AppBarLayout = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_BottomSheet_Modal = 2131624403;
+			public const int Widget_Design_BottomNavigationView = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_CollapsingToolbar = 2131624404;
+			public const int Widget_Design_BottomSheet_Modal = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_FloatingActionButton = 2131624405;
+			public const int Widget_Design_CollapsingToolbar = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_Design_NavigationView = 2131624406;
+			public const int Widget_Design_FloatingActionButton = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624407;
+			public const int Widget_Design_NavigationView = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_Design_Snackbar = 2131624408;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_Design_TabLayout = 2131624409;
+			public const int Widget_Design_Snackbar = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_Design_TextInputLayout = 2131624410;
+			public const int Widget_Design_TabLayout = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624411;
+			public const int Widget_Design_TextInputLayout = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624412;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624413;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624414;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624415;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button = 2131624416;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_Icon = 2131624417;
+			public const int Widget_MaterialComponents_Button = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624418;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624419;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624420;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624421;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624422;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624423;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624424;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624425;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_CardView = 2131624426;
-			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_ChipGroup = 2131624431;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Chip_Action = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624428;
-			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624430;
+			public const int Widget_MaterialComponents_CardView = 2131624427;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624432;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624432;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Widget_MaterialComponents_Chip_Action = 2131624428;
+			
+			// aapt resource value: 0x7F0E01ED
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624429;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EF
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_NavigationView = 2131624433;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_Snackbar = 2131624434;
+			public const int Widget_MaterialComponents_NavigationView = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624435;
+			public const int Widget_MaterialComponents_Snackbar = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TabLayout = 2131624436;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624437;
+			public const int Widget_MaterialComponents_TabLayout = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624438;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624439;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624439;
 			
 			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624440;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624440;
 			
 			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624441;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624441;
 			
 			// aapt resource value: 0x7F0E01FA
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624442;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624442;
 			
 			// aapt resource value: 0x7F0E01FB
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624443;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624443;
 			
 			// aapt resource value: 0x7F0E01FC
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624444;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624444;
 			
 			// aapt resource value: 0x7F0E01FD
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624445;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624445;
 			
 			// aapt resource value: 0x7F0E01FE
-			public const int Widget_MaterialComponents_Toolbar = 2131624446;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624446;
 			
 			// aapt resource value: 0x7F0E01FF
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624447;
+			public const int Widget_MaterialComponents_Toolbar = 2131624447;
 			
 			// aapt resource value: 0x7F0E0200
-			public const int Widget_MediaRouter_MediaRouteButton = 2131624448;
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624448;
 			
 			// aapt resource value: 0x7F0E0201
-			public const int Widget_Support_CoordinatorLayout = 2131624449;
+			public const int Widget_MediaRouter_MediaRouteButton = 2131624449;
+			
+			// aapt resource value: 0x7F0E0202
+			public const int Widget_Support_CoordinatorLayout = 2131624450;
 			
 			static Style()
 			{

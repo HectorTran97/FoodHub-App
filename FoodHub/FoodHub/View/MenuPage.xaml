@@ -11,8 +11,8 @@
             <StackLayout Orientation="Vertical">
                 <RelativeLayout BackgroundColor="White">
                     <StackLayout Padding="0" Spacing="0" HorizontalOptions="FillAndExpand" WidthRequest="500"
-                                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">                        
-                        <Image x:Name="RestaurantImage" Source="{Binding ResImage}" HeightRequest="220" Aspect="Fill"/>                    
+                                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">
+                        <Image x:Name="RestaurantImage" Source="{Binding ResImage}" HeightRequest="220" Aspect="Fill"/>
                     </StackLayout>
                     <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" 
                                  Padding="0,8,0,8" WidthRequest="310" BackgroundColor="White" Spacing="10" 
@@ -27,11 +27,12 @@
                                    VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="Black"/>
                         </StackLayout>
                     </StackLayout>
-                </RelativeLayout>              
-                
+                </RelativeLayout>
+
                 <ListView x:Name="MenuCusListView" 
                       HasUnevenRows="True" 
                       ItemsSource="{Binding MyMenuList}"
+                      ItemTapped="OnItemSelected"
                       SeparatorVisibility="None"
                       SelectionMode="Single"
                       BackgroundColor="White">
@@ -41,12 +42,12 @@
                                 <ViewCell.View>
                                     <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="10" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
                                         <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
-                                            <Label x:Name="foodName" Text="{Binding FoodName}" FontSize="20" FontAttributes="Bold" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
+                                            <Label x:Name="foodName" Text="{Binding FoodName}" FontSize="20" FontAttributes="Bold" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
                                             <Label x:Name="foodDescription" Text="{Binding FoodDescription}" FontSize="14" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
-                                            <Label x:Name="foodPrice" Text="{Binding FoodPrice, StringFormat='${0:F0}'}" FontAttributes="Bold" FontSize="17" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>    
-                                        </StackLayout>                                        
+                                            <Label x:Name="foodPrice" Text="{Binding FoodPrice, StringFormat='${0:F0}'}" FontAttributes="Bold" FontSize="17" VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
+                                        </StackLayout>
                                         <Image x:Name="foodImage" Source="{Binding FoodImage}" Margin="8" Aspect="AspectFit" HorizontalOptions="EndAndExpand" 
-                                               VerticalOptions="FillAndExpand" HeightRequest="100" WidthRequest="100"/>                                        
+                                               VerticalOptions="FillAndExpand" HeightRequest="100" WidthRequest="100"/>
                                     </StackLayout>
                                 </ViewCell.View>
                             </ViewCell>

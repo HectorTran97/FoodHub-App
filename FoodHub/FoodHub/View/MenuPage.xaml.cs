@@ -21,5 +21,11 @@ namespace FoodHub.View
             InitializeComponent();
             BindingContext = menuViewModel;
         }
+
+        public async void OnItemSelected(Object sender, ItemTappedEventArgs e)
+        {
+            var foodDetail = e.Item as Food;
+            await Navigation.PushAsync(new OrderPage(foodDetail.MenuId, foodDetail.FoodName, foodDetail.FoodImage, foodDetail.FoodDescription));
+        }
     }
 }

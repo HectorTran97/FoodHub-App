@@ -17,8 +17,8 @@ namespace FoodHub.Data
         HttpClient client = new HttpClient();
         public List<Restaurant> restaurantList = null;
 
-        private double latitude;
-        private double longitude;
+        //private double latitude;
+        //private double longitude;
         /*const string url = "https://developers.zomato.com/api/v2.1/";
         const string apiKey = "749b7981ff9e98b3b0ed487c17028e6e";*/ // this one is from online (better not to use it)
 

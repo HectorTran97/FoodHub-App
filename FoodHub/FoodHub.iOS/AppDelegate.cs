@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Plugin.Segmented.Control.iOS;
 using UIKit;
 
 namespace FoodHub.iOS
@@ -24,6 +25,7 @@ namespace FoodHub.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             Xamarin.FormsMaps.Init();
+            SegmentedControlRenderer.Initialize();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

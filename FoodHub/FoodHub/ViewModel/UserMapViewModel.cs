@@ -14,7 +14,7 @@ using Xamarin.Forms.Maps;
 
 namespace FoodHub.ViewModel
 {
-    class UserMapViewModel: INotifyPropertyChanged
+    class UserMapViewModel/*INotifyPropertyChanged*/
     {
         //private Location restaurantLocation;
         //public Location RestaurantLocation
@@ -33,7 +33,7 @@ namespace FoodHub.ViewModel
             RestaurantLocations.Add(tempLocation);
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
         public Command GetDirectionCommand
         {

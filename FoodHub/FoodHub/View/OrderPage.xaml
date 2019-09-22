@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:control="clr-namespace:Plugin.Segmented.Control;assembly=Plugin.Segmented"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             mc:Ignorable="d"
+             x:Class="FoodHub.View.OrderPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" BackgroundColor="White">
+                    <StackLayout Padding="0" Spacing="0" HorizontalOptions="FillAndExpand">
+                        <Image x:Name="RestaurantImage" Source="{Binding FoodImage}" HeightRequest="220" Aspect="Fill"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10,8,10,8" BackgroundColor="White" Spacing="10">
+                        <Label x:Name="FoodNameLabel" Text="{Binding FoodName}" TextColor="Black" FontSize="20" FontAttributes="Bold"  VerticalOptions="Center" 
+                               HorizontalOptions="StartAndExpand" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" Margin="0,0,0,5"/>
+                        <Label x:Name="FoodDescriptionLabel" Text="{Binding FoodDescription}" TextColor="DimGray" FontSize="15" VerticalOptions="Center"
+                            HorizontalOptions="StartAndExpand" VerticalTextAlignment="Start" HorizontalTextAlignment="Start"/>
+                    </StackLayout>
+
+                    <ScrollView Orientation="Vertical">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="10">
+                            <StackLayout Orientation="Vertical" BackgroundColor="#F1F1F1" Padding="8">
+                                <Label x:Name="SizeLabel" Text="Choice of Size" TextColor="Black" FontSize="20"/>
+                                <Label x:Name="RequireSizeLabel" Text="Required" FontSize="14" TextColor="DimGray"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand" Padding="10,8,10,8">
+                                <control:SegmentedControl x:Name="SegmentedControl" SelectedSegment="{Binding SegmentSelection}" WidthRequest="350" FontSize="16"  
+                                                          TintColor="#C5BB64" SelectedTextColor="White" DisabledColor="DimGray" BackgroundColor="White">
+                                    <control:SegmentedControl.Children>
+                                        <control:SegmentedControlOption Text="Small"/>
+                                        <control:SegmentedControlOption Text="Medium"/>
+                                        <control:SegmentedControlOption Text="Large"/>
+                                        <control:SegmentedControlOption Text="Jumpo"/>
+                                    </control:SegmentedControl.Children>
+                                </control:SegmentedControl>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Vertical" BackgroundColor="#F1F1F1" Padding="8">
+                                <Label x:Name="SauceLabel" Text="Choicely sauce" TextColor="Black" FontSize="20"/>
+                                <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="StartAndExpand">
+                                    <Label x:Name="RequireSauceLabel" Text="Required" FontSize="14" TextColor="#FF0000"/>
+                                    <Label x:Name="NumberLabel" Text="&#8728;(Choose 1 to 3)"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Vertical" Spacing="10" Padding="10,8,10,8">
+                                <input:RadioButtonGroupView Spacing="10">
+                                    <input:CheckBox Text="Garlic Sauce" Type="Check" TextColor="Black"/>
+                                    <input:CheckBox Text="Chili Sauce" Type="Check" TextColor="Black"/>
+                                    <input:CheckBox Text="Sweet Chili Sauce" Type="Check" TextColor="Black"/>
+                                    <input:CheckBox Text="BBQ Sauce" Type="Check" TextColor="Black"/>
+                                    <input:CheckBox Text="Tomato Sauce" Type="Check" TextColor="Black"/>
+                                    <input:CheckBox Text="Mayonnaise" Type="Check" TextColor="Black"/>
+                                    <input:CheckBox Text="Mustard Sauce" Type="Check" TextColor="Black"/>
+                                </input:RadioButtonGroupView>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Button x:Name="PayButton" Text="Place Order" FontSize="18" FontAttributes="Bold" 
+                                TextColor="White" HorizontalOptions="FillAndExpand" BackgroundColor="#C5BB64"
+                                Clicked="OnClickedButton"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

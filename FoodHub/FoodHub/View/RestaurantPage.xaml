@@ -20,7 +20,7 @@
                       ItemTapped="OnItemSelected" 
                       SeparatorVisibility="None"
                       SelectionMode="Single"
-                      BackgroundColor="WhiteSmoke">
+                      BackgroundColor="White">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
