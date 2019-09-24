@@ -23,14 +23,21 @@ namespace FoodHub.ViewModel
         //}
         public ObservableCollection<ResLocation> RestaurantLocations
         {
-            get;set;
+            get; set;
         }
-        ResLocation tempLocation = new ResLocation() { Address = "Hungry Jacks", Description = "A place to feed your hunger", RestaurantPosition = new Position(-37.8492053, 145.1071894) };
-       
-        public UserMapViewModel()
+        private string Name;
+        private double Latitude;
+        private double Longtitude;
+        public UserMapViewModel(string name, double latittude, double longtitude)
         {
             RestaurantLocations = new ObservableCollection<ResLocation>();
+            Name = name;
+            Latitude = latittude;
+            Longtitude = longtitude;
+            ResLocation tempLocation = new ResLocation() { Address = name, Description = name, RestaurantPosition = new Position(latittude, longtitude) };
+            ResLocation tempLocation1 = new ResLocation() { Address = "Zouz Cafe", Description = "Zouz Cafe", RestaurantPosition = new Position(- 37.851136, 145.1040768) };
             RestaurantLocations.Add(tempLocation);
+            RestaurantLocations.Add(tempLocation1);
         }
 
         //public event PropertyChangedEventHandler PropertyChanged;
@@ -44,9 +51,11 @@ namespace FoodHub.ViewModel
         }
         private async void OpenMap()
         {
-            await Xamarin.Essentials.Map.OpenAsync(-37.8492053, 145.1071894, new MapLaunchOptions {
-            Name = "Hungry Jack",
-            NavigationMode = NavigationMode.None });
+            await Xamarin.Essentials.Map.OpenAsync(Latitude, Longtitude, new MapLaunchOptions
+            {
+                Name = Name,
+                NavigationMode = NavigationMode.None
+            });
         }
     }
 }

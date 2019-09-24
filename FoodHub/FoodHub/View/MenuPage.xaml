@@ -9,6 +9,7 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Vertical">
+                <Button x:Name="GetLocationButton" Clicked="GetLocationOnMap" Text="Get Location" FontSize="Caption"/>
                 <RelativeLayout BackgroundColor="White">
                     <StackLayout Padding="0" Spacing="0" HorizontalOptions="FillAndExpand" WidthRequest="500"
                                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">

@@ -112,7 +112,7 @@ namespace FoodHub.ViewModel
                         
                         var tabbedPage = new TabbedPage();
                         tabbedPage.Children.Add(new RestaurantPage());
-                        tabbedPage.Children.Add(new UserMapPage());
+                        //tabbedPage.Children.Add(new UserMapPage());
 
                         if (string.IsNullOrEmpty(userLogin.PhoneNumber))
                         {
