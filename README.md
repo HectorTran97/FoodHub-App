@@ -50,7 +50,7 @@ Similarly, this app will provide the user a list of the restaurants (nearby, fav
 
 * Return: a particular user
 
-        ```js
+```js
         public static async Task<User> GetUser(string username)
         {
             try
@@ -69,7 +69,7 @@ Similarly, this app will provide the user a list of the restaurants (nearby, fav
             }
         }
     
-    ```  
+```  
      
 * Function GetUSer() : *get all the food from the google firebase*
 
@@ -77,7 +77,7 @@ Similarly, this app will provide the user a list of the restaurants (nearby, fav
 
 * Return: a food list
 
-        ```js
+ ```js
  
         public static async Task<List<Food>> GetAllFood()
         {
@@ -103,6 +103,87 @@ Similarly, this app will provide the user a list of the restaurants (nearby, fav
             }
         }
     
-    ```  
+  ```  
     
 ## *FirebaseStorageHelper*
+
+* Function UploadImage() : *upload images to google firebase storage*
+
+* Parameters: stream: fileStream
+              string: fileName  
+
+* Return: imageUrl
+
+ ```js
+ 
+
+        public async Task<string> UploadImage(Stream fileStream, string fileName)
+        {
+            try
+            {
+                var imageUrl = await firebaseStorage
+                    .Child("foodhub")
+                    .Child(fileName)
+                    .PutAsync(fileStream);
+                return imageUrl;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine($"error:{e}");
+                return null;
+            }
+        }
+    
+  ```
+    
+ ## *RestaurantManager*
+* Function GetUrlParameter() : *get url of the restaurant*
+
+* Parameters: double: longtitude
+              double: latitude  
+
+* Return: url of a restaurant
+
+ ```js
+        public string GetUrlParameter(double latitude, double longitude)
+        {
+            string url;
+            url = $"geocode?lat={latitude}&lon={longitude}&apikey={apiKey}";
+            return url;
+        }
+    
+```
+* Function GetUrlParameter() : *get all the restaurants nearby using zomato api*
+
+* Parameters: *no parameters*
+
+* Return: list of restaurants
+
+ ```js
+        public async Task<List<Restaurant>> FetchRestaurantAsync()
+        {
+            try
+            {
+                using (var httpClient = GetHttpClient(url))
+                {
+                    //string urlParameters = GetUrlParameter(await GetLocationAsync(1), await GetLocationAsync(2));
+                    // Below use Deakin Burwood address
+                    string urlParameters = GetUrlParameter(-37.847580, 145.114192);
+                    //string urlParameters = $"search?entity_id=59&entity_type=city&apikey={apiKey}";
+                    HttpResponseMessage response = await httpClient.GetAsync(urlParameters);
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<RestaurantList>(content);
+                        return restaurantList = ConvertToRes(result);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error{ex.Message}");
+            }
+            return restaurantList;
+        }
+    
+  ```
