@@ -19,7 +19,7 @@ Similarly, this app will provide the user a list of the restaurants (nearby, fav
 
 * Return: list of users
 
-        ```js
+```js
         public static async Task<List<User>> GetAllUser()
         {
             try
@@ -42,8 +42,7 @@ Similarly, this app will provide the user a list of the restaurants (nearby, fav
                 return null;
             }
         }
-    
-    ```
+```
     
 * Function GetUSer() : *get a specific user from the google firebase*
 
