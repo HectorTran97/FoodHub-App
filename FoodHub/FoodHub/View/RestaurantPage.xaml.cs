@@ -1,4 +1,6 @@
-﻿using FoodHub.Model;
+﻿using FoodHub.Data;
+using FoodHub.Helper;
+using FoodHub.Model;
 using FoodHub.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -15,15 +17,16 @@ namespace FoodHub.View
     public partial class RestaurantPage : ContentPage
     {
         private readonly RestaurantViewModel restaurantViewModel;
+        
         public RestaurantPage()
         {
             restaurantViewModel = new RestaurantViewModel();
             InitializeComponent();
-            BindingContext = restaurantViewModel;
+            BindingContext = restaurantViewModel;            
         }
 
         // this method sends the Restaurant object of the item that is clicked in the listView
-        public async void OnItemSelected(Object sender, ItemTappedEventArgs e)
+        async void OnItemSelected(Object sender, ItemTappedEventArgs e)
         {
             var resDetails = e.Item as Restaurant;
             await Navigation.PushAsync(new MenuPage(resDetails.ID.ToString(), resDetails.ImageURL.ToString(), resDetails.Name, resDetails.Rating.AggregateRating, resDetails.AverageCost));

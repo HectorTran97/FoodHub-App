@@ -22,6 +22,7 @@ namespace FoodHub.Helper
             try
             {
                 var foodList = (await firebaseClient
+                    .Child("Restaurant")
                     .Child(resID)
                     .OnceAsync<Food>()).Select(item =>
                     new Food

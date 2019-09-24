@@ -44,7 +44,6 @@
                                 <Label x:Name="SauceLabel" Text="Choicely sauce" TextColor="Black" FontSize="20"/>
                                 <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="StartAndExpand">
                                     <Label x:Name="RequireSauceLabel" Text="Required" FontSize="14" TextColor="#FF0000"/>
-                                    <Label x:Name="NumberLabel" Text="&#8728;(Choose 1 to 3)"/>
                                 </StackLayout>
                             </StackLayout>
 

@@ -8,9 +8,6 @@
              xmlns:local ="clr-namespace:FoodHub.ViewModel" IconImageSource="home.png">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <StackLayout.BindingContext>
-                <local:RestaurantViewModel/>
-            </StackLayout.BindingContext>
             <Frame Margin="0, 0, 0, 2" Padding="0" OutlineColor="DarkGray" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
                 <SearchBar x:Name="SearchBar" Placeholder="Search Restaurant" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
             </Frame>
@@ -25,9 +22,16 @@
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.View>
-                                <StackLayout Orientation="Vertical" BackgroundColor="White" Padding="0" Margin="10, 15, 10, 15" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
+                                <StackLayout Orientation="Vertical" BackgroundColor="White" Padding="0" Margin="10, 15, 10, 15" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">                                    
                                     <Image Source="{Binding ImageURL}" Margin="10, 10, 10, 10" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="200"/>
-                                    <Label Text="{Binding Name}" x:Name="ResName" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                    <Label Text="{Binding Name}" x:Name="ResName" FontSize="20" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                                    <!--<StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Padding="40,0,10,0">
+                                        <ImageButton x:Name="FavoriteButton" Source="addInactive.png" WidthRequest="28" HeightRequest="28" 
+                                                     HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Transparent" 
+                                                     Command="{Binding Path=BindingContext.AddFavoriteCommand, Source={x:Reference Name=RestaurantCusListView}}"
+                                                     CommandParameter="{Binding}"                                                     
+                                                     />
+                                    </StackLayout>-->
                                     <StackLayout Orientation="Horizontal" Margin="0, 10, 0, 20" HorizontalOptions="Center">
                                         <Frame Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                             <Label x:Name="RatingLabel" Text="{Binding Rating.AggregateRating, StringFormat='{0}&#9734;'}" VerticalTextAlignment="Center" 
