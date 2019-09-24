@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <Frame Margin="0, 0, 0, 2" Padding="0" OutlineColor="DarkGray" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center">
-                <SearchBar x:Name="SearchBar" Placeholder="Search Restaurant" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                <SearchBar x:Name="SearchBar" TextChanged="SearchBar_TextChanged" Placeholder="Search Restaurant" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
             </Frame>
             <ListView x:Name="RestaurantCusListView" 
                       HasUnevenRows="True" 
