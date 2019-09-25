@@ -1,0 +1,11 @@
+[Images]
+	+ CancelIcon.png, CC, Freepik, https://www.flaticon.com/free-icon/cancel_164584#term=cancel&page=4&position=25
+	+ HeartImage.png, CC, Paomedia, https://www.iconfinder.com/icons/299063/heart_icon
+	+ Shopicon.png, CC, Jordan Alfarishy, https://www.iconfinder.com/icons/4177575/sale_shop_store_icon
+	+ SettingsIcon.png, CC, Ayub Irawan, https://www.iconfinder.com/icons/3844410/gear_setting_settings_wheel_icon
+	+ Unity.png, CC, Games for Change, http://bit.ly/2Vooow5
+	+ MenuBackground.jpg, CC, vectorpocket, https://www.freepik.com/free-vector/robot-war-alien-planet_3823949.htm
+	+ WhiteSquare.png, CC, Stack Overflow, http://bit.ly/2Yy9AN4
+	+ Logo.png, CC, edit by my team + https://www.flaticon.com/free-icon/tower_1043549
+	+ LogoName.png, CC, edit by my team
+	+ LogoBrand.png, CC, edit by my team
