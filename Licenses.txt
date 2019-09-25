@@ -1,11 +1,13 @@
 [Images]
-	+ CancelIcon.png, CC, Freepik, https://www.flaticon.com/free-icon/cancel_164584#term=cancel&page=4&position=25
-	+ HeartImage.png, CC, Paomedia, https://www.iconfinder.com/icons/299063/heart_icon
-	+ Shopicon.png, CC, Jordan Alfarishy, https://www.iconfinder.com/icons/4177575/sale_shop_store_icon
-	+ SettingsIcon.png, CC, Ayub Irawan, https://www.iconfinder.com/icons/3844410/gear_setting_settings_wheel_icon
-	+ Unity.png, CC, Games for Change, http://bit.ly/2Vooow5
-	+ MenuBackground.jpg, CC, vectorpocket, https://www.freepik.com/free-vector/robot-war-alien-planet_3823949.htm
-	+ WhiteSquare.png, CC, Stack Overflow, http://bit.ly/2Yy9AN4
-	+ Logo.png, CC, edit by my team + https://www.flaticon.com/free-icon/tower_1043549
-	+ LogoName.png, CC, edit by my team
-	+ LogoBrand.png, CC, edit by my team
+	+ user.png, CC, Srip, https://www.flaticon.com/free-icon/user_1246351#term=account&page=1&position=1
+	+ padlock.png, CC, Freepik, https://www.flaticon.com/free-icon/padlock_1197500#term=Password&page=1&position=22
+	+ nearby.png, CC, Freepik, https://www.flaticon.com/free-icon/placeholder_684809#term=map&page=1&position=3
+	+ edit.png, CC, Smashicons, https://www.flaticon.com/free-icon/edit_148926#term=edit&page=1&position=13
+	+ address.png, CC, Freepik, https://www.flaticon.com/free-icon/address_1076323#term=address&page=1&position=52
+	+ users.png, CC, Smashicons, https://www.flaticon.com/free-icon/users_149066#term=users&page=1&position=52
+	+ photoCamera.png, CC, Smashicons, https://www.flaticon.com/free-icon/photo-camera_148717#term=camera&page=1&position=5
+	+ phone.png, CC, Freepik, https://www.flaticon.com/free-icon/mobile-phone_254080#term=phone&page=1&position=50
+	+ login.png, CC, Freepik, https://www.flaticon.com/free-icon/log-in-button_67346#term=sign%20in&page=2&position=27
+	+ home.png, CC, Freepik, https://www.flaticon.com/free-icon/home_263115#term=home&page=1&position=1
+	+ CreateACCOUNTsmall.png, Create by my team
+	+ FoodHUBsmall.png, Create by my team
