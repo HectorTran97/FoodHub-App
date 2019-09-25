@@ -9,5 +9,20 @@
 	+ phone.png, CC, Freepik, https://www.flaticon.com/free-icon/mobile-phone_254080#term=phone&page=1&position=50
 	+ login.png, CC, Freepik, https://www.flaticon.com/free-icon/log-in-button_67346#term=sign%20in&page=2&position=27
 	+ home.png, CC, Freepik, https://www.flaticon.com/free-icon/home_263115#term=home&page=1&position=1
+	+ profile.png, CC, Smashicons, https://www.flaticon.com/free-icon/user_149071#term=profile&page=1&position=8
 	+ CreateACCOUNTsmall.png, Create by my team
 	+ FoodHUBsmall.png, Create by my team
+	+ SmokedSalmon.jfif, CC, justpunker, https://www.bigoven.com/recipe/smoked-salmon-canapes/1003633
+	+ BreakkyBurrito.jpg, CC, BigOvenBookmarker, https://www.bigoven.com/recipe/avocado-breakfast-burrito/1791088
+	+ BreakyBurger.jfif, CC, Alessia Armenise, https://www.stylist.co.uk/life/recipes/the-best-vegan-burgers-in-london/254532
+	+ ChickenKaraage.jpg, CC, BigOvenBookmarker, https://www.bigoven.com/recipe/copycat-popeyes-fried-chicken/2371862
+	+ ChickenKatsu.jpg, CC, bigoven, https://www.bigoven.com/recipe/chicken-katsu-rice-burger/1647572
+	+ GranolaBowl.jpg, CC, ANGELA, https://ohsheglows.com/2019/03/07/meal-prep-week-long-power-bowls/
+	+ KitsuneUdon.jpg, CC, BigOvenBookmarker, https://www.bigoven.com/recipe/yaki-udon/1154558
+	+ MorrocanEggs.jpg, CC, EditorBigOven, http://www.bigoven.com/recipe/shakshuka/1311189
+	+ Pancake.jpg, CC, BigOvenBookmarker, https://www.bigoven.com/recipe/ihop-pancakes/1921962
+	+ SantucciVegetarianBreaky.jpg, CC, EditorBigOven, https://www.bigoven.com/recipe/vegetarian-breakfast-sausage/19411
+	+ SmashedAvo.jpg, CC, peterhuzzey, https://www.bigoven.com/recipe/smashed-avocado-with-kevin-bacon/1761463
+	+ SmashedSagePumpkin.jpg, CC, ANGELA, https://ohsheglows.com/2017/10/27/make-ahead-roasted-butternut-squash-casserole/
+	+ TempuraUdon.jpg, CC, Yummly, https://www.yummly.com/amp/recipes/seafood-udon 
+	+ TomatoBruchetta.jpg, CC, jordanbigoven, https://www.bigoven.com/recipe/bruschetta-with-tomato-basil/178227
